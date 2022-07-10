@@ -1,0 +1,2529 @@
+"Number","ID","Subject","Description","Status","Request Type","Priority","Resolution","Work Log History","Account Name","Account ID","Assigned User ID","Assigned User Name","Teams","Team ID","Team Set ID","Date Created","Date Modified","Created By ID","Modified By ID","Deleted","Case Queue","Submitted by Other","Last Interaction","Platform","Order Number","Requesting Org","Efficiency","Case Response Time","Subscription ID","Technical Summary","Related Cases","PO Number","License#/Activation Key","Version","Overall Experience","Product","Case Assigned Date","Case Closed Date","Last Status Change","Business Feedback Comments","Production System","Business Impact","Workaround","Close Reason","Edition","Escalate to","Reason for Escalation","Invoice Number","Keywords","Order Value","VIP Status","Category","Collection Attempt","Hold/Pending Reason","Base Rate","Business Feedback","Bug Number/JIRA Reference","CDF Player Descriptors","Country","Department","Descriptor","Email","gridMathematica Descriptors","Related To","Case Lead Link","Mathematica Add-On Descriptors","Mathematica Descriptors","MathematicaOnline Descriptors","MathLM Descriptors","Work Log","Number of Interactions (emails and calls logged)","Ext","Phone","case_requesting_person_id_c","Related To","Resource Links","Source","Support Level","Survey Send Conditions","Survey Prepared for Sending","Survey Received","Survey Sent","Time Spent (mins; adds to total)","Time to Assign","Time to Close","Total time spent","webMathematica Descriptors","Wolfram Finance Platform Descriptors","Wolfram Player Pro Descriptors","Wolfram SystemModeler Descriptors","Wolfram Workbench Descriptors","Related To","Currency ID","Invoice Information","Live Chat Thread ID","Account Executive (related User ID)","Inside Sales (related User ID)","Source","Primary Contact ID","Tags","Integration Sync ID","Parent Case","Requesting Reseller","rel_case_primary_contact_c_salutation","rel_case_primary_contact_c_first_name","rel_case_primary_contact_c_last_name","Primary Contact","rel_case_requesting_person_c_first_name","rel_case_requesting_person_c_last_name","Requesting Person","rel_sales_assistant_c_first_name","rel_sales_assistant_c_last_name","Inside Sales","rel_sales_executive_c_first_name","rel_sales_executive_c_last_name","Account Executive"
+"4051509","0020757e-4026-11e8-bdf2-001a4a160206","NDSolve","Hi,
+
+
+Mathematica 11.3 (license number : L3891-5586) is running on  Macbook Pro with MacOS X version 10.9.5.
+
+Please see the attached notebook.
+
+
+Daniel
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Tue, 24 Apr 2018 12:08:01 -0500 - luket: NDSolve returns a result that does not satisfy some of the boundary conditions. I filed a bug: https://bugs.wolfram.com/show?number=350872
+Wed, 18 Apr 2018 09:49:10 -0500 - luket: NDSolve solution does not satisfy boundary conditions
+Mon, 16 Apr 2018 08:10:36 -0500 - tsreception: Script ran by vminer
+Personal support found under: 3891-5586, original license field: 3891-5586
+","McGill University","8a5deacc-a65b-68ce-8cf1-4edff1f33037","4de5ac83-1aa9-5a27-bfe5-5702b2930e0a","Luke Titus","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","04/14/2018 03:54 pm","05/10/2018 08:54 pm","1","1","0","support@wolfram.com","","04/18/2018 09:48 am","mac","","Customer","0","less1hr","","NDSolve solution does not satisfy boundary conditions","","","3891-5586","11.3.0  OS 10.9.5","0","Mathematica","04/16/2018 10:54 am","05/09/2018 10:00 pm","05/09/2018 10:00 pm","","","","","Incomplete","Home","","","","","$0.00","","","","","","0","350872","","","TS","","daniel.lavallee@mail.mcgill.ca","","","","","","","","","1","","","","","","Email","Personal","Default","1","1","1","","1 dd, 19 h, 00 m","23 dd, 11 h, 06 m","0 dd, 1 h, 30 m","","","","","","315d6ce4-01a8-95a0-1f48-586697d8199a","","","","","","","","","","","","","Daniel","Lavallee","Lavallee","","","","","","","","",""
+"4270892","114434c0-8d56-11e9-9e40-001a4a160206","NDSolveValues","Leila-
+
+I have a new problem. The ‘NDSolveValue’ did run in less than a second, now suddenly takes about 50 seconds. What happened?? Attached is a .nb showing the calculation. For data analysis I need to run this hundreds of times. Before, this was running very well.
+
+Help!
+Charles
+","Closed","Functionality","P3","","Tue, 18 Jun 2019 16:19:00 -0500 - leilaf: answered to the new comment and added the comment to the bug report.
+Tue, 18 Jun 2019 12:42:28 -0500 - leilaf: filed a bug (took long time to test with different initial conditions--trying to minimize the notebook to no avail): https://bugs.wolfram.com/show?number=375205
+Tue, 18 Jun 2019 11:34:05 -0500 - leilaf: checked internal page seems dev was out Mon-Tues. back tomorrow
+Mon, 17 Jun 2019 13:25:59 -0500 - leilaf: sent two emails (to user who is waiting and to internal developer who has not responded to email which was sent last wed)
+Wed, 12 Jun 2019 19:24:49 -0500 - leilaf: internal email
+Wed, 12 Jun 2019 16:38:13 -0500 - leilaf: cannot reproduce in 11.3 or 12. emailed.
+Wed, 12 Jun 2019 16:07:49 -0500 - leilaf: created new case for new question on old case: 4230400
+","","","d436f16a-1993-e3ec-1392-53c04139daf4","Leila Fuladi","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","06/12/2019 04:07 pm","06/19/2019 06:19 pm","d436f16a-1993-e3ec-1392-53c04139daf4","d436f16a-1993-e3ec-1392-53c04139daf4","0","support@wolfram.com","","02/28/2019 02:24 pm","mac","","","","","","new question: NDSolveValues slow","4230400","","10119469","11.3 OS Mojave 10.14.3","","Mathematica","02/28/2019 02:18 pm","06/19/2019 06:19 pm","06/19/2019 06:19 pm","","","","","ConfirmedResolved","Standard","","","","","$0.00","","","","","","0","375205","","","TS","","chasst@stanford.edu","","","","","","","","","1","","6507996524","","","","Phone","Premier","Default","0","0","1","","0 dd, 00 h, 01 m","19 dd, 03 h, 00 m","0 dd, 4 h, 15 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"234737","1402b75d-5e82-c46f-2fa9-5226bc352e3c","NDSolve fails when it is used with Floor function in Mathematica 9","Dear Support in Wolfram Research,
+
+Hello. I am experiencing a strange behavior of
+NDSolve function when it is used with
+Floor function in Mathematica 9.
+
+I have attached a notebook containing a
+minimum code that reproduces this problem.
+When I removed Floor functions from the
+equation, NDSolve allays returned the
+same monotonously increasing function for
+rns function as expected. But, with Floor functions,
+NDSolve stochastically returned the all-0
+function as its solution. I believe that
+this behavior is not dependent on the
+working environment because it was
+reproduced in 2 different PCs
+(both were Windows-based).
+
+I hope this report is useful for improving
+Mathematica.
+
+-----
+My working environment:
+
+Activation Key
+3325-2372-XJGGA3
+
+OS
+Windows 7 Professional 64-bit
+
+Machine
+Dell Studio XPS 8100
+CPU: Intel Core i7 CPU 860 @ 2.80GHz 2.80 GHz
+RAM: 12 GB
+Graphics: NVIDIA GeForce GTS 240
+
+Version
+9.0 for Microsoft Windows (64-bit) (January 28, 2013)
+
+Release ID
+FrontEnd 9.0.1.0 (4066035, 4065557))
+Kernel 9.0.1.0 (4066035, 4065579))
+
+Sincerely yours,
+Tetsuo Ichii
+
+
+
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Fri, 06 Sep 2013 12:19:09 -0500 - jasong: Method -> {""StiffnessSwitching"", ""DiscontinuityProcessing"" -> False}, MaxSteps -> Infinity, Thanks Ilian.
+Fri, 06 Sep 2013 11:55:06 -0500 - jasong: Could not find work-around. Sent thank you note.
+Fri, 06 Sep 2013 11:49:41 -0500 - jasong: Filed report.
+","Osaka University","1f49ba2c-c6cc-5961-4414-4edff45b4628","8cd97acc-020a-ee26-54dd-51adf6244f74","Jason Grigsby","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","09/03/2013 11:46 pm","09/22/2013 10:00 pm","1","1","0","support@wolfram.com","","09/06/2013 12:18 pm","windows","","Customer","0","less1hr","","","","","3325-2372-XJGGA3","9.0.1","0","Mathematica","09/04/2013 10:09 am","09/22/2013 10:00 pm","09/22/2013 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","","248912","","","TS","","ichii-tetsuo@bio.eng.osaka-u.ac.jp","","","","","","","","","2","","","","","","Email","Premier","Never Send","0","0","0","","0 dd, 10 h, 23 m","18 dd, 11 h, 51 m","0 dd, 2 h, 15 m","","","","","","a725daf6-853e-b990-1c3c-4ee38d8427dc","","","","","","","","","","","","MR","Norikazu","Ichihashi","Ichihashi","","","","","","","","",""
+"1872010","15a9de25-dd1a-9340-a2be-545a059f25dc","NDSolve[ ]","Hello,
+
+I am trying to solve a first-order time-delay differential equation similar
+to:
+
+
+NDSolve[{y'[t]==-y[t]-ArcTan[Re[(y[t-1]+UnitStep[t-20] Sin[t])/0.2]],y[t /;
+t<= 0]==1 },y,{t,-5,50}]
+
+Plot[Evaluate[y[t] /. First[%]],{t,-5,50}, PlotRange->All]
+
+
+I have used UnitStep[ ] to stop the Sin[ ] term from contributing until 20
+seconds have elapsed.
+
+Although Mathematica solves and plots the solution I get several error
+messages.
+
+I found that y[t] becomes complex when t>=20 and this generates many error
+messages. I use the ""Re[ ]"" function to eliminate the (very small)
+imaginary parts of y[t] and this does away with some of these messages. (I
+don't understand why this should be necessary - it might have something to
+do with the algorithm that Mathematica is using in the background.)
+
+Have I done something wrong? The error messages are preventing me from
+putting the NDSolve into a Manipulate[ ] ""wrapper"".
+
+Any advice would be appreciated.
+
+Kind Regards,
+
+
+Brian Cogan
+","Closed","Unknown","P3","Auto close, no response to request for additional information","Wed, 05 Nov 2014 12:17:20 -0600 - hkao: home edition, no service on functionality
+","Cogan, Brian","9c55c5a7-04f2-f108-943c-4ee006902a8f","3341c0ac-cbf5-7ee0-4df2-5419adf1b88b","Christine Owens","Global","1","1","11/05/2014 05:10 am","12/28/2014 10:00 pm","1","1","0","support@wolfram.com","","12/12/2014 12:11 pm","","","Customer","0","less1hr","","","","","L4860-6093","","0","Mathematica","11/05/2014 06:30 am","12/28/2014 10:00 pm","12/28/2014 10:00 pm","","","","","Incomplete","Home","","","","","$0.00","","","","","","0","","","","TS","","brian.d.cogan@gmail.com","","","","","","","","","2","","","","","","Email","Basic","Default","1","0","1","","0 dd, 01 h, 20 m","23 dd, 15 h, 30 m","0 dd, 0 h, 10 m","","","","","","ea7c5a18-cd07-39c7-0039-53f5c78d47ab","","","","","","","","","","","","","Brian","Cogan","Cogan","","","","","","","","",""
+"3942327","1b69e304-9a24-11e7-b1cb-001a4a160206","NDSolve and non-linear PDE's - Case Western (3039-5070)","Hello,
+
+David Gurarie (dxg5@case.edu) is a long-time user of Mathematica at Case 
+Western Reserve University (3039-5070).  He had this question...
+
+> One question I came across recently, concerns finite-element methods 
+> for NDSolve. As of now it works fine for linear problems, but when 
+> applied to nonlinear pdes, it says the code not ready yet.
+> I wonder, whether it would be implemented in the next version, and how 
+> soon. There are ways around it (I found on Stack exchange), but if 
+> it's coming soon, I'd rather wait.
+
+...and the links I sent him concerning finite elements and PDE's from 
+our pages (including documentation) did not give him the answers he 
+needs.  He saw this workaround...
+
+https://mathematica.stackexchange.com/questions/138840/solving-a-coupled-nonlinear-pde-using-low-level-fem-programming?noredirect=1&lq=1
+
+...but wants to know if this is something now built-in to Mathematica 
+11.2 or something that Mathematica can do inherently without a ""workaround.""
+
+Can you help him out?  Please copy me on the note to him.
+
+Thanks,
+Andy
+
+-- 
+Andy Dorsett
+Wolfram Research, Inc
+800.965.3726 ext 5592
+adorsett@wolfram.com
+
+","Closed","Functionality","P3","Set resolution as Auto close, no confirmation that provided response resolved","Mon, 18 Sep 2017 20:13:33 +0800 - janm: sent reply
+","Case Western Reserve University","db4502a6-846f-3c76-305a-4edfe7eceab1","74c9bfa7-9adf-f749-841c-588f59bf18dc","Jan Mangaldan","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","09/15/2017 09:42 am","09/21/2017 10:00 pm","1","1","0","support@wolfram.com","","09/18/2017 07:13 am","unknown","","Customer","0","less1hr","","","","","3039-5070","11.2.0","0","Mathematica","09/15/2017 12:28 pm","09/21/2017 10:00 pm","09/21/2017 10:00 pm","","","","","Unconfirmed","Standard","","","","","$0.00","","","","","","0","","","US","TS","","dxg5@case.edu Cc:adorsett@wolfram.com","","","","","","","","","1","","","","","","Email","Premier","Default","1","0","0","","0 dd, 02 h, 46 m","6 dd, 09 h, 32 m","0 dd, 0 h, 35 m","","","","","","b9652ec8-5a74-a803-0c67-4ee2bac663fd","","","","","","","","","","","","","David","Gurarie","Gurarie","","","","","","","","",""
+"3476534","1c3b701f-b59f-386d-87f7-565ce5160234","NDSolve Issue","Bruce,
+
+I am scratching my head on this one.  With the attached file, NDSolve works for one set of formation but not the other.  I should get the same results.  This was not an issue with the previous version.
+
+Ray
+The company accepts no liability for the content of this email, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently confirmed in writing. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.
+","Closed","Unknown","P3","","","","","","","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/30/2015 06:08 pm","12/01/2015 10:53 am","1","3341c0ac-cbf5-7ee0-4df2-5419adf1b88b","0","support@wolfram.com","","","","","Customer","0","less1hr","","","","","","","0","Mathematica","","12/01/2015 10:53 am","12/01/2015 10:53 am","","","","","Duplicate","Standard","","","","","$0.00","","","","","","0","","","","TS","","ray.cocco@psri.org","","","","","","","","","","","","","","","Email","Unknown","Never Send","0","0","0","","","0 dd, 05 h, 59 m","0 dd, 0 h, 5 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"2101872","1e0ed241-b8ce-78f5-66a6-5497e199b487","NDSolve Issue with Inactive/Formal PDEs","Product: Mathematica for Students for Sites
+
+Version: 10.0.2 Windows (Windows 8.1 x64)
+
+License Number: 4796-7270
+
+ 
+
+ 
+
+I admit I have some trouble understanding the proper use of Inactive/Formal
+PDEs and NeumannValue to express Neumann's boundary conditions. I suggest to
+expand the documentations and fix some typos (please see the referred SE
+question).
+
+ 
+
+What I want to report as an Issue however is the following. 
+
+ 
+
+The following NDSolve gives a possible solution to the differential equation
+-u''[x]==1 (whatever is the interpretation of Neumann boundary conditions,
+in this case u'[1]==1):
+
+ 
+
+NDSolveValue[{Activate@Inactivate[Div[-Grad[u[x],{x}],{x}],Div|Grad]==1+Neum
+annValue[1,x==1],u[0]==0},u,{x,0,1},Method->""FiniteElement""]
+
+ 
+
+
+
+ 
+
+The following identical NDSolve (but with Inactive equation) gives a
+completely different result. Whatever is the interpretation of Neumann
+boundary condition, the solution in no way can satisfy the differential
+equation -u''[x]==1. It's a solution for u''[x]==1!
+
+ 
+
+NDSolveValue[{Inactivate[Div[-Grad[u[x],{x}],{x}],Div|Grad]==1+NeumannValue[
+1,x==1],u[0]==0},u,{x,0,1},Method->""FiniteElement""]
+
+Plot[%[x],{x,0,1}]
+
+ 
+
+
+
+ 
+
+ 
+
+Please see the following SE question I asked for more details:
+
+http://mathematica.stackexchange.com/questions/69492/trouble-understanding-n
+eumannvalue-and-inactive-formal-pdes
+
+ 
+
+ 
+
+Kindest Regards
+
+Andrea
+
+","Closed","Feedback","P3","","Mon, 29 Dec 2014 09:25:54 -0600 - ling: filed a report
+","Cavalli, Andrea","ede8542c-2cf9-ebe1-11d7-53b74194e2f3","ef300d7d-d69f-70ac-156b-52a7254c2c15","Lin Guo","Global","1","1","12/22/2014 03:18 am","12/29/2014 09:25 am","1","ef300d7d-d69f-70ac-156b-52a7254c2c15","0","support@wolfram.com","","11/29/-0001 06:09 pm","","","Customer","0","less1hr","","NDSolve FEM issue","","","4796-7270","","0","Mathematica","12/22/2014 10:02 am","12/29/2014 09:25 am","12/29/2014 09:25 am","","","","","Other","Student","","","","","$0.00","","","","","","0","286265","","","TS","","andrea2.cavalli@mail.polimi.it","","","","","","","","","","","","","","","Email","PremierEmail","Default","0","0","0","","0 dd, 06 h, 44 m","6 dd, 23 h, 23 m","0 dd, 0 h, 15 m","","","","","","c62f5294-ce43-2d24-f182-53b74436d171","","","","","","","","","","","","","Andrea","Cavalli","Cavalli","","","","","","","","",""
+"3427172","231ae226-60ab-596c-e209-55f9e68423ec","NDSolve","Organization: SAIC
+License: Premier Service is L3512-4045.
+
+Hi,
+
+No notebook is attached as it is a general question.
+
+I use NDSolve in a For loop where, for each successive iterations, I use different initial conditions.
+Each successive iteration applies over a different interval of time.
+All the intervals of time fit together as one long interval of time.
+Therefore, I end up with a list of NDSolve solutions, each an InterpolatingFunction.
+Each interpolatingFunction has the same structure, as seen in Sol01 and Sol02.
+But note that they apply over different intervals of time.
+
+How can I combine the solutions, say SolutionList = {s01,s02,s03} , to make one InterpolatingFunction for my entire problem?
+
+I have many stages, so it is not practical to extract {x[t],y[t],z[t]} etc for each solution and then stitch them together with Piecewise.
+
+I want to combine the solutions to apply over the large interval, in this case t=(0,150), and then extract {x[t],y[t],z[t]} etc from this meta-solution.
+
+Sol01=
+[cid:image001.png@01D0F0A9.3BC722F0]
+
+Sol02=
+[cid:image002.png@01D0F0A9.3BC722F0]
+
+Sol03=
+[cid:image003.png@01D0F0A9.3BC722F0]
+
+Thanks,
+Kelly
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Fri, 18 Sep 2015 13:37:52 -0500 - hamida: answered...no better way that I know...but it's fairly easy to do...
+","Science Applications International Corp","c6a60f8d-09eb-6fee-c817-4edff7c86a3f","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","09/16/2015 05:00 pm","10/04/2015 10:01 pm","1","1","0","support@wolfram.com","","11/29/-0001 06:09 pm","unknown","","Customer","0","less1hr","","CL","","","L3512-4045","10.2","0","Mathematica","09/17/2015 03:41 pm","10/04/2015 10:01 pm","10/04/2015 10:01 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","US","TS","","KELLY.O.SMEETH@saic.com","","","","","","","","","1","","","","","","Email","Premier","Never Send","0","0","0","","0 dd, 22 h, 41 m","17 dd, 06 h, 20 m","0 dd, 0 h, 20 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"4793425","2be4cc02-8950-11eb-91d1-001a4a160206","NDSolve Module Solutions","Greetings!
+
+      Need discussion on the attached Mathematica Code.
+
+      NDSolve Module.
+
+                                          Quite Urgent.
+
+                                            Dennis Sorce
+
+                                            Prime Member
+","Closed","Unknown","P3","","Mon, 22 Mar 2021 08:54:13 -0500 - tsreception: Script ran by harryc
+No valid license provided
+No active support found
+","","","b2a31619-99e2-ce2d-5bdf-568a775be6b9","Varunkumar Madhavan","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","03/20/2021 02:44 am","03/22/2021 04:06 pm","1","b2a31619-99e2-ce2d-5bdf-568a775be6b9","0","support@wolfram.com","","","","","Customer","","","","","4793683","","L2056-3460","","","Mathematica","03/22/2021 09:06 am","03/22/2021 04:06 pm","03/22/2021 04:06 pm","","","","","Duplicate","Standard","","","","","$0.00","","","","","1.00000000","0","","","US","TS","","dennissorce2@gmail.com","","","","","","","","","","","","","","","Email","Premier","Default","0","0","0","","2 dd, 06 h, 22 m","0 dd, 07 h, 00 m","","","","","","","","-99","","","","","","","","","","","","","","","","","","","","","","",""
+"4293780","2c264a10-c3db-11e9-bb76-001a4a160206","NDSolve error generated in one of file downloaded from Mathematica site","Dear Sir,
+
+Can you please tell me where the error lies in the file provided below and
+how to resolve that.
+
+I am facing a similar issue with one of my problem where I am trying to
+solve a BVP problem of two second-order differential equations. Can you
+please help me in resolving this issue for which I am attaching a
+screenshot of the error message?
+[image: Screenshot from 2019-08-21 11-42-12.png]
+
+With regards,
+Prem
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Mon, 26 Aug 2019 14:35:34 +0530 - gauravv: Pointed out possible issues in user's code, asked for the notebook file for the second issue.
+Wed, 21 Aug 2019 04:11:49 -0500 - tsreception: Script ran by harryc
+No valid license provided
+Premier support found under: L3347-8817, original license field: 
+","Indian Institute of Technology Madras","a5d6d22a-63d0-9a03-cd9e-57aa7000f63a","4220a694-8c68-11e9-9d08-001a4a160206","Gaurav Vishal","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","08/21/2019 01:16 am","09/10/2019 10:00 pm","1","1","0","support@wolfram.com","","08/26/2019 04:03 am","","","Customer","","","","User is facing problem while using NDSolve.","","","L3347-8817","","","Mathematica","08/21/2019 10:14 am","09/10/2019 10:00 pm","09/10/2019 10:00 pm","","","","","Incomplete","Standard","","","","NDSolve, Initial Condition","$0.00","","","","","","0","","","","TS","Programming","ed16d004@smail.iitm.ac.in","","","","","","","","","1","","","","","","Email","Premier","Default","1","0","1","","0 dd, 08 h, 58 m","20 dd, 11 h, 45 m","0 dd, 0 h, 45 m","","","","","","8bd937c2-4711-11e7-85fc-001a4a160206","","","","","","","","","","","","","Prem Kumar","Prasad","Prasad","","","","","","","","",""
+"2442632","315c0a14-c062-37ab-ac93-54dcc1dec78a","NDSolve question","Now, I am solving differential equations using Mathematica. Although I have tried to solve the equations numerically again and again for more than several weeks, my program does not work well due to lack of my knowledge. I also looked for examples of program similar to mine, but not successful yet. I highly appreciate it, if you kindly give me some advices by pointing out the mistakes, or send some programs that are similar to my equations. 
+
+I have to give a presentation at international conference using the results to be obtained from the differential equations attached herein very very soon.I do need your help.
+
+Thank you in advance.
+
+Best regards,
+Isamu Miyamoto
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Mon, 16 Feb 2015 11:45:25 -0600 - averma: No service. Referred to community.
+Thu, 12 Feb 2015 11:31:18 -0600 - christineo: I see Xin has been working with the customer. Since it seems related. Pass them through?
+Thu, 12 Feb 2015 09:08:06 -0600 - xinx: created a new case as user's question is no longer related to case 2213160
+","Miyamoto, Isamu","31a22c9c-43e4-4134-da6c-546fb7d67ffa","2d4b1496-b077-d07b-e728-53c696ed3eb6","Abhinav Verma","Global, CS WRI, TS","1","e7d27e32-6e9d-3789-8106-5156643ea976","02/12/2015 09:08 am","03/03/2015 10:06 pm","e31467f5-fdce-aa7c-b639-5294afe0ca73","1","0","support@wolfram.com","","02/16/2015 11:44 am","unknown","","Customer","0","less1hr","","CL/exp home edition","","","L3361-4212","8.0.1","0","Mathematica","02/16/2015 09:29 am","03/03/2015 10:00 pm","03/03/2015 10:00 pm","","","","","Incomplete","Home","","","","","$0.00","","","","","","0","","","JP","TS","","miyamoto-i@ares.eonet.ne.jp","","603c0600-860e-204f-fb21-54b463216eeb","","","","","","","1","","81798471095","","","","Email","Basic","Default","1","0","1","","4 dd, 00 h, 21 m","15 dd, 12 h, 31 m","0 dd, 0 h, 45 m","","","","","","da5ecb74-ecb9-df12-d4ff-546fba1d0f9e","","","","","","","","","","2213160","","","Isamu","Miyamoto","Miyamoto","","","","","","","","",""
+"3464048","31e59a40-d08b-3857-78a9-56434640a088","NDSolve efficiency","Hello,
+
+I am trying to use NDSolve to integrate a system of differential 
+equations, which looks like
+
+dA/ds=Fa(A,B,...,s)
+
+dB/ds=Fb(A,B,...,s)
+
+......
+
+The computation of Fa, Fb etc. share many common and computationally 
+intensive ingredients.  It is highly inefficient for NDSolve to repeat 
+these ingredients for each equation at every step.  Is there syntactic 
+provision in NDSolve to allow me to compute these common ingredients 
+only once and apply them to Fa, Fb instead of repeating them 10 times, 
+one for each of Fa, Fb, .... etc.?
+
+Thanks!
+
+
+
+Sincerely,
+Yu Chao
+TRIUMF
+
+{$LicenseID, $Version, $ReleaseNumber}={""L3293-7284"", ""10.0 for 
+Microsoft Windows (64-bit) (September 9, 2014)"", 1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Mon, 23 Nov 2015 15:40:49 -0600 - averma: Sent suggestions and link to advanced NDSolve tutorial.
+","TRIUMF","40147bd5-452a-7847-0d94-4ee008e7db9d","2d4b1496-b077-d07b-e728-53c696ed3eb6","Abhinav Verma","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/11/2015 07:44 am","12/08/2015 10:01 pm","1","1","0","support@wolfram.com","","11/23/2015 03:37 pm","windows","","Customer","0","less1hr","chao@triumf.ca","Needs more info about NDSolve.","","","L3293-7284","10.0","0","Mathematica","11/12/2015 12:26 pm","12/08/2015 10:01 pm","12/08/2015 10:01 pm","","","","","Incomplete","Standard","","","","NDSolve","$0.00","","","","","","0","","","CA","TS","Math","chao@triumf.ca","","","","","","","","","1","","","","","","Email","Premier","Never Send","0","0","0","","1 dd, 04 h, 42 m","26 dd, 09 h, 35 m","0 dd, 0 h, 45 m","","","","","","bb1a42fc-3d17-8bfc-5be2-4ee3940d4f8f","","","","","","","","","","","","DR","Yu-Chiu","Chao","Chao","","","","","","","","",""
+"3856555","32ac05b0-d8a6-6a3a-978d-58c26aa71dbd","NDSolve::ndsz & NDSolve::precw","Hi Support, 
+
+We are the local WRI partners in Malaysia.
+
+Recently, a user requested us to solve a problem encountered in his codes as
+below. 
+
+""I  got a problem regarding with my programming. i used NDSolve to solve my
+problem. When , i changed my value Ho;  near to zero, mathematica couldnt
+process my result. It can run until the value  0.9656011806. but if i change
+it to 0.8, it will not processed same as the value  0.9656011806. Could you
+check for me?""
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+and this error message when I changed the value of Ho=0.8.
+
+
+
+
+ 
+
+We resolved both the errors  by using the function Quiet to suppress the
+error message as it didn't affect the computation. 
+We compared both the codes by plotting the graph, one with the function
+Quiet and one without. We manage to obtain exactly the same graph.
+We would like to know on whether we have resolved the issue? 
+
+Thanks & Regards, 
+Rina
+
+OEMS Intipakar Corporation Sdn Bhd
+24-1 (1st Flr), Jalan Kasuarina 10/ks7, Bandar Botanik, 41200
+Klang,Selangor, Malaysia
+
+
+
+Description: logo
+
+ 
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Tue, 14 Mar 2017 13:26:26 -0500 - luket: Customer was getting the NDSolve::ndsz and NDSolve::precw error messages and wanted to know what to do about them.  
+","OEMS IntiPakar Corp Sdn Bhd","cb60f1aa-6a56-403e-f58e-4ee00802a59b","4de5ac83-1aa9-5a27-bfe5-5702b2930e0a","Luke Titus","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","03/10/2017 02:56 am","03/29/2017 10:00 pm","1","1","0","support@wolfram.com","","","","","Customer","0","less1hr","","","","","L3005-7556","11.0.1","0","Mathematica","03/10/2017 02:49 pm","03/29/2017 10:00 pm","03/29/2017 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","","TS","","oems1003@oemscorp.com Cc:tblim@oemscorp.com","","","","","","","","","1","","","","","","Email","Premier","Never Send","0","0","0","","0 dd, 11 h, 53 m","19 dd, 06 h, 11 m","0 dd, 0 h, 30 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"4040535","33067d3c-382c-11e8-b389-001a4a160206","NDSOLVE intermittent error in Wolfram Cloud","In FireFox this Cloud Object fails, sometimes, upon clearing the history it works again:
+
+https://www.wolframcloud.com/objects/535b8e07-0fb1-432b-b4a3-a1c74afb17f4
+
+See attached notebooks. 
+
+In Chrome and Safari seems to be fine.
+
+I am running on El Capitan 10.11.6
+
+
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","","Computational ClassNotes Ltd","94907520-2a16-b10e-0ae4-55c8b094a5b9","80caaa69-0c5e-4166-c4e9-50c617e7367a","Karl Isensee","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","04/04/2018 12:18 pm","04/20/2018 03:02 am","1","1","0","enterprise-support@wolfram.com","","","mac","","Customer","0","less1hr","dara@lossofgenerality.com","Verified","","","3651-4985","11.3.0   OS 10.11.6","0","Mathematica","04/04/2018 12:39 pm","04/19/2018 10:00 pm","04/19/2018 10:00 pm","","","","","Incomplete","Enterprise","","","","","$0.00","","","","","","0","","","","TS","","dara@lossofgenerality.com","","","","","","","","","1","","","","","","Email","Enterprise","Default","1","1","1","","0 dd, 00 h, 21 m","15 dd, 09 h, 21 m","0 dd, 0 h, 20 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"571243","34379e0c-1ecb-424f-9584-52ca532584c5","NDSolve's permissible t range","My license number is: L3055-6824
+
+ 
+
+I have a case in which if I assign {t, 1, 1000000}, NDSolve works fine but if I assign {t,1,100 000 000}, then it gives this error message.
+
+NDSolve::ndsz: At _t_ == _2.81062197300004`*^7_, step size is effectively zero; singularity or stiff system suspected.  <http://reference.wolfram.com/mathematica/ref/message/NDSolve/ndsz.html> 
+
+ 
+
+Does this mean that my t was too big?  or did I run into some singularity in the solution?
+
+ 
+
+Thank you.
+
+ 
+
+James H. Choi
+
+","Closed","Unknown","P3","","Wed, 08 Jan 2014 13:15:03 -0600 - kisensee: User said ""thanks""
+Tue, 07 Jan 2014 17:58:36 -0600 - kisensee: MaxStepSize question
+Mon, 06 Jan 2014 16:34:38 -0600 - kisensee: Stiffness issues with NDSolve
+","","","80caaa69-0c5e-4166-c4e9-50c617e7367a","Karl Isensee","Global","1","1","01/06/2014 12:56 am","01/08/2014 01:15 pm","1","80caaa69-0c5e-4166-c4e9-50c617e7367a","0","support@wolfram.com","","01/07/2014 06:50 pm","","","Customer","0","less1hr","","","","","L3055-6824","","0","Mathematica","01/06/2014 01:44 pm","01/08/2014 01:15 pm","01/08/2014 01:15 pm","","","","","ConfirmedResolved","","","","","NDSolve","$0.00","","","","","","","","","","TS","Math","james.choi@SabioAcademy.com","","","","","^Math^","","","","4","","","","","","Email","Unknown","Never Send","0","0","0","","0 dd, 12 h, 48 m","1 dd, 23 h, 31 m","0 dd, 0 h, 30 m","","","","","","1d58b1f5-9077-d4c8-0c63-4ee3286d33d1","","","","","","","","","","","","","James","Choi","Choi","","","","","","","","",""
+"3345001","37754be5-6f43-f691-4de8-555b1150b979","NDSolve/eval problems using Euler-Integration.","Name: Guido Wolf Reichert
+email: gwr@bsl-support.de
+Account: BSL Management Support GbR
+Hi,
+
+I have a question with regard to NDSolve where I encounter some evaluation problems using Euler-Integration.
+
+The issue concerns a pulse train which should integrate to +10 but for some reason I cannot see does not. Also I am surprised by the fact that the fixed step is not shown in StepDataPlot. The problem and the questions are explicitly documented in the notebook enclosed.
+http://www.wolfram.com/support/contact/email/","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Thu, 21 May 2015 15:10:19 -0500 - hamida: gave him the answer and a link where he can read more....
+Tue, 19 May 2015 05:32:26 -0500 - sugaradmin: WebFormStaging processed: 1 linked
+","BSL Management Support","fcfd0ba5-9f89-b2ff-fb43-52b82740b8cf","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","Global","1","1","05/19/2015 05:31 am","06/05/2015 10:00 pm","1","1","0","support@wolfram.com","","11/29/-0001 06:09 pm","windows","","Customer","0","less1hr","","CL","","","4771-4166-894Y54","10.1 Windows 7 (64 Bit)","0","Mathematica","05/20/2015 07:38 am","06/05/2015 10:00 pm","06/05/2015 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","DE","TS","","gwr@bsl-support.de","","","","","","","","","1","855","+49 431 5606","","","","WebForm","Premier","Default","1","0","1","","1 dd, 02 h, 07 m","16 dd, 14 h, 22 m","0 dd, 0 h, 35 m","","","","","","83d09f32-e07e-b825-6a0e-4fccd3203a34","","","","","","","","","","","","","Guido Wolf","Reichert","Reichert","","","","","","","","",""
+"1664992","3ab90d0d-bf3b-a48e-f35c-5423d97f3cc2","NDSolve Method -> ""FiniteElement""","L4698-3507: OS 10.7.5 (MacBookPro8,3 2.4GHz, 8GB RAM)
+L4701-5874: Suse 10.1 in Parallels 3.0 on Mac
+L4698-3498: Win XP SP3 in Parallels 3.0 on Mac
+L4722-6604: OS 10.5.8 (MacBook Pro 2.2GHz, 4GB RAM)
+L3518-3501: 10.0 beta OS 10.7.5 (MacBookPro8,3 2.4GHz, 8GB RAM)
+
+5.2.0.0: ""5.2 for Microsoft Windows (June 20, 2005)""
+5.2.2.0: ""5.2 for Mac OS X x86 (32-bit) (February 24, 2006)""
+6.0.3.0: ""6.0 for Mac OS X x86 (64-bit) (May 21, 2008)""
+          ""6.0 for Microsoft Windows (32-bit) (May 21, 2008)""
+7.0.0.0: ""7.0 for Linux (32-bit) (November 11, 2008)""
+7.0.1.0: ""7.0 for Mac OS X x86 (64-bit) (February 19, 2009)""
+          ""7.0 for Microsoft Windows (32-bit) (February 18, 2009)""
+8.0    : ""8.0 for Mac OS X x86 (64-bit) (October 5, 2011)""
+          ""8.0 for Microsoft Windows (64-bit) (November 7, 2010)""
+9.0    : ""9.0 for Mac OS X x86 (64-bit) (January 24, 2013)""
+10.0   : ""10.0 for Mac OS X x86 (64-bit) (June 29, 2014)""
+
+
+Hello,
+
+NDSolve yields for the equation f''[x] + f[x] == 0 in the command
+
+NDSolve[{
+   f''[x] + f[x] == 0,
+   DirichletCondition[{f[x] == 0.0}, x == 0.0],
+   DirichletCondition[{f'[x] == 1}, x == 0.0]
+}, {f}, {x, 0.0, Pi/20}, Method -> ""FiniteElement""]
+Plot[f[x] /. %, {x, 0.0, Pi/20}, PlotRange -> All, PlotStyle -> {{Thick, Red}}]
+
+only the trivial solution. The symbolic solution
+
+DSolve[{f''[x] + f[x] == 0, f[0] == 0, f'[0] == 1}, f, x]
+
+shows a sine. This example is a drastic simplification of a real finite element problem in which there will be probably no real choice of another 
+integration method. There are mainly two questions:
+
+- How can I get a non-trivial solution from NDSolve?
+- If only one Dirichlet condition is given, how can I control which solution of a family of solutions is returned?
+
+Thanks and kind regards     Stephan
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Mon, 29 Sep 2014 17:22:11 -0500 - kisensee: FiniteElement strangeness, bug filed
+","","","80caaa69-0c5e-4166-c4e9-50c617e7367a","Karl Isensee","Global","1","1","09/25/2014 03:58 am","10/15/2014 10:00 pm","1","1","0","support@wolfram.com","","09/29/2014 05:18 pm","","","Customer","0","less1hr","","","","","L4698-3507","","0","Mathematica","09/25/2014 09:15 am","10/15/2014 10:00 pm","10/15/2014 10:00 pm","","","","","Incomplete","","","","","NDSolve, FiniteElement","$0.00","","","","","","0","281415","","","TS","Math","stephan.leibbrandt@symbols-and-numbers.com","","","","","^Math^","","","","1","","","","","","Email","Unknown","Default","1","0","1","","0 dd, 05 h, 17 m","20 dd, 12 h, 45 m","0 dd, 0 h, 20 m","","","","","","1eb15477-8b2c-6a45-f4f6-4ee2b5efcdc5","","","","","","","","","","","","","Stephan","Leibbrandt","Leibbrandt","","","","","","","","",""
+"4272777","3ac829c6-9299-11e9-b277-001a4a160206","NDSolveValue","
+
+ Source: www.wolfram.com/technical-services/request-quote/index.en.php
+ User Agent= Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+ Remote Address= 142.132.30.80
+
+ Information passed to Technical Services:
+
+ What type of Project Support are you interested in?
+[""Development""]
+
+ Main message: 
+Hi,
+
+I would like to use the function NDSolveValue to solve Laplace equation in spherical coordinates. The Laplacian in spherical coordinates has singularity at the two poles, and NDSolveValue cannot handle it. How can I get around this problem?
+The attached notebook has the code that I was using.
+
+Thank you.
+Chen-Yi
+
+ Attachment:
+Yes","Closed","RequestInfo","Unknown","Auto close, no confirmation that provided response resolved issue","Sun, 07 Jul 2019 22:01:13 -0500 - sugaradmin: Survey Not Sent: Invalid email address chenyi731231@gmail.com, c.bidinosti@uwinnipeg.ca  on case 
+Wed, 19 Jun 2019 18:58:10 -0500 - duncanp: Sent example
+Wed, 19 Jun 2019 17:53:02 -0500 - duncanp: Premier service under c.bidinosti@uwinnipeg.ca 
+Wed, 19 Jun 2019 14:07:56 -0500 - duncanp: Sent info
+Wed, 19 Jun 2019 10:38:43 -0500 - tsreception: Script ran by vminer
+No valid license provided
+No active support found
+","","","3fda24b6-c731-11e8-a1f8-001a4a160206","Duncan Pettengill","CS WRI, Global","487ae526-c370-1acb-1bd8-505c6ff5afc2","238f6b6d-5158-ef4b-8444-51563c1f9345","06/19/2019 08:50 am","07/07/2019 10:01 pm","e4c9941e-d72a-d2ec-1d5b-4e43d1941021","1","0","support@wolfram.com","","","","","Customer","","","","Singularities in Laplacian in spherical coordinates.","","","3339-2171","","","","06/19/2019 11:31 am","07/07/2019 10:00 pm","07/07/2019 10:00 pm","","","","","Incomplete","","","","","","$0.00","","","","","","0","","","","TS","","chenyi731231@gmail.com, c.bidinosti@uwinnipeg.ca","","","79d3012e-91e8-11e9-a219-001a4a160206","","","","","","","","","","","","WebForm","Premier","Default","1","0","0","","0 dd, 02 h, 40 m","18 dd, 10 h, 28 m","0 dd, 0 h, 40 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"3972865","4165a0a2-c9a4-11e7-a2cb-001a4a160206","NDSolve","No documentation in 11.3 Prerelease1
+","Closed","PreRelease","P3","","","","","d1c210a7-6663-5896-5a02-5362793a2ecc","Jay Yao","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/14/2017 07:28 pm","11/15/2017 10:36 am","1","d1c210a7-6663-5896-5a02-5362793a2ecc","0","prerelease@wolfram.com","","","","","Customer","0","less1hr","","ref/NDSolve is missing","","","","11.3","0","Mathematica","11/15/2017 08:19 am","11/15/2017 10:36 am","11/15/2017 10:36 am","","","","","Other","Standard","","","","reference","$0.00","","","","","","0","339961","","","TS","Documentation","fkampas@msn.com","","","","","","","","","","","","","","","Email","Product Feedback","Default","0","0","0","","0 dd, 12 h, 51 m","0 dd, 02 h, 17 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"3903353","41e1284e-4f06-11e7-84d8-001a4a160206","NDSolve","Hi,
+
+Mathematica 11.1.1 (license number : L3891-5586) is running on  Macbook Pro with MacOS X version 10.9.5.
+Please see the attached notebook.
+
+
+Daniel
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Tue, 13 Jun 2017 17:27:00 -0500 - luket: Evaluating an InterpolatingFunction coming from NDSolve in an excluded region should return Indeterminate. I filed a suggestion: https://bugs.wolfram.com/show?number=334895
+Tue, 13 Jun 2017 13:16:27 -0500 - luket: StreamPlot has problems with ElementMesh. I filed a bug: https://bugs.wolfram.com/show?number=334849
+","McGill University","8a5deacc-a65b-68ce-8cf1-4edff1f33037","4de5ac83-1aa9-5a27-bfe5-5702b2930e0a","Luke Titus","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","06/11/2017 07:28 pm","06/29/2017 10:00 pm","1","1","0","support@wolfram.com","","06/13/2017 12:55 pm","mac","","Customer","0","less1hr","","","","","3891-5586","11.1.1   OS X  10.9.5","0","Mathematica","06/12/2017 12:23 pm","06/29/2017 10:00 pm","06/29/2017 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","334849, 334895","","US","TS","","daniel.lavallee@mail.mcgill.ca","","","","","","","","","1","","914-234-0840","","","","Email","Premier","Never Send","0","0","0","","0 dd, 16 h, 55 m","17 dd, 09 h, 37 m","0 dd, 1 h, 35 m","","","","","","315d6ce4-01a8-95a0-1f48-586697d8199a","","","","","","","","","","","","","Daniel","Lavallee","Lavallee","","","","","","","","",""
+"2325720","509387c3-d866-386b-0fd0-54c18728d8ad","NDSolve error solving Stokes fluid flow with some names for dependent variables","I was trying variations of the Stokes flow example at http://www.wolfram.com/mathematica/new-in-10/pdes-and-finite-elements/a-stokes-flow-in-a-channel.html, when I encountered odd behavior for NDSolve:
+When I named the pressure variable 'p' instead of 'w' used in the WRI example, NDSolve gave an incorrect solution.
+Simply substituting 'w' for 'p' in the equations fixed the problem. After trying several other variable names, it appears NDSolve works correctly only if the pressure variable name comes alphabetically after the velocity variable names.
+The attached notebook has an example. I also see this behavior with other geometries.
+
+At first, I thought I was making a mistake specifying boundary conditions or not understanding the use of Inactive operators.
+While not relevant for the simple channel flow in the notebook, this led me to wonder which formulation of Stokes fluid flow equations NDSolve requires more generally. 
+The WRI example uses the Laplacian form of the equation. But if I correctly understand the section ""Formal Partial Differential Equations"" in the documentation tutorial FEMDocumentation/tutorial/SolvingPDEwithFEM, the stress form seems necessary to specify stress boundary conditions.
+Does NDSolve's interpret NeumannValue differently for these two (mathematically equivalent) forms of Stokes equations, as described in the attached notebook section ""interpetation of NeumannValue vs. form of equations""?
+More generally, is there a way to query the NDSolve state to find exactly what left-hand side NDSolve uses for NeumannValue?
+Thanks.
+
+ ","Closed","Bug","P3","Auto close, no confirmation that provided response resolved issue","Thu, 05 Feb 2015 17:55:10 -0600 - averma: Sent suggestions from iliang to customer.
+Wed, 04 Feb 2015 15:18:36 -0600 - averma: Sent email to iliang for more information.
+Tue, 03 Feb 2015 10:26:22 -0600 - averma: Added user info to bug report. Asked for help from d-ts.
+Fri, 23 Jan 2015 13:53:00 -0600 - vminer: Asked user for a valid license number
+","Hogg, Tad H","8cbbe1bf-1bfb-dca6-e8af-4ee049f41303","2d4b1496-b077-d07b-e728-53c696ed3eb6","Abhinav Verma","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","01/22/2015 05:28 pm","02/24/2015 05:01 pm","1","1","0","support@wolfram.com","","02/05/2015 05:54 pm","mac","","Customer","0","less1hr","","Bug report and question about NDSolve.","","","L3305-0765","10.0","0","Mathematica","01/23/2015 01:52 pm","02/22/2015 10:00 pm","02/22/2015 10:00 pm","","","","","Incomplete","Standard","","","","NDSolve","$0.00","","","","","","0","284207 281368","","","TS","Math","tadhogg@yahoo.com","","","","","^Math^","","","","5","","","","","","Email","Premier","Default","1","1","1","","0 dd, 20 h, 24 m","30 dd, 08 h, 08 m","0 dd, 3 h, 10 m","","","","","","7ad50825-9129-05e5-a6c0-4ee3d44f7dab","","","","","","","","","","","","DR","Tad H","Hogg","Hogg","","","","","","","","",""
+"717441","50cf4a1b-5062-5b0f-93d7-533fad91b5a1","NDSolve issue","Hi all,
+
+I have the following question from a user.
+
+ 
+
+Why NDSolve gives the error message? Is there any Method or other option I
+can use to solve such equations in Mathematica?
+
+ 
+
+Ds = 1.;
+
+Is = 1.;
+
+p = 1.;
+
+ 
+
+equ1 = D[w[x,  y], x, x, x, x] + 2*D[w[x, y], x, x, y, y] + D[w[x, y], y, y,
+y, y] - p/(Ds*Is) == 0
+
+ 
+
+sol = NDSolve[{equ1, w[x, 0] == 0, w[x, 10] == 0, w[0, y] == 0, w[10,y] ==
+0, (D[w[x, y], x, x] /. x -> 0) == 0, (D[w[x, y], x, x] /. x -> 10) == 0,
+(D[w[x, y], y, y] /. y -> 0) == 0, (D[w[x, y], y, y] /. y -> 10) == 0}, w,
+{x, 0, 10}, {y, 0, 10}]
+
+ 
+
+""Boundary values may only be specified for one independent variable. Initial
+values may only be specified at one value of the other independent
+variable."" >>
+
+ 
+
+ 
+
+Any help is appreciated.
+
+Best regards,
+
+ 
+
+Roberto Cavaliere (L4778-1355)
+
+Mathematica Technical Sales Manager
+
+-----------------------------------------------------------------
+
+Adalta - Divisione Wolfram Research
+
+Cell 334 6338680
+
+eMail:  <mailto:r.cavaliere@adalta.it> r.cavaliere@adalta.it
+
+Skype: r.cavaliere
+
+ <http://www.adalta.it/wolfram> www.adalta.it/wolfram
+
+-----------------------------------------------------------------
+
+ 
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","","Adalta SNC","25aa6f58-0245-3468-a84a-4ee0086692f7","54feb5fd-331e-4422-d22e-511517096a17","Anmol Bajracharya","Global","1","1","04/05/2014 02:06 am","04/22/2014 10:00 pm","1","1","0","support@wolfram.com","","04/07/2014 12:54 pm","","","Customer","0","less1hr","","","","","L4778-1355","","0","","04/06/2014 10:02 pm","04/22/2014 10:00 pm","04/22/2014 10:00 pm","","","","","Incomplete","","","","","","$0.00","","","","","","0","","","","TS","","r.cavaliere@adalta.it","","","","","","","","","1","","","","","","Email","Unknown","Never Send","0","0","0","","1 dd, 19 h, 56 m","15 dd, 23 h, 58 m","0 dd, 0 h, 30 m","","","","","","20b21580-3571-87e0-5223-4f75c2b176d3","","","","","","","","","","","","","Roberto","Cavaliere","Cavaliere","","","","","","","","",""
+"3598359","5128e530-8f05-8f6b-dcaa-572cf5a1de15","NDSolve heat transfer","Dear Support,
+I am trying to solve something I would think is simple but seem to not find a solution.
+It is a heat transfer on a finite thickness slab with heat flux boundary conditions, one side constant heating, the other adiabatic. When I change the heat flux nothing changes and I know it is not the solution either because there is an analytical solution.I would think my b.c. are correct. See my file.
+Also, do you have examples with a similar problem but with heat flux at b.c. being convective or radiative.
+Thank you
+Olivier
+
+
+Olivier Sudre, PhD
+Manager, Composite Materials
+Teledyne Scientific Company
+1049 Camino Dos Rios
+Thousand Oaks, CA 91362
+805-373-4836","Closed","Functionality","P3","Set resolution as Auto close, no confirmation that provided response resolved","Mon, 09 May 2016 13:59:27 -0500 - luket: Writing email and making notebook.
+Mon, 09 May 2016 13:59:08 -0500 - luket: Still finding solution.
+Mon, 09 May 2016 13:58:54 -0500 - luket: Finding solution.
+Fri, 06 May 2016 14:48:54 -0500 - kevind: Solve the 1-D heat equation as an example for the customer. Customer's example has inconsistent initial conditions and may be too sharp for numerical stability.
+","Teledyne Scientific & Imaging LLC","701f51a8-60f2-6eb3-f75f-4f0dcf076651","4de5ac83-1aa9-5a27-bfe5-5702b2930e0a","Luke Titus","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","05/06/2016 02:48 pm","05/12/2016 10:01 pm","d4dd74aa-f30c-faa2-8af8-5559e186b505","1","0","support@wolfram.com","","","unknown","","Customer","0","less1hr","","","","","3666-5989","10.4","0","Mathematica","","05/12/2016 10:00 pm","05/12/2016 10:00 pm","","","","","Unconfirmed","Standard","","","","","$0.00","","","","","","0","","","","TS","","kevind@wolfram.com","","","","","","","","","","","","","","","Phone","Premier","Default","1","0","1","","","0 dd, 04 h, 59 m","0 dd, 3 h, 0 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"2931757","558b1137-5a0e-c464-eea6-5525a792cb40","NDSolve","Technical Support request for an evaluation license - L3699-8324.
+
+
+
+It seems I'm getting different results from Mathematica 8 (previously run 
+under academic license several years ago) and Mathematica 10 for the same 
+code.  In particular with NDSOLVE.  Do you know if there were major updates 
+to NDSOLVE?  Perhaps in default tolerances, etc.?
+
+
+
+Could someone reply directly to Michael -  <mailto:michael.smayda@gmail.com> 
+michael.smayda@gmail.com?
+
+
+
+Thank you,
+
+
+
+Nigel
+
+
+
+
+
+From: Michael Smayda [mailto:michael.smayda@gmail.com]
+Sent: Wednesday, April 08, 2015 12:31 PM
+To: Nigel Hess
+Subject: Re: Mathematica extension
+
+
+
+Let's try working in general terms and if that doesn't allow us to fix 
+things we'll see if we can get you some code to chew on.
+
+
+
+Thanks,
+
+
+
+-Mike
+
+
+
+On Wed, Apr 8, 2015 at 10:22 AM, Nigel Hess <nigelh@wolfram.com 
+<mailto:nigelh@wolfram.com> > wrote:
+
+Yes, Mike.  I can get you answers!
+
+
+
+Are you able to share the code?  If not, I can get an answer for you in a 
+more general sense.  My understanding is that NDSolve has been updated 
+(perhaps a few times since version 8), but I’d want to confirm that with one 
+of our developers.
+
+
+
+Cheers,
+
+
+
+Nigel
+
+
+
+From: Michael Smayda [mailto:michael.smayda@gmail.com 
+<mailto:michael.smayda@gmail.com> ]
+Sent: Wednesday, April 08, 2015 12:12 PM
+
+
+To: Nigel Hess
+Subject: Re: Mathematica extension
+
+
+
+Nigel,
+
+
+
+Thanks so much and thanks for the note.  Are you a good person to ask 
+technical questions?  It seems I'm getting different results from 
+Mathematica 8 (previously run under academic license several years ago) and 
+Mathematica 10 for the same code.  In particular with NDSOLVE.  Do you know 
+if there were major updates to NDSOLVE?  Perhaps in default tolerances, 
+etc.?
+
+
+
+Thanks,
+
+
+
+-Mike
+
+
+
+On Wed, Apr 8, 2015 at 6:34 AM, Nigel Hess <nigelh@wolfram.com 
+<mailto:nigelh@wolfram.com> > wrote:
+
+No worries Mike,
+
+
+
+I’ll talk to them and get it extended out an additional ~2 weeks.
+
+
+
+That’s a very interesting startup idea, with what I can only assume is some 
+pretty great tech!  Hopefully the trial extension will help a little.  If 
+everything does go well, feel free to check back in with me when you’re 
+ready to purchase.  We do have a few promotions running for startup 
+companies, which could make a good fit.
+
+
+
+Best Regards,
+
+
+
+Nigel
+
+
+
+From: Michael Smayda [mailto:michael.smayda@gmail.com 
+<mailto:michael.smayda@gmail.com> ]
+Sent: Tuesday, April 07, 2015 6:47 PM
+To: Nigel Hess
+Subject: Re: Mathematica extension
+
+
+
+Thanks, Nigel.  I heard back from customer service and they indicated they 
+could extend for an additional 2 days.  Unfortunately, that may not be 
+enough time.  I've sent them a note back to that extent.
+
+
+
+The startup is involved in designing heat sinks and spreaders for very high 
+heat-flux devices (stacked semiconductors, concentrated solar photovoltaics, 
+etc).  Beyond the capability of even the most exotic existing solutions. 
+This is 100% outside my role at SpaceX.
+
+
+
+Thanks again for your help,
+
+
+
+-Mike
+
+
+
+
+
+
+
+On Tue, Apr 7, 2015 at 10:45 AM, Nigel Hess <nigelh@wolfram.com 
+<mailto:nigelh@wolfram.com> > wrote:
+
+Hi Michael,
+
+
+
+It just came to my attention that you’d requested a Mathematica trial 
+extension.  With that in mind, I wanted to quickly let you know that I went 
+ahead and put in the request for that (with Customer Support).  I expect you 
+should see a license extension today or tomorrow, probably latest.
+
+
+
+Out of curiosity, what’s the startup you’re consulting with?  Is it outside 
+your role with SpaceX?
+
+
+
+Best Regards,
+
+
+
+Nigel
+
+
+
+
+
+Nigel Hess
+
+Wolfram Research, Inc.
+
+ <tel:800-965-3726%20ext.%203478> 800-965-3726 ext. 3478
+
+ <mailto:nigelh@wolfram.com> nigelh@wolfram.com
+
+ <http://www.linkedin.com/in/nihess>
+
+ <http://www.linkedin.com/in/nihess> email: michael.smayda@gmail.com
+Account: michael.smayda@gmail.com
+
+ <http://www.linkedin.com/in/nihess>
+Would like to request an extension. Need to solve a 4th order highly 
+nonlinear PDE and haven't yet determined whether Mathematica is up to the 
+job. Would like another couple weeks to keep working it.
+
+I'm trying to evaluate the value of purchasing a commercial license for a 
+startup I am consulting for. Please let me know if we can extend the trial 
+version.
+
+Thanks so much for your consideration.
+
+
+-Mike
+
+
+
+
+
+","Closed","Functionality","P3","Auto close, no response to request for additional information","Thu, 09 Apr 2015 16:13:54 -0500 - averma: Requested user to provide code that is behaving unexpectedly.
+Thu, 09 Apr 2015 10:50:28 -0500 - christineo: Exp trial. Difference of results with same function in 2 different vs of MMA. Nigel states there was a request put into CS for an extension of his trial. I have spoken with Melinda in CS, and confirmed he has service until 4/24/15
+","SpaceX","3226c2ff-1ac8-77f8-1a8e-4ee03a1813d6","2d4b1496-b077-d07b-e728-53c696ed3eb6","Abhinav Verma","Global","1","1","04/08/2015 05:08 pm","04/26/2015 10:00 pm","1","1","0","support@wolfram.com","","04/09/2015 04:12 pm","unknown","","Customer","0","less1hr","","User claims changes in NDSolve causing issues.","","","L3699-8324","8.0 & 10.1 ","0","Mathematica","04/09/2015 01:15 pm","04/26/2015 10:00 pm","04/26/2015 10:00 pm","","","","","Incomplete","Standard","","","","NDSolve","$0.00","","","","","","0","","","","TS","Compatibility","michael.smayda@gmail.com,Cc:nigelh@wolfram.com","","","","","^Compatibility^","","","","1","","","","","","Email","Premier","Default","1","0","0","","0 dd, 20 h, 07 m","17 dd, 08 h, 45 m","0 dd, 0 h, 30 m","","","","","","84e70edd-0b0a-e6c7-39f7-55196b086d09","","","","","","","","","","","","DR","Michael","Smayda","Smayda","","","","","","","","",""
+"3973547","569a6764-caf8-11e7-93c6-001a4a160206","NDSolve Error","Henry Greenside: 	
+Question
+Am having trouble running even a very simple example of NDSolve for a set of differential equations with Mathematica 11.2, am getting a error that looks like a serious bug. Even when I copy, paste, and execute an NDSolve example directly from the online NDSolve documentation, an error is generate so something seems seriously wrong
+
+	Tyler: 	
+Thank you for contacting Wolfram. I am reviewing your entry now. 
+	Tyler: 	
+Hello Henry can i please get your license number or activation key 
+	Henry Greenside: 	
+Activation key 2437-4774-9E32A4 
+	Henry Greenside: 	
+Here is the code that I tried without success: 
+	Henry Greenside: 	
+k = 1. ; (* ratio Subscript[k, +]/Subscript[k, -] *)
+\
+\[Epsilon] = 0.01 ; (* ratio r/Subscript[k, -] *)
+solution = 
+NDSolve[
+{
+a'[t] == - k a[t] + b[t] , 
+b'[t] == k a[t] - (1 + \[Epsilon]) b[t] ,
+c'[t] == \[Epsilon] b[t] ,
+a[0] == 1. , (* initial data for variables *)
+b[0] == 0. ,
+c[0] == 0.
+} ,
+{ a, b, c } , (* list of solution variables *)
+{ t, 0, 100 }
+] ; 
+	Henry Greenside: 	
+which generates this error message 
+	Henry Greenside: 	
+NDSolve::deqn: Equation or list of equations expected instead of True in the first argument {(a^\[Prime])[t]==-1. a[t]+b[t],(b^\[Prime])[t]==1. a[t]-1.01 b[t],(c^\[Prime])[t]==0.01 b[t],True,True,True}. 
+	Tyler: 	
+Thank you Henry, this is an issue for our tech support please give me a moment while i see if a member of Tech support can assist you further with this. ","Closed","Functionality","P3","","Thu, 16 Nov 2017 12:12:14 -0600 - kevind: User needs to clear some definitions. Doing so resolved the issue. Closing.
+Thu, 16 Nov 2017 12:11:36 -0600 - kevind: kevind: 	
+Hello. My name is Kevin and I'll be further assisting you today. Please give me a moment to review the issue so far. 
+	kevind: 	
+I have ran your code from a fresh Wolfram kernel and I did not receive any errors. 
+	kevind: 	
+Most likely you have defined your variable ""a"" or ""b"", such that one of your equations evaluates to True. 
+	kevind: 	
+According to the warning message, you have previously defined b[0]=0, c[0]=0, and a[0]=1. 
+	Henry Greenside: 	
+Let me try that, I thought that I had used Clear to reset those symbols. OK, that was indeed the problem, thankks 
+	kevind: 	
+Thus b[0]==0 returns True, and so on. 
+	kevind: 	
+You're welcome. Anything else I can help you with today? 
+	Henry Greenside: 	
+That solves the problem, thaks 
+	kevind: 	
+Have a nice day! 
+","Duke University","de90882d-d982-ddca-8457-4edfe9752b8c","d4dd74aa-f30c-faa2-8af8-5559e186b505","Kevin Daily","CS WRI, Global","487ae526-c370-1acb-1bd8-505c6ff5afc2","238f6b6d-5158-ef4b-8444-51563c1f9345","11/16/2017 12:02 pm","11/16/2017 12:12 pm","1a290458-3ea7-a20f-3a5f-55096ec6e806","d4dd74aa-f30c-faa2-8af8-5559e186b505","0","support@wolfram.com","","","linux","","","0","less1hr","","NDSolve warns about True equations.","","","2437-4774-9E32A4","11.2.0","0","Mathematica","11/16/2017 12:11 pm","11/16/2017 12:12 pm","11/16/2017 12:12 pm","","","","","ConfirmedResolved","Standard","","","","NDSolve","$0.00","","","","","","0","","","US","TS","Math","hsg@phy.duke.edu","","","","","","","","","","","","","","","Chat","Premier","Default","0","0","0","","0 dd, 00 h, 08 m","0 dd, 00 h, 00 m","0 dd, 0 h, 10 m","","","","","","d679812f-0106-b7be-769b-4ee3413d2b82","","","","","","","","","","","","","Henry","Greenside","Greenside","","","","","","","","",""
+"3570348","57918c9a-4611-100b-ebca-5702c500794f","NDSolve","
+*URGENT*
+Dear Sirs, 
+I'd like to ask you how I can modify the precision and interpolation order of a NDSolve for partial differential equation. I've tried with the Options WorkingPrecision -> 10, InterpolationOrder -> 10, PrecisionGoal -> 3 but, by changing the numbers, the graphic is identical.
+Thank you for your kind attention and all information you can give me.
+Best,
+Maria Mannone 
+	","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Wed, 06 Apr 2016 09:01:26 -0500 - kevind: Made example notebook to demonstrate how to control accuracy.
+Mon, 04 Apr 2016 14:59:42 -0500 - allisonf: transferred to TS: question about NDSolve
+","Mannone, Maria","d39398a6-0787-1a62-752e-55ae1964de33","d4dd74aa-f30c-faa2-8af8-5559e186b505","Kevin Daily","CS WRI, Global","487ae526-c370-1acb-1bd8-505c6ff5afc2","238f6b6d-5158-ef4b-8444-51563c1f9345","04/04/2016 02:50 pm","04/21/2016 10:05 pm","28297735-afdc-8454-75c8-4e43d1beeac0","1","0","info@wolfram.com","","","mac","","Customer","0","less1hr","","How to increase accuracy of NDSolve, Plot3D","","","49026608","10.2","0","Mathematica","04/04/2016 03:32 pm","04/21/2016 10:01 pm","04/21/2016 10:01 pm","","","","","Incomplete","Student","","","","NDSolve, NDSolveValue, Accuracy, Precision, WorkingPrecision","$0.00","","","","","","0","","","","TS","Math,Programming","manno012@umn.edu","","","","","","","","","1","","","","","","Email","PremierEmail","Default","1","0","1","","0 dd, 00 h, 41 m","17 dd, 06 h, 29 m","0 dd, 0 h, 45 m","","","","","","a11d4575-f36f-5944-91f7-55ae1ca6c700","","","","","","","","","","","","","Maria","Mannone","Mannone","","","","","","","","",""
+"4557401","5da05636-b05b-11ea-99d6-001a4a160206","NDSolve","Hi,
+
+My Mathematica License # is L2326-2054. I do have Premier Service.
+
+I am using Mathematica 12.1.0.0. in my MacBook Pro with Mac OS 10.15.5.
+
+The attached notebook, Some Numerical Kepler.nb, explains my question.  Basically I solve a system of ODE’s for some trajectory (orbit) and certain quantities are supposed to remain constant during the interval of time τ of the solution.  They do, but their plots look too “wiggly” (computer error?).  Is there a way to increase the precision?
+
+ Any advice would be appreciated.  Thank you.
+
+Peter
+
+
+
+
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Wed, 17 Jun 2020 10:45:29 -0500 - duncanp: Sent information on the nature of numerical error and PlotRange
+Wed, 17 Jun 2020 07:02:50 -0500 - tsreception: Script ran by harryc
+Premier support found under: 2326-2054, original license field: 2326-2054
+","","","3fda24b6-c731-11e8-a1f8-001a4a160206","Duncan Pettengill","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","06/17/2020 12:28 am","07/02/2020 10:48 pm","1","1","0","support@wolfram.com","","","","","Customer","","","","NDSolve 'wiggly plots'","","","2326-2054","","","Mathematica","06/17/2020 10:33 am","07/02/2020 10:00 pm","07/02/2020 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","US","TS","","peter.collas@csun.edu","","","","","","","","","1","","","","","","Email","Premier","Default","1","1","1","","0 dd, 10 h, 05 m","15 dd, 11 h, 26 m","0 dd, 0 h, 15 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"4360302","60a080a2-0ff4-11ea-9f74-001a4a160206","NDSolve`Shooting: Message Text not found","
+","Closed","PreRelease","P3","Auto close, no confirmation that provided response resolved issue","Tue, 26 Nov 2019 08:23:46 -0600 - duncanp: Filed bug
+","","","3fda24b6-c731-11e8-a1f8-001a4a160206","Duncan Pettengill","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/25/2019 08:28 pm","12/11/2019 10:00 pm","1","1","0","prerelease@wolfram.com","","11/26/2019 08:24 am","","","Customer","","","","NDSolve`Shooting::ndncon has missing error text","","","","","","Mathematica","11/26/2019 05:59 am","12/11/2019 10:00 pm","12/11/2019 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","383324","","","TS","","fkampas@msn.com","","","","","","","","","1","","","","","","Email","Product Feedback","Default","0","0","0","","0 dd, 09 h, 31 m","15 dd, 16 h, 00 m","0 dd, 0 h, 15 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"1876210","611fbf93-fa49-547b-ed1f-5464cc541794","NDSolve mma 9 vs. mma 10","Dear Support,
+
+You will find attached a mma notebook. It works fine with mma 9, but the
+computing time increases drastically with mma 10.  I don't understand why.
+
+Can you help me ?
+
+My licence number is
+
+L1021-9492
+
+Thanks in advance.
+
+Jean-Paul Diard
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Thu, 13 Nov 2014 14:42:54 -0600 - jasong: Filed report.
+","ENSEEG","bd5983af-972c-5e52-0930-4edffdb28d15","8cd97acc-020a-ee26-54dd-51adf6244f74","Jason Grigsby","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/13/2014 09:20 am","11/28/2014 10:05 pm","1","1","0","support@wolfram.com","","11/13/2014 02:16 pm","","","Customer","0","less1hr","","NDSolve mma 9 vs. mma 10","","","L1021-9492","10.0.1","0","Mathematica","11/13/2014 11:34 am","11/28/2014 10:00 pm","11/28/2014 10:00 pm","","","","","Incomplete","","","","","","$0.00","","","","","","0","284070","","","TS","","diardjeanpaul@gmail.com, montellaclaude@gmail.com, alex@wolfram.com, ruebenko@wolfram.com","","","","","","","","","1","","","","","","Email","Premier","Default","1","0","0","","0 dd, 02 h, 14 m","15 dd, 10 h, 26 m","0 dd, 0 h, 30 m","","","","","","bd9fe0fd-cc39-aee0-d852-50acf265cb41","","","","","","","","","","","","","Jean Paul","Diard","Diard","","","","","","","","",""
+"3571283","64fd94c3-8dbd-3609-4323-57051620b358","NDSolve EquationSimplification Residual Bug","Dear Wolfram,
+
+I have some code that uses NDSolve to solve a set of differential algebraic equations, using Method -&gt; {""EquationSimplification"" -&gt; ""Residual""}. However, I've recently started getting odd bugs with evaluating the Interpolatingfunction at the left endpoint, with the output being non-numeric (using List and Automatic inside a formula).
+
+Attached is a stripped down example (which be stripped down further). Note that it works fine without the Method in this case (as it isn't a DAE).
+I'm using version 10.2.0 for Windows (64-bit).
+
+Thanks,
+Simon
+
+Dr Simon Pearce
+Leverhulme Early Career Fellow
+University of Manchester, UK
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Fri, 15 Apr 2016 13:29:13 -0500 - hamida: not an issue in 10.4
+Mon, 11 Apr 2016 10:42:07 -0500 - hamida: explained with examples....
+","University of Nottingham","e62b98dc-15d7-a79c-37a1-4ee0044b4d95","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","04/06/2016 09:01 am","05/01/2016 10:00 pm","1","1","0","support@wolfram.com","","04/15/2016 12:51 pm","","","Customer","0","less1hr","","odd bugs with evaluating the Interpolatingfunction","","","4594-3181","10.2","0","Mathematica","04/06/2016 10:04 am","05/01/2016 10:00 pm","05/01/2016 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","","TS","","simon.pearce@manchester.ac.uk","","","","","","","","","2","","","","","","Email","Premier","Never Send","0","0","0","","0 dd, 01 h, 03 m","25 dd, 11 h, 56 m","0 dd, 1 h, 5 m","","","","","","ec2e7330-7ab5-2030-d80d-4ee3b444b493","","","","","","","","","","","","","Simon","Pearce","Pearce","","","","","","","","",""
+"3459539","66c99a48-ce73-6212-fa53-563875c6a880","NDSolveValue question","Hi all,
+
+I had a question from an Italian user about a message NDSolveValue::ivone
+when solving a PDEs Boundary-value problem (see attached notebook).
+
+Could you please let me know if NDSolveValue is able to solve such a kind of
+problem and if so where is the error or the wrong input?
+
+As alternative to NDSolveValue, is there any other function able to solve
+that system?
+
+ 
+
+Thanks in advance,
+
+ 
+
+L4683-6113
+
+ 
+
+Roberto Cavaliere
+Mathematica Technical Sales Manager
+-----------------------------------------------------------------
+Adalta - Divisione Wolfram Research
+cell 334 6338680
+eMail:   r.cavaliere@adalta.it
+Skype: r.cavaliere
+  www.adalta.it/wolfram
+-----------------------------------------------------------------
+
+ 
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Tue, 03 Nov 2015 17:28:07 -0600 - hamida: gave an answer... its possible to do but needs more coding that I have time for....
+","Adalta SNC","25aa6f58-0245-3468-a84a-4ee0086692f7","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/03/2015 02:48 am","11/19/2015 10:01 pm","1","1","0","support@wolfram.com","","","unknown","","Customer","0","less1hr","r.cavaliere@adalta.it","CL","","","L4683-6113","10.3","0","Mathematica","11/03/2015 01:07 pm","11/19/2015 10:01 pm","11/19/2015 10:01 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","IT","TS","","r.cavaliere@adalta.it","","","","","","","","","1","","334 6338680 (Cell)","","","","Email","Premier","Never Send","0","0","0","","0 dd, 10 h, 19 m","16 dd, 08 h, 54 m","0 dd, 0 h, 35 m","","","","","","20b21580-3571-87e0-5223-4f75c2b176d3","","","","","","","","","","","","","Roberto","Cavaliere","Cavaliere","","","","","","","","",""
+"102123","6a43402b-07dd-5ba1-498e-515b609f07c7","NDSolve problem","L2405-0948, Version 9.0.1, 64 bit Windows 7
+
+How can I get this to work, since I’m using a function that returns a list and expects numeric arguments?
+
+In[164]:= f[{x_?NumericQ, y_?NumericQ}]:= Flatten @ PseudoInverse[{{x,y}}]
+
+In[165]:= f[{2.,4.}]
+
+Out[165]= {0.1,0.2}
+
+In[171]:= f[{x,y}]
+
+Out[171]= f[{x,y}]
+
+In[170]:= tsln=NDSolve[{ {x'[t],y'[t]} == f[{x[t],y[t]}] ,x[0]==1, y[0]==2}, {x[t], y[t]}, {t, 0, 1} ]
+
+During evaluation of In[170]:= NDSolve::underdet: There are more dependent variables, {x[t],y[t]}, than equations, so the system is underdetermined. >>
+Out[170]= NDSolve[{{(x^\[Prime])[t],(y^\[Prime])[t]}==f[{x[t],y[t]}],x[0]==1,y[0]==2},{x[t],y[t]},{t,0,1}]
+
+Frank J. Kampas, Ph.D.","Closed","Functionality","P3","User has solved his problem himself and send us the solution.","Wed, 10 Apr 2013 13:55:17 -0500 - anmolb: Customer's method of solving differential equation using NDSolve that involes PseudoInverse function was different than my approach. He wanted to define a function using NumericQ using PseduInverse function. 
+
+Usual approach for solving his problem did not work when Numeric patter is used using NDSolve however it worked for other simpler function invloving Numeric pattern. 
+
+I have suggested him alternative approach to solve his problem which does not use NumericQ. Both solutions are identical. 
+Mon, 08 Apr 2013 12:03:07 -0500 - anmolb: Cusotmer has resolved the issue on his own. However, I have suggested him an alternative approach to solve his problem by modifying the pattern of his function and the way he can use the arguments in his NDSolve expression. 
+","","","54feb5fd-331e-4422-d22e-511517096a17","Anmol Bajracharya","Global, TS","1","39668e7e-a718-b9df-cb9c-5156631be59d","04/02/2013 05:51 pm","01/31/2014 09:59 pm","1","1","0","support@wolfram.com","","01/31/2014 09:59 pm","windows","","Customer","0","less1hr","","NDSolve problem ( WW NDSolve and PseudoInverse)","","","L2405-0948","9.0.1","0","Mathematica","04/03/2013 09:24 am","04/10/2013 01:55 pm","04/10/2013 01:55 pm","","","","","ConfirmedResolved","Standard","","","","","$0.00","","","","","","","","","","TS","Math","fkampas@msn.com","","","","","^Math^","","","","5","","","","","http://","Email","Premier","Never Send","0","0","0","","0 dd, 15 h, 33 m","7 dd, 04 h, 31 m","0 dd, 2 h, 0 m","","","","","","2f84b5a8-e70c-9798-db17-4fbc2f4517b6","","","","","","","","","","","","","Frank","Kampas","Kampas","","","","","","","","",""
+"3666747","6ca0f34e-2f92-60eb-ce83-57869bbac0b8","NDSolve Issue","Two questions:
+
+1.  I am having issue with NDSolve with PDE and algebraic equations.  I have done this before with ODEs and algebraics as longer as the method is capable, but this no longer works for the PDE case.  Please advise.
+The company accepts no liability for the content of this email, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently confirmed in writing. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.
+","Closed","Functionality","P3","Set resolution as Auto close, no confirmation that provided response resolved","","Particulate Solid Research Inc","254cddd5-c41d-7c40-0673-4ee03289fb8c","4de5ac83-1aa9-5a27-bfe5-5702b2930e0a","Luke Titus","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","07/13/2016 02:52 pm","07/18/2016 10:00 pm","1","1","0","enterprise-support@wolfram.com","","07/14/2016 03:48 pm","unknown","","Customer","0","less1hr","","","","","35025224","10.4.1","0","Mathematica","07/13/2016 03:35 pm","07/18/2016 10:00 pm","07/18/2016 10:00 pm","","","","","Unconfirmed","Enterprise","","","","","$0.00","","","","","","0","","","","TS","","ray.cocco@psri.org","","","","","","","","","2","","773-523-7227","","","","Email","Enterprise","Never Send","0","0","0","","0 dd, 00 h, 43 m","5 dd, 06 h, 25 m","0 dd, 0 h, 5 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"4926592","75638394-a945-11ec-8403-001a4a160345","NDSolve slowed down significantly in M13","Name: Ken Korzekwa
+email: korzekwa@temple.edu
+Account: Temple University
+Message:
+Upon changing from Mathematica 12.3.1 to 13.01, some NDSolve calculations slowed down 5x – 25x. Most ODE were 5-10x slower, but the time is insignificant. Using ExplicitRungeKutta with these ODE problems makes them go faster, suggesting the method selection algorithm has changed. Solving PDEs using the method of lines is 10x – 30x slower and can take a long time. I have attached a notebook with a PDE solution that is timed with Timing. Mathematica 12 takes 45 seconds (real time divided by 8 for 8 processors) and Mathematica 13 takes 1275 seconds (real time divided by 8 for 8 processors). At this time Mathematica 13 is not useful to me. Can someone tell me how to adjust the options? Thanks - Ken 
+Referrer: ","OpenPendingCustomerConfirmation","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Thu, 30 Jun 2022 14:36:07 -0500 - yutingq: solved in 13.1
+Fri, 29 Apr 2022 18:35:54 -0500 - yutingq: https://bugs.wolfram.com/show?number=422828 reported
+Tue, 22 Mar 2022 12:57:27 -0500 - yutingq: ask for notebook
+Mon, 21 Mar 2022 13:36:17 -0500 - tsreception: Script ran by vminer
+Premier support found under: 8634-9128, original license field:  8634-9128-PX6L2P
+Mon, 21 Mar 2022 13:36:02 -0500 - sugaradmin: WebFormStaging processed: 1 linked
+","Temple University","6396d89f-91a9-d820-fcd4-4ee0063d6695","313f116e-92ef-11eb-a625-001a4a160206","Yuting Qiu","Global","1","1","03/21/2022 01:33 pm","06/30/2022 02:48 pm","1","313f116e-92ef-11eb-a625-001a4a160206","0","support@wolfram.com","","","","","Customer","","","","NDSolve slowed down significantly in M13","","","8634-9128","Mathematica 13.01 MAC OS 11.6.1","","","03/21/2022 02:33 pm","05/19/2022 10:00 pm","06/30/2022 02:48 pm","","","","","Incomplete","","","","","","$0.00","","","","","1.00000000","0","422828","","US","TS","","korzekwa@temple.edu","","","","","","","","","1","","610-952-8217","","","","WebForm","Premier","Default","1","0","1","","0 dd, 00 h, 59 m","29 dd, 07 h, 26 m","","","","","","","f3cb850d-55b0-4896-ae5a-4ee3fe5a1186","-99","","","","","","","","","","","","Ken","Korzekwa","Korzekwa","","","","","","","","",""
+"631149","758dc45f-a924-9768-8397-52f8088438db","NDSolve Projection Method Crash","Dear Wolfram,
+
+I've recently been experimenting with the Projection method for NDSolve, to solve my system of differential equations that contains an invariant. For some values of my initial conditions, the Mathematica Kernel crashes.
+I've attached a notebook which crashes when I evaluate the NDSolve. I'm using Mathematica v9.0.1.0.
+
+Thanks,
+Simon
+
+Problem signature:
+  Problem Event Name: APPCRASH
+  Application Name:        MathKernel.exe
+  Application Version:    9.0.61.57492
+  Application Timestamp:             51021c01
+  Fault Module Name:    mathdll.dll
+  Fault Module Version:                9.0.61.57492
+  Fault Module Timestamp:         51022079
+  Exception Code:             c0000005
+  Exception Offset:          00000000005a4e99
+  OS Version:      6.1.7601.2.1.0.256.4
+  Locale ID:          2057
+  Additional Information 1:          49f9
+  Additional Information 2:          49f970a687d84e0d43adfa80dc3715ad
+  Additional Information 3:          348f
+  Additional Information 4:          348f433c1d083773489ca4ef6ca3c73c
+
+This message and any attachment are intended solely for the addressee and may contain confidential information. If you have received this message in error, please send it back to me, and immediately delete it.   Please do not use, copy or disclose the information contained in this message or in any attachment.  Any views or opinions expressed by the author of this email do not necessarily reflect the views of the University of Nottingham.
+
+
+
+This message has been checked for viruses but the contents of an attachment
+
+may still contain software viruses which could damage your computer system, you are advised to perform your own checks. Email communications with the University of Nottingham may be monitored as permitted by UK legislation.
+
+
+
+
+
+
+
+
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Thu, 13 Feb 2014 14:01:19 -0600 - kisensee: Appended additional notebook to bug report
+Tue, 11 Feb 2014 15:50:45 -0600 - kisensee: Bug filed
+","University of Nottingham","e62b98dc-15d7-a79c-37a1-4ee0044b4d95","80caaa69-0c5e-4166-c4e9-50c617e7367a","Karl Isensee","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/09/2014 04:52 pm","02/25/2014 04:24 pm","1","1","0","support@wolfram.com","","02/13/2014 02:00 pm","","","Customer","0","less1hr","","NDSolve","","","L4716-6223 ","9.0.1","0","Mathematica","02/11/2014 12:42 pm","02/25/2014 04:24 pm","02/25/2014 04:24 pm","","","","","Incomplete","Standard","","","","NDSolve, Method","$0.00","","","","","","","264830","","","TS","Math","Simon.Pearce@nottingham.ac.uk","","","","","^Math^","","","","3","","","","","","Email","Unknown","Never Send","0","0","0","","1 dd, 19 h, 50 m","14 dd, 03 h, 42 m","0 dd, 0 h, 30 m","","","","","","ec2e7330-7ab5-2030-d80d-4ee3b444b493","","","","","","","","","","","","","Simon","Pearce","Pearce","","","","","","","","",""
+"2327736","7c71b651-8824-fe3d-dcb7-54c8a507bc50","NDSolve problem","Hello,
+
+Sometimes ago I solved the system of differential equations. In this 
+time was Mathematica 8.0.4 (Win XP, 32-bit). Now I would like solve this 
+system again in new Mathematica version 10.0.2 (Win 7, 64-bit), but I 
+can't do it because evaluation is interrupted and it is shown Windows 
+exception:
+
+(Sorry - It is in Czech language but I hope that position of information 
+is same as in English version)
+
+Podpis problému:
+   Název události problému:	APPCRASH
+   Název aplikace:	WolframKernel.exe
+   Verze aplikace:	10.0.0.0
+   Časové razítko aplikace:	5480debb
+   Název chybného modulu:	mathdll.dll
+   Verze chybného modulu:	10.0.0.0
+   Časové razítko chybného modulu:	5480df95
+   Kód výjimky:	c0000005
+   Posun výjimky:	0000000000717997
+   Verze operačního systému:	6.1.7601.2.1.0.256.4
+   ID národního prostředí:	1029
+   Další informace 1:	8efe
+   Další informace 2:	8efe95772a21b6639bb42280290f1a22
+   Další informace 3:	034f
+   Další informace 4:	034f0ae3bec2acd32e9851a55d7c452b
+
+
+For testing I attached my notebook and equation set saved as file. You 
+can evaluate all notebook and you see result.
+
+
+Thank you for your help.
+
+
+
+Yours Sincerely,
+
+Miroslav Müller
+
+------------------------------------------------------------
+First name: Miroslav
+Last name: Müller
+Email address: mullemir@fel.cvut.cz
+Organization:
+Phone number:
+Extension:
+Country: Czech Republic
+Product Name: Mathematica
+Activation key or license number: L4599-6061
+Product Version number: 10.0.2.0
+Operating system: WIN7 (64-bit)
+","Closed","Unknown","P3","","Fri, 13 Feb 2015 13:39:37 -0600 - leilaf: reproduced the crash with the new data that user sent. however, the expressions seem to be the same as the last time (reported).
+","","","d436f16a-1993-e3ec-1392-53c04139daf4","Leila Fuladi","TS, CS WRI, Global","593355dd-353c-ad82-acf3-505c6f099a25","e7d27e32-6e9d-3789-8106-5156643ea976","01/28/2015 03:00 am","02/17/2015 08:37 am","1","d436f16a-1993-e3ec-1392-53c04139daf4","0","support@wolfram.com","","02/17/2015 02:00 am","","","Customer","0","less1hr","","evaluating NDSolve in MMA 8 works but not in MMA 10.0.2","","","4599-6061","10.0.2","0","Mathematica","01/28/2015 11:29 am","02/17/2015 08:37 am","02/17/2015 08:37 am","","","","","Other","","","","","NDSolve, crash, windows, kernel","$0.00","","","","","","0","264830","","","TS","Programming","mullemir@fel.cvut.cz","","","","","^Programming^","","","","5","","","","","","Email","Unknown","Default","1","1","1","00","0 dd, 08 h, 29 m","19 dd, 21 h, 08 m","0 dd, 0 h, 20 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"3663305","7dc6eb30-9b7d-86b1-500b-577f6774b939","NDSolve[ ] of Mathematica","Dear Sir,
+
+
+
+Thank you for your hard support to our Mathematica sales. 
+
+
+The customer has Mathematica10.4.0 (L3050-0685).
+
+He tried to calculate a partial differential equation, after an error
+occurs.
+
+It can't be calculated.
+
+Advice about the calculation for him, please.
+
+Please advice about the calculation for him.
+
+Are you her help?
+
+
+User Name: Mr. Ushio Sangawa
+E-mail : sangawa.ushio@jp.panasonic.com
+
+
+Best Regards,
+
+
+
+-----------------------------------------------------------------------
+  Hulinks Inc.
+  Product Division, Technical Department
+  Akijirou Katsu
+  5-14, Nihonbashi-Hakozakicho, Chuo,
+  Tokyo, 103-0015,Japan
+  TEL: +81-3-5642-8383
+  FAX: +81-3-5642-8381
+-----------------------------------------------------------------------
+L3050-0685
+
+
+","Closed","Functionality","P3","","Tue, 12 Jul 2016 08:05:25 -0500 - tuseetab: confirmed closing of the case
+Mon, 11 Jul 2016 08:57:58 -0500 - tuseetab: email sent confirming closing of the case. 
+Fri, 08 Jul 2016 13:44:53 -0500 - tuseetab: corrected the error from the notebook, attached notebook with the email 
+","Panasonic Corp","680385c4-ab8b-739f-f8f9-4edff443d48f","17f5f0aa-96dc-2a6e-0559-568d69e1af65","Tuseeta Banerjee","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","07/08/2016 03:40 am","07/12/2016 08:05 am","1","17f5f0aa-96dc-2a6e-0559-568d69e1af65","0","support@wolfram.com","","","windows","","Reseller","0","less1hr","","calculate a partial differential equation, after an error occurs.","","","L3050-0685","10.4.0","0","Mathematica","07/08/2016 12:13 pm","07/12/2016 08:05 am","07/12/2016 08:05 am","","","","","ConfirmedResolved","Standard","","","","NDSolve, Plot3D","$0.00","","","","","","0","","","JP","TS","","sangawa.ushio@jp.panasonic.com,Cc:katsu@hulinks.co.jp","","","","","","","","","1","","","","d1b603d7-e5b3-98b2-69af-4ee55d78905a","","Email","Reseller","Never Send","0","0","0","","0 dd, 08 h, 33 m","3 dd, 19 h, 52 m","0 dd, 1 h, 5 m","","","","","","b37be690-49c1-1ebe-1781-4ee2d0eed881","","","","","","","","","","","HULINKS Inc","","Ushio","Sangawa","Sangawa","","","","","","","","",""
+"3394967","7e843a74-beaf-a723-5cb7-55bb1eebdb46","NDSolve [SEC=UNCLASSIFIED]","G’day,
+
+I wish to solve an ODE using NDSolve. The ODE has the form y’(s) = f(y(s)) where f is related to an integral of y(s). I wish to approximate this integral using simple numerical quadrature, and therefore I need to know the step-size NDSolve is using at each step.
+
+Hence I wish to input something like y’[s] == F[stepSize[s], y[s]] into NDSolve, where F is my approximation to f, and stepSize[s] is the current step-size being used by NDSolve.
+
+I’ve searched “Advanced Numerical Differential Equation Solving in the Wolfram Language” and there appears to be many possibilities for achieving this. However, none of them appear straightforward.
+
+Can you please suggest a simple way to achieve this?
+
+Cheers,
+Jason
+
+--
+Dr Jason Looker
+Aerospace Capability Analysis
+Joint and Operations Analysis Division
+DSTO
+506 Lorimer St
+Fishermans Bend VIC 3207
+AUSTRALIA
+Phone: +61 3 9626 7732
+
+IMPORTANT: This email remains the property of the Department of Defence and is subject to the jurisdiction of section 70 of the CRIMES ACT 1914.  If you have received this email in error, you are requested to contact the sender and delete the email.
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Mon, 24 Aug 2015 17:08:37 -0500 - ling: ask paritosh, and send the solution to the user
+","Defence Science & Technology Group","1d6bd614-6476-3e86-ba58-4ee00745cbcc","ef300d7d-d69f-70ac-156b-52a7254c2c15","Lin Guo","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","07/31/2015 02:06 am","09/09/2015 10:00 pm","1","1","0","support@wolfram.com","","11/29/-0001 06:09 pm","unknown","","Customer","0","less1hr","","CL","","","36078137","10.2","0","Mathematica","07/31/2015 11:15 am","09/09/2015 10:00 pm","09/09/2015 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","AU","TS","","Jason.Looker@dsto.defence.gov.au","","","","","","","","","1","","+61 3 9626 7732","","","","Email","Premier","Never Send","0","0","0","","0 dd, 09 h, 09 m","9 dd, 10 h, 45 m","0 dd, 0 h, 45 m","","","","","","c240f97c-0143-0392-d3f2-4ee36a536fa4","","","","","","","","","","","","DR","Jason","Looker","Looker","","","","","","","","",""
+"2675571","7ed58faf-fe0a-22ab-327c-54f4d233dca9","NDSolve question","Hi,
+
+I have a question from an Italian user and I don't know the answer. Could
+you please help me?
+
+--------
+
+Using NDsolve, it seems that some adaptive algorithms(s) is (are) chosen
+automatically. Only the number, say N,  of steps (or nodes) is required, and
+no indication of the  stepsizes  is given. 
+
+I assume that, given the interval on which one wants to solve a certain
+ordinary differential equation, say long L, an  initial  stepsize is
+computed as L/N, and then new values for  h  are computed  adaptively,
+following some strategy. Is it so?
+Thanks and best regards,
+Renato Spigler, Roma Tre University
+
+--------
+
+ 
+
+Please, note that they have a campus license but now I cannot remind their
+license number. 
+
+Thanks and regards,
+
+Roberto Cavaliere
+Mathematica Technical Sales Manager
+-----------------------------------------------------------------
+Adalta - Divisione Wolfram Research
+cell 334 6338680
+eMail:  <mailto:r.cavaliere@adalta.it> r.cavaliere@adalta.it
+Skype: r.cavaliere
+ <http://www.adalta.it/wolfram> www.adalta.it/wolfram
+-----------------------------------------------------------------
+
+ 
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Thu, 05 Mar 2015 13:42:55 -0600 - hamida: step-size-control stability is the topic and is ay too big to be discussd in an email. I gave him some ideas where to look for
+Thu, 05 Mar 2015 13:42:53 -0600 - hamida: step-size-control stability is the topic and is ay too big to be discussed in an email. I gave him some ideas where to look for
+Mon, 02 Mar 2015 16:17:17 -0600 - harryc: It is possible to set the initial step size
+","Adalta SNC","25aa6f58-0245-3468-a84a-4ee0086692f7","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, CS WRI, Global","593355dd-353c-ad82-acf3-505c6f099a25","e7d27e32-6e9d-3789-8106-5156643ea976","03/02/2015 03:12 pm","03/20/2015 10:00 pm","1","1","0","support@wolfram.com","","03/05/2015 01:38 pm","unknown","","Customer","0","less1hr","","Question about step size controller in NDSolve","","","46836113","10.0.2","0","Mathematica","03/02/2015 04:17 pm","03/20/2015 10:00 pm","03/20/2015 10:00 pm","","","","","Incomplete","Standard","","",""," step size controller in NDSolve","$0.00","","","","","","0","","","IT","TS","","r.cavaliere@adalta.it","","","","","","","","","1","","","","","","Email","Premier","Default","1","0","1","","0 dd, 01 h, 05 m","18 dd, 04 h, 43 m","0 dd, 1 h, 5 m","","","","","","20b21580-3571-87e0-5223-4f75c2b176d3","","","","","","","","","","","","","Roberto","Cavaliere","Cavaliere","","","","","","","","",""
+"4196809","802cfddc-f9a8-11e8-8c5b-001a4a160206","NDSolve","support people-
+
+I cannot believe it. NDSolve does not do 4th order equations!! Following is an attempt to solve the biharmonic.
+
+What is going on???
+
+Charles Steele
+
+
+
+
+Clear[w, eq, bc, a, b];
+a = 3;
+b = 4;
+eq = {D[w[x, y], x, x, x, x] + 2*D[w[x, y], x, x, y, y] + 
+     D[w[x, y], y, y, y, y] == 1};
+bc = {w[0, y] == 0, w[a, y] == 0, w[x, 0] == 0, w[x, b] == 0, 
+\!\(\*SuperscriptBox[\(w\), 
+TagBox[
+RowBox[{""("", 
+RowBox[{""2"", "","", ""0""}], "")""}],
+Derivative],
+MultilineFunction-&gt;None]\)[0, y] == 0, 
+\!\(\*SuperscriptBox[\(w\), 
+TagBox[
+RowBox[{""("", 
+RowBox[{""2"", "","", ""0""}], "")""}],
+Derivative],
+MultilineFunction-&gt;None]\)[a, y] == 0, 
+\!\(\*SuperscriptBox[\(w\), 
+TagBox[
+RowBox[{""("", 
+RowBox[{""0"", "","", ""2""}], "")""}],
+Derivative],
+MultilineFunction-&gt;None]\)[x, 0] == 0, 
+\!\(\*SuperscriptBox[\(w\), 
+TagBox[
+RowBox[{""("", 
+RowBox[{""0"", "","", ""2""}], "")""}],
+Derivative],
+MultilineFunction-&gt;None]\)[x, b] == 0};
+wSol[x, y] = NDSolve[{eq, bc}, {w[x, y]}, {x, 0, a}, {y, 0, b}]
+
+NDSolve::femcmsd: The spatial derivative order of the PDE may not exceed two.
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Mon, 10 Dec 2018 17:02:43 -0600 - luket: Sent email
+Fri, 07 Dec 2018 07:11:55 -0600 - tsreception: Script ran by renzom
+No valid license provided
+Premier support found under: 10119469, original license field: 
+","","","4de5ac83-1aa9-5a27-bfe5-5702b2930e0a","Luke Titus","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","12/06/2018 04:44 pm","12/26/2018 10:05 pm","1","1","0","support@wolfram.com","","","","","Customer","0","0","","Solving 4th order PDEs with NDSolve and method of lines","","","10119469","","0","Mathematica","12/07/2018 07:43 am","12/26/2018 10:00 pm","12/26/2018 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","","TS","","chasst@stanford.edu","","","","","","","","","","","","","","","Email","Premier","Default","1","0","1","","0 dd, 14 h, 59 m","19 dd, 14 h, 16 m","0 dd, 0 h, 30 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"1212039","8606fbeb-154b-6426-4655-53c03131724a","NDSolve Question License #2395-1124","Name: Steve Burk
+License #: 2395-1124
+Preimer member
+
+I got this off of mathworld website:
+http://mathworld.wolfram.com/notebooks/DifferentialGeometry/Geodesic.nb
+I could use it for a project I have coming up but I can't get it to work.
+Please help
+Thanks
+
+[idiot]
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Mon, 14 Jul 2014 13:18:07 -0500 - hkao: sent a modified notebook to the customer
+","Burk, Steve","ced58908-1182-74dc-c4fb-4ee02f91c9ec","654d9ada-56db-2815-1b7e-51adf7ee7bbc","Hsien-Ching Kao","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","07/11/2014 01:32 pm","07/29/2014 10:01 pm","1","1","0","support@wolfram.com","","07/14/2014 12:52 pm","windows","","Customer","0","less1hr","","issue with the notebook provided on MathWorld-geodesic","","","2395-1124","10.0","0","Mathematica","07/11/2014 04:30 pm","07/29/2014 10:01 pm","07/29/2014 10:01 pm","","","","","Incomplete","Standard","","","","Geodesic","$0.00","","","","","","0","","","","TS","Programming","moose@mooseandpebs.com","","","","","^Programming^","","","","1","","","","","","Email","Premier","Never Send","0","0","0","","0 dd, 02 h, 58 m","18 dd, 05 h, 31 m","0 dd, 0 h, 20 m","","","","","","2daf10c8-62d2-f57a-2118-4ee33977528a","","","","","","","","","","","","","Steve","Burk","Burk","","","","","","","","",""
+"4215522","86326256-1dae-11e9-9dc4-001a4a160206","NDsolve question","Clear[A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, x1, x2, x3, x4, x5];
+F1[x1_, x2_, X3_, x4_] := A1  - A2 ( x1) - A3 (x1) (x3) - A4 (x1) (x4);
+F2[x1_, x2_, X3_, x4_] := 
+  A3 (x1) (x3) - A5 (x2) ( x3) - A6 (x2) ( x4) - A7 (x2);
+F3[x1_, x2_, X3_, x4_] := A5 (x2) ( x3) - A8 (x3 ) (x4) - A9 (x3); 
+F4[x1_, x2_, X3_, x4_] := 
+ A4 (x1) (x4) + A6 (x2) ( x4) + A8 (x3) ( x4) - A10 (x4);
+
+A1 = 1.; A2 = 
+ 1./1000; A3 = .001; A4 = .001; A5 = .001; A6 = .001; A7 = .0001; A8 \
+= .0001; A9 = .005; A10 = .001;
+
+NDSolve[{x1'[t] == F1[x1[t], x2[t], x3[t], x4[t]], 
+  x2'[t] == F2[x1[t], x2[t], x3[t], x4[t]], 
+  x3'[t] == F3[x1[t], x2[t], x3[t], x4[t]], 
+  x4'[t] == F4[x1[t], x2[t], x3[t], x4[t]], x1[0] == 1000, x2[0] == 0,
+   x3[0] == 0, x4[0] == 0}, {x1, x2, x3, x4}, {t, 0, 1000}]
+
+NDSolve::dvnoarg: The function x3 appears with no arguments.
+
+NDSolve[{Derivative[1][x1][t] == 
+   1. - 0.001 x1[t] - 0.001 x3 x1[t] - 0.001 x1[t] x4[t], 
+  Derivative[1][x2][t] == 
+   0.001 x3 x1[t] - 0.0001 x2[t] - 0.001 x3 x2[t] - 0.001 x2[t] x4[t],
+   Derivative[1][x3][t] == -0.005 x3 + 0.001 x3 x2[t] - 
+    0.0001 x3 x4[t], 
+  Derivative[1][x4][t] == -0.001 x4[t] + 0.0001 x3 x4[t] + 
+    0.001 x1[t] x4[t] + 0.001 x2[t] x4[t], x1[0] == 1000, x2[0] == 0, 
+  x3[0] == 0, x4[0] == 0}, {x1, x2, x3, x4}, {t, 0, 1000}]
+
+NDSolve::deqn: Equation or list of equations expected instead of True in the first argument {(x1^\[Prime])[t]==A1-A2 x1[t]-A3 x1[t] x3[t]-A4 x1[t] x4[t],(x2^\[Prime])[t]==-A7 x2[t]+A3 x1[t] x3[t]-A5 x2[t] x3[t]-A6 x2[t] x4[t],(x3^\[Prime])[t]==-A9 x3[t]+A5 x2[t] x3[t]-A8 x3[t] x4[t],True,1000,0,0,0}.
+
+NDSolve::deqn: ""Equation or list of equations expected instead of -A10\\\ x4[t]+A4 \\\ x1[t]\\\ x4[t]+A6 \\\ x2[t]\\\ x4[t]+A8 \\\ x3[t]\\\ x4[t] in the first argument \!\({\*SuperscriptBox[\\\""x1\\\"", \\\""\[Prime]\\\"",\\nMultilineFunction->None][t] == A1 - A2\\\\\\ x1[t] - A3\\\\\\ x1[t]\\\\\\ x3[t] - A4\\\\\\ x1[t]\\\\\\ x4[t], \*SuperscriptBox[\\\""x2\\\"", \\\""\[Prime]\\\"",\\nMultilineFunction->None][t] == \(-A7\)\\\\\\ x2[t] + A3\\\\\\ x1[t]\\\\\\ x3[t] - A5\\\\\\ x2[t]\\\\\\ x3[t] - A6\\\\\\ x2[t]\\\\\\ x4[t], \*SuperscriptBox[\\\""x3\\\"", \\\""\[Prime]\\\"",\\nMultilineFunction->None][t] == \(-A9\)\\\\\\ x3[t] + A5\\\\\\ x2[t]\\\\\\ x3[t] - A8\\\\\\ x3[t]\\\\\\ x4[t], \(-A10\)\\\\\\ x4[t] + A4\\\\\\ x1[t]\\\\\\ x4[t] + A6\\\\\\ x2[t]\\\\\\ x4[t] + A8\\\\\\ x3[t]\\\\\\ x4[t], 1000, 0, 0, 0}\).""
+
+NDSolve[{Derivative[1][x1][t] == 
+   A1 - A2 x1[t] - A3 x1[t] x3[t] - A4 x1[t] x4[t], 
+  Derivative[1][x2][t] == -A7 x2[t] + A3 x1[t] x3[t] - 
+    A5 x2[t] x3[t] - A6 x2[t] x4[t], 
+  Derivative[1][x3][t] == -A9 x3[t] + A5 x2[t] x3[t] - 
+    A8 x3[t] x4[t], -A10 x4[t] + A4 x1[t] x4[t] + A6 x2[t] x4[t] + 
+   A8 x3[t] x4[t], 1000, 0, 0, 0}, {x1, x2, x3, x4}, {t, 0, 1000}]
+
+NDSolve[{Derivative[1][x1][t] == 
+   A1 - A2 x1[t] - A3 x3[t] x1[t] - A4 x1[t] x4[t], 
+  Derivative[1][x2][t] == 
+   A3 x3[t] x1[t] - A7 x2[t] - A5 x3[t] x2[t] - A6 x2[t] x4[t], 
+  Derivative[1][x3][t] == -A9 x3[t] + A5 x3 [t] x2[t] - 
+    A8 x3 [t] x4[t], -A10 x4[t] + A8 x3 [t] x4[t] + A4 x1[t] x4[t] + 
+   A6 x2[t] x4[t], x1[0] == 1000, x2[0] == 0, x3[0] == 0, 
+  x4[0] == 0}, {x1, x2, x3, x4}, {t, 0, 1000}]
+
+NDSolve::deqn: Equation or list of equations expected instead of -A10 x4[t]+A4 x1[t] x4[t]+A6 x2[t] x4[t]+A8 x3[t] x4[t] in the first argument {(x1^\[Prime])[t]==A1-A2 x1[t]-A3 x1[t] x3[t]-A4 x1[t] x4[t],(x2^\[Prime])[t]==-A7 x2[t]+A3 x1[t] x3[t]-A5 x2[t] x3[t]-A6 x2[t] x4[t],(x3^\[Prime])[t]==-A9 x3[t]+A5 x2[t] x3[t]-A8 x3[t] x4[t],-A10 x4[t]+A4 x1[t] x4[t]+A6 x2[t] x4[t]+A8 x3[t] x4[t],True,True,True,True}.
+
+NDSolve[{Derivative[1][x1][t] == 
+   A1 - A2 x1[t] - A3 x1[t] x3[t] - A4 x1[t] x4[t], 
+  Derivative[1][x2][t] == -A7 x2[t] + A3 x1[t] x3[t] - 
+    A5 x2[t] x3[t] - A6 x2[t] x4[t], 
+  Derivative[1][x3][t] == -A9 x3[t] + A5 x2[t] x3[t] - 
+    A8 x3[t] x4[t], -A10 x4[t] + A4 x1[t] x4[t] + A6 x2[t] x4[t] + 
+   A8 x3[t] x4[t], True, True, True, True}, {x1, x2, x3, x4}, {t, 0, 
+  1000}]
+Dear Ms. Fuladi,
+I thank you for all your help. Could you kindly help me again with another question? Given above is a computer program for NDSolve. I do not understand ""the function x3 appears with no arguments"" and later on ""Equation or list of equations ...........""TRUE""  in the final argument"" 
+
+Thanks again.","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Tue, 17 Sep 2019 11:10:55 -0500 - leilaf: new question will be in : 4312528
+Mon, 28 Jan 2019 13:00:38 -0600 - leilaf: email
+Wed, 23 Jan 2019 12:18:11 -0600 - leilaf: email
+Mon, 21 Jan 2019 15:38:10 -0600 - tsreception: Script ran by renzom
+Premier support found under: 31089967, original license field: 31089967
+Mon, 21 Jan 2019 12:58:22 -0600 - leilaf: Case created for new question (NDSolve) on 4201940 (Text and editing). Possibly same question 4189149.
+","","","d436f16a-1993-e3ec-1392-53c04139daf4","Leila Fuladi","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","01/21/2019 12:58 pm","09/17/2019 11:14 am","d436f16a-1993-e3ec-1392-53c04139daf4","d436f16a-1993-e3ec-1392-53c04139daf4","0","support@wolfram.com","","","","","","0","0","","NDSolve returns True, maybe similar to 4189149","4189149, 4201940, 4312528","","31089967","11.3","0","Mathematica","01/21/2019 03:49 pm","09/17/2019 11:14 am","09/17/2019 11:14 am","","","","","ConfirmedResolved","Standard","","","","NDSolve","$0.00","","","","","","0","","","","TS","Programming","aggarwal@ucalgary.ca","","","","","","","","","1","","","","","","Phone","Premier","Default","1","0","1","","0 dd, 02 h, 50 m","26 dd, 18 h, 25 m","0 dd, 2 h, 45 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"3666801","8a1032da-5f29-c066-aaa1-5786bcf344d5","NDSolve Issue","Two questions:
+
+1.  I am having issue with NDSolve with PDE and algebraic equations.  I have done this before with ODEs and algebraics as longer as the method is capable, but this no longer works for the PDE case.  Please advise.
+The company accepts no liability for the content of this email, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently confirmed in writing. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Thu, 14 Jul 2016 14:58:45 -0500 - zehanc: send notebook: pulling out some equations which should not be passed into NDSolve
+","Particulate Solid Research Inc","254cddd5-c41d-7c40-0673-4ee03289fb8c","a0df3d2d-15d0-1bef-c5b2-568a79f9813a","Zehan (Charlie) Chao","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","07/13/2016 05:10 pm","07/29/2016 10:01 pm","1","1","0","enterprise-support@wolfram.com","","","","","Customer","0","less1hr","","","","","L3831-4563","10.4.1","0","Mathematica","07/14/2016 07:42 am","07/29/2016 10:01 pm","07/29/2016 10:01 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","","TS","","ray.cocco@psri.org","","","","","","","","","1","","","","","","Email","Enterprise","Never Send","0","0","0","","0 dd, 14 h, 32 m","15 dd, 14 h, 19 m","0 dd, 1 h, 0 m","","","","","","e5f67f7c-c20e-fc49-98be-4ee34b61aaa8","","","","","","","","","","","","DR","Raymond A","Cocco","Cocco","","","","","","","","",""
+"3664855","8ce22e1b-2926-0bcb-cbb4-57835bf8bfc7","NDSolve[ ] of Mathematica10.2.0","Dear Sir,
+
+
+
+Thank you for your hard support to our Mathematica sales. 
+
+
+The customer has Mathematica10.2.0 (L3750-8781).
+
+He tried to calculate a partial differential equation, after an error
+occurs.
+
+It can't be calculated.
+
+Advice about the calculation for him, please.
+
+Please advice about the calculation for him.
+
+Are you her help?
+
+(When we checked this NDSolve[ ], it could be calculated right by Ver10.0
+and Ver10.1. 
+It can't be calculated by Ver10.4, Ver10.3 and Ver10.2.)
+
+
+User Name: Mr. Shuichi Ishikura
+E-mail : ishikura@bakuhatsu.jp
+
+
+Best Regards,
+
+
+
+-----------------------------------------------------------------------
+  Hulinks Inc.
+  Product Division, Technical Department
+  Akijirou Katsu
+  5-14, Nihonbashi-Hakozakicho, Chuo,
+  Tokyo, 103-0015,Japan
+  TEL: +81-3-5642-8383
+  FAX: +81-3-5642-8381
+-----------------------------------------------------------------------
+L3750-8781
+
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Tue, 12 Jul 2016 15:14:03 -0500 - wangz: related bug report 301367 found
+Tue, 12 Jul 2016 15:13:46 -0500 - wangz: regression in NDSolve, suggest using NeumannValue and DirichletCondition
+","HULINKS Inc","2dfff037-2367-23ca-16c6-4edfed504d35","e0a348f2-d18c-83b1-b675-56774ccf9868","Wang Zhang","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","07/11/2016 03:40 am","07/27/2016 10:00 pm","1","1","0","support@wolfram.com","","","","","Reseller","0","less1hr","","NDSolve[","","","L3750-8781","10.2","0","Mathematica","07/11/2016 11:22 am","07/27/2016 10:00 pm","07/27/2016 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","301367","","JP","TS","","soft.support@hulinks.co.jp Cc:soft.support@hulinks.co.jp","","","","","","","","","1","","","","d1b603d7-e5b3-98b2-69af-4ee55d78905a","","Email","Reseller","Never Send","0","0","0","","0 dd, 07 h, 42 m","16 dd, 10 h, 38 m","0 dd, 0 h, 50 m","","","","","","7a17863d-9870-c552-3fdd-54aae2d3043a","","","","","","","","","","","HULINKS Inc","","Akijirou","Katsu","Katsu","","","","","","","","",""
+"4947171","8d5c58e8-efc4-11ec-b130-001a4a160345","NDSolveValue value fails in Interpreter[""Expression""]","1. 
+
+Works
+Interpreter[
+  ""Expression""][""NDSolve[{y'[x]==y[x]Cos[x+y[x]],y[0]==1},y,{x,0,30}]“]
+
+FAILS
+
+Interpreter[
+  ""Expression""][""NDSolve[{y'[x]==y[x]Cos[x+y[x]],y[0]==1},y,{x,0,30}]”]
+
+
+2.
+
+I need to understand the return value from these solvers and how I could use them in wolfram cloud without any frontend as background APIFunction tasks i.e. when there is no notebook on a desktop. Somehow the return values are oddly behaved in some cases 
+
+Thanx
+
+Dara 
+
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Tue, 21 Jun 2022 14:31:53 +0530 - hparida: Filed a bug report: https://bugs.wolfram.com/show?number=425335
+Mon, 20 Jun 2022 22:36:27 +0530 - hparida: Sent user the explanation and cloud function that he was seeking
+Mon, 20 Jun 2022 05:22:31 -0500 - tsreception: Script ran by harryc
+No valid license provided
+Enterprise support found under: 35820150, original license field: 
+","","a6635027-a2eb-280b-39a7-5852ef197418","878e5fc2-61aa-11ec-9cad-001a4a160345","Himanshu Parida","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","06/19/2022 06:36 am","07/06/2022 10:00 pm","1","1","0","enterprise-support@wolfram.com","","","","","Customer","","","","User wants to deploy the code to Wolfram Cloud","","","35820150","","","Mathematica","06/20/2022 09:26 am","07/06/2022 10:00 pm","07/06/2022 10:00 pm","","","","","Incomplete","Standard","","","","Interpreter
+Wolfram Cloud","$0.00","","","","","1.00000000","0","","","US","TS","Programming","dara@lossofgenerality.com","","","","","","","","","1","","","","","","Email","Enterprise","Default","1","0","1","","1 dd, 02 h, 50 m","16 dd, 12 h, 33 m","0 dd, 0 h, 50 m","","","","","","","-99","","","","","","","","","","","","","","","","","","","","","","",""
+"2558302","8df42908-c05a-ee79-9e02-54eca73c77d8","NDSolve with axial and spherical symmetry","Three-dimensional PDEs with axial or spherical symmetry can be much faster to solve numerically by using the symmetry to reduce the problem's dimensionality.
+However, when I try NDSolve with Laplace's equation, it gives an error message about not evaluating to a numeric matrix. 
+At first I thought this meant NDSolve could not handle equations with variable coefficients, but after reviewing the finite element tutorial, I found the problem instead arises from apparent singularities in the Laplacian in cylindrical and spherical coordinates. I say ""apparent"" because the symmetries mean the terms in the Laplacian with the singular coefficient actually have well-defined limiting values at those locations.
+The attached notebook has examples and an attempted workaround by changing the Laplacian to avoid the singularities.
+Is there a better approach to allowing NDSolve to exploit these common symmetries to reduce the dimensionality?
+
+p.s., I came across this problem when trying to generalize the ""new in 10"" example of Stokes flow in a channel to flow in a pipe, using axial symmetry to reduce the 3D problem to 2D.
+A Stokes Flow in a Channel: New in Mathematica 10
+
+|   |
+|   |  |   |   |   |   |   |
+| A Stokes Flow in a Channel: New in Mathematica 10Questions? Comments? Contact a Wolfram expert »  |
+|  |
+| View on www.wolfram.com | Preview by Yahoo |
+|  |
+|   |
+
+
+
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Tue, 24 Feb 2015 13:47:51 -0600 - jasong: Filed suggestion on InitializeBoundaryConditions documentation.
+Tue, 24 Feb 2015 13:38:30 -0600 - jasong: Reported suggestion on error message from ElementMeshInterpolation.
+","","","8cd97acc-020a-ee26-54dd-51adf6244f74","Jason Grigsby","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/24/2015 10:30 am","03/17/2015 04:26 pm","8cd97acc-020a-ee26-54dd-51adf6244f74","1","0","support@wolfram.com","","02/24/2015 01:51 pm","windows","","Customer","0","less1hr","","","","","L3305-0765","1","0","Mathematica","11/29/-0001 06:09 pm","03/11/2015 10:00 pm","03/11/2015 10:00 pm","","","","","Incomplete","","","","","","$0.00","","","","","","0","289499, 289505","","","TS","","tadhogg@yahoo.com","","","","","","","","","1","","","","","","Email","Premier","Default","1","1","1","","","0 dd, 04 h, 59 m","0 dd, 1 h, 25 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"306634","8ef7aff8-c55b-e77c-cc38-525c52f81a37","NDSolve::evcvmit","L4698-3507: OS 10.7.5 (MacBookPro8,3 2.4GHz, 8GB RAM)
+L4701-5874: Suse 10.1 in Parallels 3.0 on Mac
+L4698-3498: Win XP SP3 in Parallels 3.0 on Mac
+L4722-6604: OS 10.5.8 (MacBook Pro 2.2GHz, 4GB RAM)
+L3518-3501: 10.0 beta OS 10.7.5 (MacBookPro8,3 2.4GHz, 8GB RAM)
+
+5.2.0.0: ""5.2 for Microsoft Windows (June 20, 2005)""
+5.2.2.0: ""5.2 for Mac OS X x86 (32-bit) (February 24, 2006)""
+6.0.3.0: ""6.0 for Mac OS X x86 (64-bit) (May 21, 2008)""
+          ""6.0 for Microsoft Windows (32-bit) (May 21, 2008)""
+7.0.0.0: ""7.0 for Linux (32-bit) (November 11, 2008)""
+7.0.1.0: ""7.0 for Mac OS X x86 (64-bit) (February 19, 2009)""
+          ""7.0 for Microsoft Windows (32-bit) (February 18, 2009)""
+8.0    : ""8.0 for Mac OS X x86 (64-bit) (October 5, 2011)""
+          ""8.0 for Microsoft Windows (64-bit) (November 7, 2010)""
+9.0    : ""9.0 for Mac OS X x86 (64-bit) (January 24, 2013)""
+10.0   : ""10.0 for Mac OS X x86 (64-bit) (September 23, 2013)""
+
+
+Hello,
+
+what option must be set in version 9 to avoid a message like below that is shown, even if the event seems to be triggered correctly (MaxSteps->10000 
+had no effect and ref/message/NDSolve/evcvmit was not found)?
+
+Thanks and kind regards      Stephan
+
+
+NDSolve::evcvmit: Event location failed to converge to the requested accuracy or precision within 100 iterations between t = 64.46171618828596` and t 
+= 64.56171618828596`. >>
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","","","","8cd97acc-020a-ee26-54dd-51adf6244f74","Jason Grigsby","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","10/14/2013 03:14 pm","10/30/2013 10:00 pm","1","1","0","support@wolfram.com","","10/15/2013 03:09 pm","mac","","Customer","0","less1hr","","","","","L4698-3507","9.0.1","0","Mathematica","10/15/2013 12:33 pm","10/30/2013 10:00 pm","10/30/2013 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","","","","","TS","","stephan.leibbrandt@symbols-and-numbers.com","","","","","","","","","1","","","","","","Email","Premier","Never Send","0","0","0","","0 dd, 21 h, 19 m","15 dd, 09 h, 27 m","0 dd, 0 h, 30 m","","","","","","1eb15477-8b2c-6a45-f4f6-4ee2b5efcdc5","","","","","","","","","","","","","Stephan","Leibbrandt","Leibbrandt","","","","","","","","",""
+"4767325","8f7c5e30-5b22-11eb-8fc0-001a4a160206","NDSolve","Good morning everybody.
+
+
+
+There is a peculiar behaviour of a notebook, and someone suggested to
+forward it to support, because there could be a bug.
+
+
+
+The code describes the diffusion through a cube, loosing material at 5 of 6
+faces, one face being impermeable (flux = 0 ). The flux at an open face is
+proportional to the concentration inside and the area of the face.
+
+Everything is ok, the code runs on my system (I still have version 7,
+running on Windows 7, 64 bit ,dual processor, 2.8 gHz)  in about 15 seconds,
+and gives ""nice"" pictures as well. But when I change az to az = 6.
+(describing a flat rectangular parallelepiped, and the final aim is az in
+the order of 1 or even less ) I interrupted the evaluation after about 15
+minutes.
+
+
+
+The same things happens on a friend's latest version 12.2.0 (Linux x86 (64
+bit)) and we are wondering what happens here.
+
+
+
+I should mention that using the following option proposed by I don't know
+whom and forwarded to me by Daniel Lichtblau speeds things up:
+
+
+
+Method -&gt; {""MethodOfLines"", ""DifferentiateBoundaryConditions"" -&gt; False}
+
+
+
+Greetings
+
+Hans Dolhaine
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Thu, 21 Jan 2021 08:00:12 -0600 - miyan: Sent ref: https://reference.wolfram.com/language/tutorial/NDSolveDAE.html
+Wed, 20 Jan 2021 14:16:38 -0600 - miyan: Speeds up by MethodsofLine with ""DifferentiateBoundaryConditions"" -> False}
+Wed, 20 Jan 2021 07:40:45 -0600 - tsreception: Script ran by vminer
+No valid license provided
+No active support found
+","","","38955682-2585-11e9-8878-001a4a160206","Mi Yan","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","01/20/2021 07:21 am","02/06/2021 11:07 am","1","1","0","support@wolfram.com","","01/20/2021 03:56 pm","","","Customer","","","","NDSolve hangs","","","","","","Mathematica","01/20/2021 08:46 am","02/05/2021 10:00 pm","02/05/2021 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","1.00000000","0","","","DE","TS","","h.dolhaine@gmx.de","","","","","","","","","2","","","","","","Email","Basic","Default","1","1","1","","0 dd, 01 h, 25 m","16 dd, 13 h, 13 m","0 dd, 0 h, 40 m","","","","","","","-99","","","","","","","","","","","","","","","","","","","","","","",""
+"2323710","90a7fdc9-a5b0-7e89-da0c-54bd6b6fd6c8","NDSolve","Hi,
+
+L2437-4774
+
+I need some advice on using NDSolve for problems where singular perturbation theory is appropriate. Details are in the attached Mathematic notebook.
+
+-John Mercer
+Associate Professor of the Practice
+
+Duke University
+Biology andPhysics
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Mon, 26 Jan 2015 11:15:52 -0600 - averma: Suggested user use NDSolve Method Plugin Framework.
+","Mercer, John","96ba2a93-904d-1953-d3ed-4ee0349486a1","2d4b1496-b077-d07b-e728-53c696ed3eb6","Abhinav Verma","Global","1","1","01/19/2015 02:32 pm","02/10/2015 10:00 pm","1","1","0","support@wolfram.com","","01/26/2015 11:13 am","unknown","","Customer","0","less1hr","","Needs helps with NDSolve.","","","L2437-4774","","0","Mathematica","01/19/2015 10:04 pm","02/10/2015 10:00 pm","02/10/2015 10:00 pm","","","","","Incomplete","Standard","","","","NDSolve","$0.00","","","","","","0","","","","TS","Programming","jmercer@duke.edu","","","","","^Programming^","","","","2","","","","","","Email","Premier","Default","1","0","1","","0 dd, 07 h, 32 m","21 dd, 23 h, 56 m","0 dd, 1 h, 0 m","","","","","","a4ec6ab9-4429-d206-6834-4ee354903154","","","","","","","","","","","","","John","Mercer","Mercer","","","","","","","","",""
+"3846985","91ab87a5-1204-c425-c9f4-58ac5b279097","NDSolve & IDA-Method problem","$LicenseServer skl3pc
+
+$LicenseType Professional
+
+$LicenseID L4605-1005
+
+ 
+
+Dear Sirs,
+
+ 
+
+I myself and others of my group have brought this problem up several times
+(for versions 9 &amp; 10) but never gotten a reply better than we have passed
+this on to the developers.
+
+Since the problem persists under version 11 as well Ill give it one last
+try:
+
+ 
+
+In the attachment youll find yet another working (at least under
+Mathematica 7) NDSolve + IDA program to solve a large DAE system.
+
+ 
+
+While Mathematica 7 solves the problem flawlessly within ~ 400 sec. every
+newer Mathematica version fails either by just plain crashing or by just
+sitting there for days doing (seemingly) nothing. I tried to tweak every
+option (Pre/Acc goals, DAEInitialization, ImplicitSolver, etc.) this system
+plainly just does not work ever since the ""EquationSimplification"" -&gt;
+""Residual"" setting became necessary for the IDA solver to work at all. 
+
+ 
+
+The persistence of this problem is making me move away from Mathematica and
+Im also telling other users, that try to solve DAE systems, to do so and
+switch to a combination of python+sympy-&gt;exprtk+SUNDIALS which allows better
+control over the IDA solver albeit at a loss of simplicity. 
+
+ 
+
+Best regards
+
+ 
+
+Klaus Schmid
+
+ 
+
+ 
+
+-------------------------------------------------------------
+
+Dr. Schmid Klaus
+
+Max-Planck Institut für Plasmaphysik
+
+Boltzmannstraße 2
+
+85748 Garching
+
+Germany
+
+Tel.: +49 89 3299 2228
+
+Fax.: +49 89 3299 2279
+
+-------------------------------------------------------------
+
+ 
+
+","Closed","Bug","P3","Set resolution as Auto close, no confirmation that provided response resolved","Mon, 10 Apr 2017 09:19:12 -0500 - kevind: Bugfix is not going to make it into 11.1.1. Resolving case.
+Fri, 31 Mar 2017 12:34:07 -0500 - kevind: Customer appreciates being added to pre-release testers. Leaving the case as OPIR in case this bugfix makes it into 11.1.1.
+Fri, 31 Mar 2017 11:10:44 -0500 - kevind: Asked on bug report if this fix can get put into the bug-fix release 11.1.1.
+Thu, 30 Mar 2017 10:56:18 -0500 - kevind: Let customer know that he's been added as a pre-release tester. Resolving case.
+Mon, 27 Mar 2017 09:38:04 -0500 - kevind: Asked for user to be added to pre-release program for 11.2.
+Mon, 27 Mar 2017 09:18:59 -0500 - kevind: According to bug 329646, issue appears to be resolved for 11.2. It's unfortunate that it didn't make it in to 11.1.
+Wed, 01 Mar 2017 16:34:16 -0600 - kevind: Awaiting response from Paritosh.
+Wed, 01 Mar 2017 16:32:32 -0600 - kevind: Bug report shows that the IDA method does unnecessary checking. if this can be turned off for the IDA method, then it runs. Asked if there was a way to turn off this checking.
+Wed, 01 Mar 2017 16:30:50 -0600 - kevind: Code did not run when run overnight a second time (ran out of RAM, too). New bug report for this: 329646. I added my info to it.
+Thu, 23 Feb 2017 08:16:02 -0600 - kevind: Ran code 'overnight'. In total it took about 2.5 min to run. Let customer know.
+","Max-Planck-Institute Plasma Physics","6315bddd-b220-e339-5a37-4edfffc986ac","d4dd74aa-f30c-faa2-8af8-5559e186b505","Kevin Daily","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/21/2017 09:22 am","04/13/2017 10:00 pm","1","1","0","support@wolfram.com","","","unknown","","Customer","0","less1hr","","NDSolve does not work with DAE, except in v7","138674, TS.2013.1807","","4605-1005","7, 11.0.1","0","Mathematica","02/21/2017 11:24 am","04/13/2017 10:00 pm","04/13/2017 10:00 pm","","","","","Unconfirmed","Standard","","","","DAE, NDSolve","$0.00","","","","","","0","329646, 233902, 294567","","","TS","Math","klaus.schmid@ipp.mpg.de","","","","","","","","","1","","","","","http://southpark.wolfram.com/viewarchive/showemail.pl/TS.2013.1807","Email","Premier","Never Send","0","0","0","","0 dd, 02 h, 02 m","20 dd, 09 h, 36 m","0 dd, 1 h, 40 m","","","","","","daeede5a-93c6-554b-f6ff-4ee3168ebbf4","","","","","","","","","","","","DR","Klaus","Schmid","Schmid","","","","","","","","",""
+"638656","92f9f7a7-3b60-030d-e89e-530a82cb3155","NDSolve Error Any options I am missing?","My license number is: L3055-6824
+
+ 
+
+(I am resending this because I forgot to attach the file on the previous
+email)
+
+ 
+
+I wrote what I consider a very simple NDSolve problem, but I am getting
+errors.
+
+ 
+
+Could you tell me what I am doing wrong?  I cannot believe I am pushing
+the limit of Mathematica with this most basic differential equation.
+
+ 
+
+There must be some options that I need to set to move forward on this.
+I need to work on multi-body problem but I am stuck at two body at the
+moment.
+
+ 
+
+Thank you.
+
+ 
+
+James H. Choi
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Wed, 05 Mar 2014 14:06:04 -0600 - hkao: suggest to lower precision goal
+Fri, 28 Feb 2014 11:26:28 -0600 - hkao: explain the possible difficulty in solving equations
+Thu, 27 Feb 2014 16:40:35 -0600 - hkao: suggest DumpSave the solution
+Mon, 24 Feb 2014 15:48:03 -0600 - hkao: solved
+Mon, 24 Feb 2014 15:40:20 -0600 - hkao: wrong factor
+","","","654d9ada-56db-2815-1b7e-51adf7ee7bbc","Hsien-Ching Kao","Global","1","1","02/23/2014 05:14 pm","03/16/2014 04:26 pm","1","1","0","support@wolfram.com","","03/05/2014 02:05 pm","","","Customer","0","less1hr","","issue with NDSolve","","","L3055-6824","9.0.1","0","Mathematica","02/24/2014 12:53 pm","03/16/2014 04:26 pm","03/16/2014 04:26 pm","","","","","Incomplete","Standard","","","","NDSolve","$0.00","","","","","","0","","","","TS","Programming","james.choi@SabioAcademy.com","","","","","^Programming^","","","","9","","","","","","Email","Premier","Never Send","0","0","0","","0 dd, 19 h, 39 m","20 dd, 02 h, 33 m","0 dd, 1 h, 50 m","","","","","","1d58b1f5-9077-d4c8-0c63-4ee3286d33d1","","","","","","","","","","","","","James","Choi","Choi","","","","","","","","",""
+"2675535","94a582fe-39ad-0bd4-a8e2-54f4beb4c1c7","NDSolve and Shooting for a Nonlinear Dirichlet BVP","Dear Support: How I can treat such NOTIFICATION? Thanks, Gila
+NDSolve::ndsz: At t == 15.950647922264453`, step size is effectively zero; singularity or stiff system suspected. >><http://reference.wolfram.com/mathematica/ref/message/NDSolve/ndsz.html>
+
+
+NDSolve[{-0.1 x[t] y[t]+(1-x[t]) (0.03 +0.4 x[t]+0.4 y[t]-0.02 (-1+x[t]) (1+λ2[t]))-x′[t]==0,(1-y[t]) (0.001 +0.4 x[t]+0.4 y[t]-0.02 (-1+y[t]) (1+μ[t]))-y′[t]==0,0.1 λ2[t]-(1+λ2[t]) (0.37 -0.8 x[t]-0.5 y[t]+0.02 (-1+x[t]) (1+λ2[t])+0.4 (-1+y[t]) (1+μ[t]))-λ2′[t]==0,(-0.4+0.5 x[t]) (1+λ2[t])+0.1 μ[t]-(1+μ[t]) (0.399 -0.4 x[t]-0.8 y[t]+0.02 (-1+y[t]) (1+μ[t]))-μ′[t]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[t],y[t],λ2[t],μ[t]},{t,0,20}]
+ReplaceAll::reps: {NDSolve[{-0.1 x[t] y[t]+(1+Times[<<2>>]) (0.03 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-x′[t]==0,(1+Times[<<2>>]) (0.001 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-y′[t]==0,0.1 λ2[t]-(1+λ2[<<1>>]) (0.37 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>]+Times[<<3>>])-λ2′[t]==0,(-0.4+Times[<<2>>]) (1+λ2[<<1>>])+0.1 μ[t]-(1+μ[<<1>>]) (0.399 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-μ′[t]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[t],y[t],λ2[t],μ[t]},{t,0,20}]} is neither a list of replacement rules nor a valid dispatch table, and so cannot be used for replacing. >><http://reference.wolfram.com/mathematica/ref/message/ReplaceAll/reps.html>
+NDSolve::dsvar: 0 cannot be used as a variable. >><http://reference.wolfram.com/mathematica/ref/message/NDSolve/dsvar.html>
+ReplaceAll::reps: {NDSolve[{-0.1 x[0] y[0]+(1+Times[<<2>>]) (0.03 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-x′[0]==0,(1+Times[<<2>>]) (0.001 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-y′[0]==0,0.1 λ2[0]-(1+λ2[<<1>>]) (0.37 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>]+Times[<<3>>])-λ2′[0]==0,(-0.4+Times[<<2>>]) (1+λ2[<<1>>])+0.1 μ[0]-(1+μ[<<1>>]) (0.399 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-μ′[0]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[0],y[0],λ2[0],μ[0]},{0,0,20}]} is neither a list of replacement rules nor a valid dispatch table, and so cannot be used for replacing. >><http://reference.wolfram.com/mathematica/ref/message/ReplaceAll/reps.html>
+1/4 (0.16 +0.04 (1+μ[0])2-4 (0.001 +0.4 x[0]+0.02 (1+μ[0]))-4 μ[0] (0.001 +0.4 x[0]+0.02 (1+μ[0])))/. NDSolve[{-0.1 x[0] y[0]+(1-x[0]) (0.03 +0.4 x[0]+0.4 y[0]-0.02 (-1+x[0]) (1+λ2[0]))-x′[0]==0,(1-y[0]) (0.001 +0.4 x[0]+0.4 y[0]-0.02 (-1+y[0]) (1+μ[0]))-y′[0]==0,0.1 λ2[0]-(1+λ2[0]) (0.37 -0.8 x[0]-0.5 y[0]+0.02 (-1+x[0]) (1+λ2[0])+0.4 (-1+y[0]) (1+μ[0]))-λ2′[0]==0,(-0.4+0.5 x[0]) (1+λ2[0])+0.1 μ[0]-(1+μ[0]) (0.399 -0.4 x[0]-0.8 y[0]+0.02 (-1+y[0]) (1+μ[0]))-μ′[0]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[0],y[0],λ2[0],μ[0]},{0,0,20}]
+ReplaceAll::reps: {NDSolve[{-0.1 x[t] y[t]+(1+Times[<<2>>]) (0.03 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-x′[t]==0,(1+Times[<<2>>]) (0.001 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-y′[t]==0,0.1 λ2[t]-(1+λ2[<<1>>]) (0.37 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>]+Times[<<3>>])-λ2′[t]==0,(-0.4+Times[<<2>>]) (1+λ2[<<1>>])+0.1 μ[t]-(1+μ[<<1>>]) (0.399 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-μ′[t]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[t],y[t],λ2[t],μ[t]},{t,0,20}]} is neither a list of replacement rules nor a valid dispatch table, and so cannot be used for replacing. >><http://reference.wolfram.com/mathematica/ref/message/ReplaceAll/reps.html>
+NDSolve::dsvar: 0 cannot be used as a variable. >><http://reference.wolfram.com/mathematica/ref/message/NDSolve/dsvar.html>
+ReplaceAll::reps: {NDSolve[{-0.1 x[0] y[0]+(1+Times[<<2>>]) (0.03 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-x′[0]==0,(1+Times[<<2>>]) (0.001 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-y′[0]==0,0.1 λ2[0]-(1+λ2[<<1>>]) (0.37 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>]+Times[<<3>>])-λ2′[0]==0,(-0.4+Times[<<2>>]) (1+λ2[<<1>>])+0.1 μ[0]-(1+μ[<<1>>]) (0.399 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-μ′[0]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[0],y[0],λ2[0],μ[0]},{0,0,20}]} is neither a list of replacement rules nor a valid dispatch table, and so cannot be used for replacing. >><http://reference.wolfram.com/mathematica/ref/message/ReplaceAll/reps.html>
+λ2[0]
+ReplaceAll::reps: {NDSolve[{-0.1 x[t] y[t]+(1+Times[<<2>>]) (0.03 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-x′[t]==0,(1+Times[<<2>>]) (0.001 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-y′[t]==0,0.1 λ2[t]-(1+λ2[<<1>>]) (0.37 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>]+Times[<<3>>])-λ2′[t]==0,(-0.4+Times[<<2>>]) (1+λ2[<<1>>])+0.1 μ[t]-(1+μ[<<1>>]) (0.399 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-μ′[t]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[t],y[t],λ2[t],μ[t]},{t,0,20}]} is neither a list of replacement rules nor a valid dispatch table, and so cannot be used for replacing. >><http://reference.wolfram.com/mathematica/ref/message/ReplaceAll/reps.html>
+NDSolve::dsvar: 0 cannot be used as a variable. >><http://reference.wolfram.com/mathematica/ref/message/NDSolve/dsvar.html>
+ReplaceAll::reps: {NDSolve[{-0.1 x[0] y[0]+(1+Times[<<2>>]) (0.03 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-x′[0]==0,(1+Times[<<2>>]) (0.001 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-y′[0]==0,0.1 λ2[0]-(1+λ2[<<1>>]) (0.37 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>]+Times[<<3>>])-λ2′[0]==0,(-0.4+Times[<<2>>]) (1+λ2[<<1>>])+0.1 μ[0]-(1+μ[<<1>>]) (0.399 +Times[<<2>>]+Times[<<2>>]+Times[<<3>>])-μ′[0]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[0],y[0],λ2[0],μ[0]},{0,0,20}]} is neither a list of replacement rules nor a valid dispatch table, and so cannot be used for replacing. >><http://reference.wolfram.com/mathematica/ref/message/ReplaceAll/reps.html>
+x[0]/. NDSolve[{-0.1 x[0] y[0]+(1-x[0]) (0.03 +0.4 x[0]+0.4 y[0]-0.02 (-1+x[0]) (1+λ2[0]))-x′[0]==0,(1-y[0]) (0.001 +0.4 x[0]+0.4 y[0]-0.02 (-1+y[0]) (1+μ[0]))-y′[0]==0,0.1 λ2[0]-(1+λ2[0]) (0.37 -0.8 x[0]-0.5 y[0]+0.02 (-1+x[0]) (1+λ2[0])+0.4 (-1+y[0]) (1+μ[0]))-λ2′[0]==0,(-0.4+0.5 x[0]) (1+λ2[0])+0.1 μ[0]-(1+μ[0]) (0.399 -0.4 x[0]-0.8 y[0]+0.02 (-1+y[0]) (1+μ[0]))-μ′[0]==0,x[0]==0.,y[0]==0,λ2[20]==0,μ[20]==0},{x[0],y[0],λ2[0],μ[0]},{0,0,20}]
+
+Gila E. Fruchter, D. Sc.
+Professor of Marketing
+[cid:image001.jpg@01CF1AA4.7EAB2DA0]
+Tel: +972-3-531-8915<tel:%2B972-3-635-3493>
+Fax: +972-3-7384040<tel:%2B972-3-7384040>
+http://mba.biu.ac.il/en/fruchter/
+gila.fruchter@biu.ac.il<mailto:gila.fruchter@biu.ac.il>
+
+
+
+
+","Closed","Functionality","P3","","Mon, 30 Mar 2015 11:00:38 -0500 - hamida: Transferred to technical Services.
+Mon, 30 Mar 2015 10:59:40 -0500 - hamida: Transferred to technical Services.
+Mon, 30 Mar 2015 10:59:38 -0500 - hamida: Transferred to technical Services.
+Mon, 30 Mar 2015 10:59:18 -0500 - hamida: Transferred to technical Services.
+Mon, 16 Mar 2015 14:09:32 -0500 - hamida: let Anshu know that she responded and most likely not interested because of rate.
+Mon, 16 Mar 2015 11:34:05 -0500 - hamida: Anshu has contacted the customer regarding a possible technica;l services project. Asked to confirm that she's received the email...
+Mon, 09 Mar 2015 11:18:09 -0500 - hamida: explained to her what she needs to do. The exact answer requires Nonlinear Dynamics Analysis and writing a costume code. 
+Fri, 06 Mar 2015 11:18:07 -0600 - hamida: gave her an example. stopped short of solving her problem.
+Thu, 05 Mar 2015 14:52:48 -0600 - hamida: me again
+Thu, 05 Mar 2015 14:47:30 -0600 - hamida: It's peculiar problem. No combination of stiff methods/sub-methods seems to be able to resolve the issue.  
+Thu, 05 Mar 2015 14:46:46 -0600 - hamida: It's peculiar problem. No combination of stiff methods/sub-methods seems to be able to resolve the issue.  
+Mon, 02 Mar 2015 15:30:03 -0600 - harryc: I have no idea what is happening but I can say it may not copy/paste nicely. The derivative (‘) pastes incorrectly on my machine
+","University of Pennsylvania","739b3491-a6da-dcfc-1c58-4edffa2b08ae","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, CS WRI, Global","593355dd-353c-ad82-acf3-505c6f099a25","e7d27e32-6e9d-3789-8106-5156643ea976","03/02/2015 01:48 pm","03/30/2015 11:05 am","1","1","0","support@wolfram.com","","03/16/2015 01:16 pm","unknown","","Customer","0","less1hr","","NDSolve and Shooting for a Nonlinear Dirichlet BVP","","","3254-6982","10.0.2","0","Mathematica","03/02/2015 03:30 pm","03/30/2015 10:59 am","03/30/2015 10:59 am","","","","","Other","Home","","","","NDSolve and Shooting for a Nonlinear Dirichlet BVP","$0.00","","","","","","0","","","US","TS","","Gila.Fruchter@biu.ac.il","","","","","","","","","8","","215-898-1826/215-898-2534","","","","Email","Premier","Default","1","0","1","00","0 dd, 01 h, 42 m","27 dd, 18 h, 29 m","0 dd, 4 h, 20 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"3476535","99918e8a-c525-405d-6f65-565ce5e038f0","NDSolve Issue","Bruce,
+
+I am scratching my head on this one.  With the attached file, NDSolve works for one set of formation but not the other.  I should get the same results.  This was not an issue with the previous version.
+
+Ray
+""L3502-5224”
+
+
+The company accepts no liability for the content of this email, or for the consequences of any actions taken on the basis of the information provided, unless that information is subsequently confirmed in writing. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.
+","Closed","Functionality","P3","Set resolution as Auto close, no confirmation that provided response resolved","Wed, 02 Dec 2015 08:03:06 -0600 - kevind: Customer seems satisfied with what I discovered. Resolving case.
+Tue, 01 Dec 2015 14:23:23 -0600 - kevind: Found that algorithm is failing due to large coefficients in the equation. Suggested rescaling units to make such coefficients smaller.
+","Particulate Solid Research Inc","254cddd5-c41d-7c40-0673-4ee03289fb8c","d4dd74aa-f30c-faa2-8af8-5559e186b505","Kevin Daily","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/30/2015 06:08 pm","12/06/2015 10:02 pm","1","1","0","enterprise-support@wolfram.com","","","mac","","Customer","0","less1hr","","NDSolve algorithm is failing on simple example","","","L3502-5224","10.3","0","Mathematica","12/01/2015 11:45 am","12/06/2015 10:02 pm","12/06/2015 10:02 pm","","","","","Unconfirmed","Enterprise","","","","NDSolve","$0.00","","","","","","0","","","","TS","Math","ray.cocco@psri.org","","","","","","","","","1","","773-523-7227","","","","Email","Enterprise","Never Send","0","0","0","","0 dd, 17 h, 37 m","5 dd, 10 h, 17 m","0 dd, 0 h, 40 m","","","","","","e5f67f7c-c20e-fc49-98be-4ee34b61aaa8","","","","","","","","","","","","DR","Raymond A","Cocco","Cocco","","","","","","","","",""
+"4194103","9ec8b7f2-f419-11e8-89ef-001a4a160206","NDSolve","Subject: RE: Your Wolfram CDF Player download
+To: katherine_bautista@wolfram.com
+From: garrettalexander1@gmail.com
+
+Hi Katherine, 
+
+I have Mathematica. I downloaded an example file (NDSolve with animated
+chart) from WolframAlpha and it told me I needed to download the Wolfram CDF
+player to view it. I assume it should have run in Mathematica without having
+to download the player? For some reason it didn't recognize I had it. 
+
+-----Original Message-----
+From: Katherine Bautista  
+Sent: Wednesday, November 28, 2018 11:16 AM
+To: garrettalexander1@gmail.com
+Subject: Your Wolfram CDF Player download
+
+
+Hello,
+
+I saw that you recently downloaded Wolfram CDF Player. I assume you are
+using it to view/interact with CDF files.
+
+For your actual work, you'll want Mathematica to create your own custom
+CDFs. I'd welcome knowing what specifically brought you to download CDF
+Player. Have you considered using Mathematica for your work?
+
+Best regards,
+
+Katherine Bautista
+Wolfram Research, Inc.
+katherine_bautista@wolfram.com
+http://www.wolfram.com
+
+-----------------
+Wolfram Research, Inc. | 100 Trade Center Dr. | Champaign, IL 61820 | USA
+-----------------
+
+
+
+
+
+
+
+-----------------
+Download details:
+Email: garrettalexander1@gmail.com
+Country: United States
+Affiliation: student
+IP address: 47.189.193.38
+-----------------
+
+","Closed","RequestInfo","Unknown","Quick Close","","Alexander, Garrett","634b6d8e-cd4b-b658-6e61-52655105cb77","28297735-afdc-8454-75c8-4e43d1beeac0","Allison Fry","CS WRI, Global","487ae526-c370-1acb-1bd8-505c6ff5afc2","238f6b6d-5158-ef4b-8444-51563c1f9345","11/29/2018 02:59 pm","11/29/2018 03:18 pm","e4c9941e-d72a-d2ec-1d5b-4e43d1941021","28297735-afdc-8454-75c8-4e43d1beeac0","0","info@wolfram.com","","","","","Customer","0","0","","","","","","","0","","11/29/2018 03:02 pm","11/29/2018 03:18 pm","11/29/2018 03:18 pm","","","","","Other","","","","","","$0.00","","","","","","0","","","US","CS WRI","","garrettalexander1@gmail.com","","","aa86ba5e-f3a0-11e8-90a4-001a4a160206","","","","","","","","","","","","Email","","Default","0","0","0","","0 dd, 00 h, 03 m","0 dd, 00 h, 16 m","","","","","","","3bc5fa4a-f5b8-127b-2b16-526554fb9c94","","","","","","","","","","","","","Garrett","Alexander","Alexander","","","","","","","","",""
+"4399074","9ee831c0-6ab2-11ea-9aaf-001a4a160206","NDSolve","Hello Sir,
+I am hereby attaching the wolfram notebook with the same equations we
+solved recently but with a significant change i.e. with *L.H.S non-zero*
+turning up them as *simultaneous ordinary differential equations. *As asked
+by author, they are being solved by *NDSolve* mathematica 8.
+Kindly help me solving the same.
+Thanks and Regards.
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Tue, 26 May 2020 08:16:13 -0500 - duncanp: Same. Unrelated question. Create new case!
+Mon, 04 May 2020 16:19:00 -0500 - duncanp: This has nothing to do with the original question. Told to create new case
+Fri, 24 Apr 2020 11:53:20 -0500 - duncanp: I am starting to get mad that this person cannot read the documentation or do a google search, and has to come back to me every single time with some stupid pointless question. Giving them three-day turnarounds.
+Fri, 17 Apr 2020 15:06:39 -0500 - duncanp: Same again
+Wed, 15 Apr 2020 12:23:50 -0500 - duncanp: Unclear what he is trying to do. Sent notebook with example of boundary condition matching.
+Mon, 13 Apr 2020 08:26:41 -0500 - duncanp: May forward to TS if he keeps coming back with this.
+Thu, 09 Apr 2020 14:21:10 -0500 - duncanp: Highlighted what tech support does and does not do, and provided additional tools to verify the thing that I already verified was working. 
+Mon, 06 Apr 2020 12:30:14 -0500 - duncanp: Addressed issue from fourth duplicate case. MMA working as intended, sent verification.
+Wed, 01 Apr 2020 13:43:28 -0500 - duncanp: Finally sent in valid license number. Fixed his obvious syntax errors, and it works.
+Tue, 31 Mar 2020 10:47:43 -0500 - duncanp: No service, keeps sending in new cases, unsupported version
+Mon, 30 Mar 2020 09:04:17 -0500 - duncanp: Still mostly wrong
+Fri, 20 Mar 2020 15:14:13 -0500 - duncanp: Everything he did was wrong. Sent info
+Fri, 20 Mar 2020 09:45:41 -0500 - tsreception: Script ran by vminer
+No valid license provided
+No active support found
+","Panjab University","ae8a368d-6105-6d71-987a-4ee01873a11a","3fda24b6-c731-11e8-a1f8-001a4a160206","Duncan Pettengill","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","03/20/2020 08:56 am","05/26/2020 08:16 am","1","3fda24b6-c731-11e8-a1f8-001a4a160206","0","support@wolfram.com","","05/26/2020 08:15 am","","","Customer","","","","Questions on NDSolve","","","4385-0957","","","Mathematica","03/20/2020 02:26 pm","05/26/2020 08:16 am","05/26/2020 08:16 am","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","US","TS","","jeevankahlon20@gmail.com","","","","","","","","","12","","","","","","Email","Premier","Default","1","1","1","","0 dd, 05 h, 30 m","5 dd, 17 h, 49 m","0 dd, 2 h, 55 m","","","","","","4cd705f4-03cb-11e9-9bbd-001a4a160206","","","","","","","","","","","","","Jeevanpreet","Kaur","Kaur","","","","","","","","",""
+"3571650","a1090748-152f-2033-0e01-5705c78b00b2","NDSolve","Hi,
+
+     Mathematica 10.4.0 (license number : L2482 - 2694) is running on  
+Macbook Pro with MacOS X version 10.9.5.
+Please download this notebook:
+https://dl.dropboxusercontent.com/u/27540802/Message.nb.zip
+
+     Please let me know if you are not able to download the file.
+
+Ciao,
+Daniel
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Fri, 08 Apr 2016 12:12:50 -0500 - dannyf: Informed customer that this is expected behaviour as indicated by the developers in “Ordering of Dependent Variable Names” in http://reference.wolfram.com/language/tutorial/FiniteElementBestPractice.html
+Thu, 07 Apr 2016 16:00:40 -0500 - dannyf: Filed bug report on changing the order of the PDEs in NDSolve producing different outputs. Got help from Hamid in this case
+","University of California at Santa Barbara","c40dacc6-47c9-63e7-9f0f-4edffaf5fbdc","75e7ec60-4a4a-349e-952f-560ea27aa083","Danny Finn","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","04/06/2016 09:34 pm","04/22/2016 10:00 pm","1","1","0","support@wolfram.com","","04/08/2016 09:11 am","mac","","Customer","0","less1hr","","","","","27540802","10.4.0 OS X version 10.9.5","0","Mathematica","04/07/2016 01:15 pm","04/22/2016 10:00 pm","04/22/2016 10:00 pm","","","","","Incomplete","Standard","","","","SolvingPDEwithFEM, NDSolve, Stokes equation, order of equations, equation order, Reverse, PDEs","$0.00","","","","","","0","311596","","US","TS","","daniel.lavallee@ucsb.edu","","","","","","","","","2","","","","","FEMDocumentation/tutorial/SolvingPDEwithFEM#243862001
+http://reference.wolfram.com/language/tutorial/FiniteElementBestPractice.html","Email","Premier","Never Send","0","0","0","","0 dd, 15 h, 41 m","15 dd, 08 h, 45 m","0 dd, 0 h, 40 m","","","","","","a6d12b06-53cd-9bdb-bf3b-532080423d94","","","","","","","","","","","","","Daniel","Lavallee","Lavallee","","","","","","","","",""
+"3563666","a37b3df3-019d-3113-f9d9-56f892d755fc","NDSolve heat transfer","Dear Support,
+I am trying to solve something I would think is simple but seem to not find a solution.
+It is a heat transfer on a finite thickness slab with heat flux boundary conditions, one side constant heating, the other adiabatic. When I change the heat flux nothing changes and I know it is not the solution either because there is an analytical solution.I would think my b.c. are correct. See my file.
+Also, do you have examples with a similar problem but with heat flux at b.c. being convective or radiative.
+Thank you
+Olivier
+
+
+Olivier Sudre, PhD
+Manager, Composite Materials
+Teledyne Scientific Company
+1049 Camino Dos Rios
+Thousand Oaks, CA 91362
+805-373-4836","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Tue, 12 Apr 2016 09:38:17 -0500 - kevind: Customer will look at my example.
+Mon, 11 Apr 2016 11:18:29 -0500 - kevind: Passed on example from Hsien-Ching.
+Mon, 11 Apr 2016 09:38:28 -0500 - kevind: This case is taking an inordinate amount of my time. Wrote to l-numerics.
+Tue, 05 Apr 2016 10:42:59 -0500 - kevind: Talked with HamidA some more. No idea why this isn't working since it is a 1-D problem. Hamid said he'd take a look at it further.
+Wed, 30 Mar 2016 11:37:05 -0500 - kevind: This case is taking to freaking long. Sent customer -interim.
+Wed, 30 Mar 2016 11:26:18 -0500 - kevind: Talk to HamidA. Attempting a workaround...
+Wed, 30 Mar 2016 11:25:57 -0500 - kevind: Problem is straightforward, but seems to be a bug. M is ignoring flux conditions.
+","Teledyne Scientific & Imaging LLC","701f51a8-60f2-6eb3-f75f-4f0dcf076651","d4dd74aa-f30c-faa2-8af8-5559e186b505","Kevin Daily","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","03/27/2016 09:12 pm","04/27/2016 10:00 pm","1","1","0","support@wolfram.com","","","unknown","","Customer","0","less1hr","","NDSolve","","","3666-5989","10.4","0","Mathematica","03/28/2016 03:17 pm","04/27/2016 10:00 pm","04/27/2016 10:00 pm","","","","","Incomplete","Standard","","","","NDSolve heat transfer","$0.00","","","","","","0","","","","TS","Programming","Olivier.Sudre@Teledyne.com","","","","","","","","","1","","","","","https://www.wolfram.com/mathematica/new-in-10/pdes-and-finite-elements/transient-neumann-values.html","Email","Premier","Never Send","0","0","0","","0 dd, 18 h, 05 m","30 dd, 06 h, 43 m","0 dd, 4 h, 55 m","","","","","","b76caff9-7297-2c6d-1d18-53e41721197a","","","","","","","","","","","","DR","Olivier","Sudre","Sudre","","","","","","","","",""
+"146760","a39ccf8b-806e-e09f-7347-51b088bf2266","NDSolve","Hi,
+
+I am experimenting with NDSolve and I would like to do the following, but I cannot work out from the documentation how to do it.
+
+I have attached a notebook with the PDE I am trying to solve. I would like to solve this PDE in the following way.
+
+
+*         I want to specify the k-Grid (spatial dimenstion, see notebook for example)
+
+*         I also want to specify the t-Grid (time dimension, see notebook for example)
+
+*         I want spatial derivatives to have DifferenceOrder 2
+
+*         I want to use an Implicit Euler scheme in the time-dimension.
+
+I am aware that this might not be the best or even a good method to solve this PDE, that there might be convergence problems etc., but that is not the issue at hand in this question.  I just want to solve this PDE with full control over the space and time discretization.
+
+Many thanks for your help,
+
+Jan Willemen.
+
+
+-----------------------------------------------------------------
+ATTENTION:
+This e-mail is intended for the exclusive use of the
+recipient(s). This e-mail and its attachments, if any, contain
+confidential information and/or information protected by
+intellectual property rights or other rights. This e-mail does
+not constitute any commitment for ING Belgium except when
+expressly otherwise agreed in a written agreement between the
+intended recipient and ING Belgium.
+
+If you receive this message by mistake, please, notify the sender
+with the ""reply"" option and delete immediately this e-mail from
+your system, and destroy all copies of it. You may not, directly
+or indirectly, use this e-mail or any part of it if you are not
+the intended recipient.
+
+Messages and attachments are scanned for all viruses known. If
+this message contains password-protected attachments, the files
+have NOT been scanned for viruses by the ING mail domain. Always
+scan attachments before opening them.
+-----------------------------------------------------------------
+ING Belgium SA/NV - Bank/Lender - Avenue Marnix 24, B-1000
+Brussels, Belgium - Brussels RPM/RPR - VAT BE 0403.200.393 -
+BIC (SWIFT) : BBRUBEBB - Account: 310-9156027-89 (IBAN BE45 3109
+1560 2789).
+An insurance broker, registered with the Financial Services and 
+Markets Authority under the code number 12381A.
+
+ING Belgique SA - Banque/Preteur, Avenue Marnix 24, B-1000
+Bruxelles - RPM Bruxelles - TVA BE 0403 200 393 - BIC (SWIFT) :
+BBRUBEBB - Compte: 310-9156027-89 (IBAN: BE45 3109 1560 2789).
+Courtier d'assurances inscrit a la FSMA sous le numero 12381A.
+
+ING Belgie NV - Bank/Kredietgever - Marnixlaan 24, B-1000 Brussel
+- RPR Brussel - BTW BE 0403.200.393 - BIC (SWIFT) : BBRUBEBB -
+Rekening: 310-9156027-89 (IBAN: BE45 3109 1560 2789).
+Verzekeringsmakelaar ingeschreven bij de FSMA onder het nr.
+12381A.
+-----------------------------------------------------------------
+","Closed","Unknown","P3","","Mon, 10 Jun 2013 12:07:55 -0500 - seanc: implicit euler with custom grid: 
+
+Information on controlling the grid can be found in the documentation here:
+http://reference.wolfram.com/mathematica/tutorial/NDSolvePDE.html
+under the section: Controlling the Spatial Grid Selection
+The sub-option for Method called SpatialDiscretization has a sub option called Coordinates which allows you to manually specify the spacial coordinates used in the Method-Of-Lines. In the Method-Of-Lines, the ""spatial"" variables are discrete, but the temporal variable is integrated by the solver and therefore is not pre-set as a discrete grid.
+Additionally you can get implicit Euler integration using the Method ->""LinearlyImplicitEuler"" 
+
+Method -> {Automatic, 
+  ""MethodOfLines"" -> {""TensorProductGrid"", 
+    ""Coordinates"" -> {kGrid, tGrid}}}
+","ING","125e97df-40b2-70c1-5ed6-4ee016305b79","b5340edc-6a37-c9d4-c8ad-50c617e36e3e","Sean Clarke","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","06/06/2013 08:04 am","07/09/2013 11:35 am","1","b5340edc-6a37-c9d4-c8ad-50c617e36e3e","0","support@wolfram.com","","07/09/2013 11:34 am","","","Customer","0","less1hr","","NDSolve","","","4601-2054-EHRYPP","9.0.1","0","Mathematica","06/06/2013 10:49 am","07/09/2013 11:35 am","07/09/2013 11:35 am","","","","","UnconfirmedResolved","Standard","","","","","$0.00","","","","","","","","","","TS","","jan.willemen@ing.be","","","","","","","","","3","","003225571054","","","","Email","Premier","Never Send","0","0","0","","0 dd, 02 h, 45 m","3 dd, 00 h, 46 m","0 dd, 1 h, 45 m","","","","","","ba5b5508-82a1-2096-d7cf-4ee3c157a8ec","","","","","","","","","","","","","Jan","Willemen","Willemen","","","","","","","","",""
+"3835166","a50ea0f9-6a79-6056-9e80-5894f8846125","NDSolve FAILS (q28)","Hello,
+
+NDSolve can't handle my very basic differential equation:
+
+NDSolve[{y'[x] + Sin[x]/x*y[x] == 0, y[0] == 0}, y[x], {x, 0, 10}]
+
+It outputs a list of error messages. It seems to take issue with Sin[x]/x, but this should be well behaved because as x->0, so does Sin[x] (see Plot[Sin[x]/x, {x, -1, 1}]). 
+
+Please report this to your developers. I need a workaround.
+
+Thank you.
+Mike","Closed","Unknown","P3","","Mon, 06 Feb 2017 16:05:15 -0600 - renzom: Composed and sent response to customer
+","","","7df29b5a-9447-e882-96bd-5846c5de5b8c","Renzo Moreno Victorio","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/03/2017 03:39 pm","02/08/2017 01:06 pm","ec45e268-5d73-f969-9225-55e075b526dc","1","0","support@wolfram.com","","","windows","","","0","less1hr","","","","","12345678","","0","Mathematica","","02/08/2017 01:03 pm","02/08/2017 01:03 pm","","","","","Training","Standard","","","","","$0.00","","","","","","0","325697","","","TS","","kmartin@wolfram.com","","","","","","","","","","","","","","","Email","Premier","Default","1","0","1","","","0 dd, 05 h, 59 m","0 dd, 0 h, 30 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"4951741","a71e4dc4-fef9-11ec-a7fa-001a4a160345","NDSolve return an error","","Open","Unknown","P3","","","","","62b80598-e2ad-11ec-bd77-001a4a160345","Conor Cosnett","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","07/08/2022 03:07 pm","07/08/2022 03:08 pm","313f116e-92ef-11eb-a625-001a4a160206","313f116e-92ef-11eb-a625-001a4a160206","0","support@wolfram.com","","","","","","","","","","","","","","","Mathematica","","","07/08/2022 03:07 pm","","","","","","Standard","","","","","$0.00","","","","","1.00000000","0","","","US","TS","","","","","","","","","","","1","","","","","","Phone","","Default","0","0","0","","","","","","","","","","","-99","","","","","","","","","","","","","","","","","","","","","","",""
+"3907022","a82d4038-5267-11e7-93bb-001a4a160206","NDSolve crashes in versions 11.0.1 and 11.1.1","License #:  L3234-9043  (Mathematica for Mac version 11.1.1;  Mac OS X 10.12.4 [Sierra])  Premier
+
+Kenneth T. Bogen, DrPH DABT      Managing Scientist
+Exponent, Inc.                                 http://www.exponent.com
+475 14th Street, Suite 400
+Oakland, CA  94612
+(925) 639-5940 (cell #)                        kbogen@exponent.co
+
+Dear Wolfram Tech Support,
+
+Why does the attached application of Mathematica’s NDSolve function works with one particular (constant) value of a driving function, but crashes when this value is increased by 25%?
+
+I would expect a proper Mathematica function to return an error if its numerical calculations are not proceeding in an acceptable manner,  but not to crash your program.  The attached notebook therefore appears to demonstrate a bug in NDSolve.  I show this using the new version 11.1.1, but it also occurs for me using version 11.0.1.
+
+Ken Bogen
+_____________________________________________________________________________________________________________________________
+Kenneth T. Bogen, DrPH  DABT |Managing Scientist
+Exponent, Inc. |475 14th Street, Ste. 400, Oakland, CA 94612
+Office: 510.268.5048 | Cell: 925.639.5940| www.exponent.com/ken_bogen/
+","Closed","Feedback","P3","Auto close, no confirmation that provided response resolved issue","","Exponent Inc","f081d40d-622f-2fda-a37a-4ee00404d574","e0a348f2-d18c-83b1-b675-56774ccf9868","Wang Zhang","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","06/16/2017 02:44 am","07/04/2017 10:00 pm","1","1","0","support@wolfram.com","","","mac","","Customer","0","less1hr","","","","","3234-9043","11.1.1   OS X 10.12.4  Sierra","0","Mathematica","06/16/2017 01:22 pm","07/04/2017 10:00 pm","07/04/2017 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","335103","","US","TS","","kbogen@exponent.com","","","","","","","","","1","","925-639-5940 cell","","","","Email","Premier","Never Send","0","0","0","","0 dd, 10 h, 38 m","18 dd, 08 h, 38 m","0 dd, 0 h, 5 m","","","","","","ee73b54c-2ab2-9039-6023-4ee36a020e10","","","","","","","","","","","","DR","Kenneth","Bogen","Bogen","","","","","","","","",""
+"2214159","adb45073-8079-c4c9-1114-54b6b5f911cf","NDSolve with axial and spherical symmetry","Three-dimensional PDEs with axial or spherical symmetry can be much faster to solve numerically by using the symmetry to reduce the problem's dimensionality.
+However, when I try NDSolve with Laplace's equation, it gives an error message about not evaluating to a numeric matrix. 
+At first I thought this meant NDSolve could not handle equations with variable coefficients, but after reviewing the finite element tutorial, I found the problem instead arises from apparent singularities in the Laplacian in cylindrical and spherical coordinates. I say ""apparent"" because the symmetries mean the terms in the Laplacian with the singular coefficient actually have well-defined limiting values at those locations.
+The attached notebook has examples and an attempted workaround by changing the Laplacian to avoid the singularities.
+Is there a better approach to allowing NDSolve to exploit these common symmetries to reduce the dimensionality?
+
+p.s., I came across this problem when trying to generalize the ""new in 10"" example of Stokes flow in a channel to flow in a pipe, using axial symmetry to reduce the 3D problem to 2D.
+A Stokes Flow in a Channel: New in Mathematica 10
+
+|   |
+|   |  |   |   |   |   |   |
+| A Stokes Flow in a Channel: New in Mathematica 10Questions? Comments? Contact a Wolfram expert »  |
+|  |
+| View on www.wolfram.com | Preview by Yahoo |
+|  |
+|   |
+
+
+
+
+","Closed","Unknown","P3","","","","","8cd97acc-020a-ee26-54dd-51adf6244f74","Jason Grigsby","Global","1","1","01/14/2015 12:18 pm","02/24/2015 05:00 pm","1","1","0","support@wolfram.com","","02/19/2015 06:30 pm","windows","","Customer","0","less1hr","","","","","L3305-0765","1","0","Mathematica","01/30/2015 09:37 am","02/24/2015 01:51 pm","02/24/2015 01:51 pm","","","","","ConfirmedResolved","","","","","","$0.00","","","","","","0","","","","TS","","tadhogg@yahoo.com","","","","","","","","","6","","","","","","Email","Premier","Default","1","1","1","","15 dd, 21 h, 19 m","25 dd, 04 h, 14 m","0 dd, 2 h, 5 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"719175","b19704fb-6074-3da8-c33b-53447325b2ea","NDSolve Difficulties","Dear Support Staff,
+
+I am a faculty member at Anoka-Ramsey Community College, which is part of the MnSCU system.  We have a 100-seat Mathematica license, but the license number is not visible to me.
+
+The attached notebook contains a system of coupled nonlinear ordinary differential equations.  The solution functions xi 0, xi 1, and xi 2 are probabilities that must add up to kappa = 1.  The solutions of the system represent geodesics in the probability space.  The geodesics deform for different values of alpha, which is set to zero at the moment.
+
+NDSolve seems to encounter infinities at initialization.  One suggestion from Mathematica was to specify the initial conditions explicitly instead of allowing Mathematica to compute them.  I did, and now it complains that the order of the initial conditions exceeds the order of the differential-algebraic system.
+
+Please take a look at the attached notebook.  Any help would be appreciated!
+
+Pete DeLong
+","Closed","Unknown","P3","","Thu, 17 Apr 2014 15:16:03 -0500 - anmolb: User's response:
+
+Anmol –
+
+This is exactly what I needed.  Thanks!  I will study the tutorial you included.  ...
+","","","54feb5fd-331e-4422-d22e-511517096a17","Anmol Bajracharya","Global","1","1","04/08/2014 04:58 pm","05/01/2014 02:54 pm","1","1","0","support@wolfram.com","","04/17/2014 02:54 pm","","","Customer","0","less1hr","","NDSolve","","","","","0","","04/08/2014 10:50 pm","04/17/2014 03:16 pm","04/17/2014 03:16 pm","","","","","ConfirmedResolved","","","","","NDSolve","$0.00","","","","","","0","","","","TS","","Peter.DeLong@anokaramsey.edu","","","","","","","","","6","","","","","","Email","Unknown","Never Send","0","0","0","","0 dd, 05 h, 52 m","8 dd, 16 h, 26 m","0 dd, 0 h, 30 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"2801691","b46c0471-4e9f-049c-20d9-550b13814588","NDSolve","Name: Jamal Manassah
+email: manassah@ccny.cuny.edu
+Account: CUNY City College
+1) What is the maximum number of coupled  first order differential equations that can be solved using the command NDSolve.
+
+2) Is there a preferred method to be specified in the options, when the number of equations is approximately 400
+http://www.wolfram.com/support/contact/email/?topic=User+Portal","Closed","TechnicalServices","P3","Auto close, no confirmation that provided response resolved issue","Fri, 20 Mar 2015 13:39:31 -0500 - hamida: gave general guidance.
+Thu, 19 Mar 2015 13:20:03 -0500 - sugaradmin: WebFormStaging processed: 1 linked
+","Manassah, Jamal","78b94d76-f5f7-c1a2-47e4-4ee02df71db5","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","Global, CS WRI","1","238f6b6d-5158-ef4b-8444-51563c1f9345","03/19/2015 01:19 pm","04/05/2015 10:00 pm","","1","0","support@wolfram.com","","03/20/2015 01:38 pm","windows","","Customer","0","less1hr","","NDSolve for large system","","","3035-7818-9J2LL8","10.0.2","0","Mathematica","03/20/2015 12:35 pm","04/05/2015 10:00 pm","04/05/2015 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","US","TS","","manassah@ccny.cuny.edu","","","","","","","","","1","","212-650-8133","","","","WebForm","Premier","Default","0","0","0","","0 dd, 23 h, 15 m","16 dd, 09 h, 25 m","0 dd, 0 h, 35 m","","","","","","283cefbf-85b3-cc5a-83ab-4ee3312add60","","","","","","","","","","","","","Jamal","Manassah","Manassah","","","","","","","","",""
+"4783235","b5d9e51e-7906-11eb-a0d9-001a4a160206","NDSolve","Dear All,
+
+
+
+I tried to answer a question in Wolfram Community and used the code given
+below. It stops with an error message: division by zero.
+
+Although there is quite a lot of documentation for NDSolve I was not able to
+find out what is going on here. Do you have any suggestions?
+
+
+
+Kind regards
+
+Hans Dolhaine
+
+
+
+
+
+eqn = D[T[r, \[Theta]], {r, 2}] + 1/r D[T[r, \[Theta]], {r, 1}] + 1/r^2
+D[T[r, \[Theta]], {\[Theta], 2}] + \[Lambda]^2 T[ r, \[Theta]] == -\[Lambda]
+r Sin[\[Theta]]
+eqn1 = FullSimplify[# r^2] &amp; /@ eqn
+eqn2 = eqn1 /. \[Lambda] -&gt; 1.2
+lsg = NDSolve[
+  {eqn /. \[Lambda] -&gt; 0, T[0, \[Theta]] == 5,
+   D[T[r, \[Theta]], r] == 0 /. r -&gt; 0},
+  T,
+  {r, 0, 1}, {\[Theta], 0, 2 Pi},
+  Method -&gt; {""MethodOfLines"",
+    ""DifferentiateBoundaryConditions"" -&gt; False}]
+
+
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Mon, 01 Mar 2021 15:01:07 -0600 - myeh: replied
+Mon, 01 Mar 2021 14:32:29 -0600 - myeh: work around 
+Mon, 01 Mar 2021 06:44:24 -0600 - tsreception: Script ran by harryc
+No valid license provided
+No active support found
+","","","d58a1474-5c89-11e9-80d6-001a4a160206","Mike Yeh","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/27/2021 08:18 am","03/18/2021 05:50 am","1","1","0","support@wolfram.com","","","","","Customer","","","","NDSolve","","","","","","Mathematica","03/01/2021 10:21 am","03/17/2021 10:00 pm","03/17/2021 10:00 pm","","","","","Incomplete","Standard","","","","NDSolve","$0.00","","","","","1.00000000","0","","","DE","TS","","h.dolhaine@gmx.de","","","","","","","","","1","","","","","","Email","Basic","Default","1","1","1","","2 dd, 02 h, 03 m","16 dd, 10 h, 38 m","0 dd, 0 h, 35 m","","","","","","","-99","","","","","","","","","","","","","","","","","","","","","","",""
+"638655","b944758e-a0fb-bfcb-45bf-530a822d2a39","NDSolve Error Any options I am missing?","My license number is: L3055-6824
+
+ 
+
+I wrote what I consider a very simple NDSolve problem, but I am getting
+errors.
+
+ 
+
+Could you tell me what I am doing wrong?  I cannot believe I am pushing
+the limit of Mathematica with this most basic differential equation.
+
+ 
+
+There must be some options that I need to set to move forward on this.
+I need to work on multi-body problem but I am stuck at two body at the
+moment.
+
+ 
+
+Thank you.
+
+ 
+
+James H. Choi
+
+","Closed","Unknown","P3","","Mon, 24 Feb 2014 15:17:47 -0600 - hkao: duplicate
+","","","654d9ada-56db-2815-1b7e-51adf7ee7bbc","Hsien-Ching Kao","Global","1","1","02/23/2014 05:14 pm","02/24/2014 03:17 pm","1","654d9ada-56db-2815-1b7e-51adf7ee7bbc","0","support@wolfram.com","","11/29/-0001 06:09 pm","","","Customer","0","less1hr","","","","","L3055-6824","","0","","02/24/2014 12:53 pm","02/24/2014 03:17 pm","02/24/2014 03:17 pm","","","","","Duplicate","","","","","","$0.00","","","","","","","","","","TS","","james.choi@SabioAcademy.com","","92f9f7a7-3b60-030d-e89e-530a82cb3155","","","","","","","","","","","","","Email","Unknown","Never Send","0","0","0","00","0 dd, 19 h, 39 m","0 dd, 02 h, 24 m","","","","","","","1d58b1f5-9077-d4c8-0c63-4ee3286d33d1","","","","","","","","","","638656","","","James","Choi","Choi","","","","","","","","",""
+"4015441","bb2dd1c4-0eb0-11e8-9ba4-001a4a160206","NDSolve support","Hi,
+
+L2437-4774
+
+I am attaching a notebook with several questions on using NDSolve[.] that I would find useful as I prepare an exercise for my class this upcoming week.
+
+Best,
+
+-John Mercer
+Associate Professor of the Practice, Biology and Physics
+Associate Director of Undergraduate Studies, Physics
+Director of Undergraduate Studies, Biophysics
+
+Duke University
+Biology and Physics
+Box 90338
+Durham, NC 27708-0338
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Tue, 13 Feb 2018 13:07:32 -0600 - luket: Sent email
+Mon, 12 Feb 2018 14:08:08 -0600 - luket: Asked Paritosh for help.
+","","","4de5ac83-1aa9-5a27-bfe5-5702b2930e0a","Luke Titus","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/10/2018 04:20 pm","02/28/2018 10:00 pm","1","1","0","support@wolfram.com","","02/13/2018 01:07 pm","","","Customer","0","less1hr","","Solving nonlinear PDEs with NeumannValues","","","2437-4774","11.2","0","Mathematica","02/12/2018 11:50 am","02/28/2018 10:00 pm","02/28/2018 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","","TS","","jmercer@duke.edu","","","","","","","","","1","","","","","","Email","Premier","Default","1","0","1","","1 dd, 19 h, 30 m","16 dd, 10 h, 10 m","0 dd, 1 h, 30 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"3494522","c4e2426a-c1a8-3fdb-8c0b-56785a5bbaba","NDSolve error new in 10.3","The attached nb ran without error in 10.2 -- as seen before evaluating. If
+you evaluate this in 10.3 it will generate errors.
+
+Best,
+
+David Keith
+
+L2201-4747
+
+ 
+
+","Closed","Feedback","P3","Auto close, no confirmation that provided response resolved issue","Wed, 23 Dec 2015 12:46:24 -0600 - hamida: filed a bug 305750  let the user know
+Tue, 22 Dec 2015 12:17:38 -0600 - harryc: Works in 10.2 but not 10.3
+","Keith, David L","d7e6bbcf-cc50-0fa6-f54f-4edfef6b94be","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","12/21/2015 02:00 pm","01/07/2016 10:00 pm","1","1","0","support@wolfram.com","","12/23/2015 12:47 pm","windows","","Customer","0","less1hr","","CL","","","L2201-4747","10.3","0","Mathematica","12/22/2015 12:17 pm","01/07/2016 10:00 pm","01/07/2016 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","305750","","US","TS","","dlkeith@comcast.net","","","","","","","","","1","","503-780-9552","","","","Email","Premier","Never Send","0","0","0","","0 dd, 22 h, 17 m","16 dd, 09 h, 43 m","0 dd, 0 h, 35 m","","","","","","d47d72ba-89e7-6f77-d291-4ee2cca564e6","","","","","","","","","","","","","David L","Keith","Keith","","","","","","","","",""
+"4866904","c903303e-2c82-11ec-8e6e-001a4a160345","NDSolve","Hello,
+
+I need your help with the application of NDSolve. In particular, when I
+apply NDSolve to the initial value problem
+
+NDSolve[{y'[x]==x^2 + (y[x])^2 , y[0]==0}, y ,{x,0,3}]
+
+Mathematica determines a singular point around x = 2.0.
+
+How can I automatically extract this information? I tried using WhenEvent,
+but failed.
+
+Actually, I need to determine the set of points {x0, a} where NDSolve stops
+by solving:
+NDSolve[{y'[x]==x^2 + (y[x])^2 , y[0]==a}, y ,{x,0,3}]
+
+So I know that x0 = 2.0 a = 0, but how to determine these pairs when -1 &lt;=
+a &lt;= 1.
+
+Thank you,
+Vlad
+Brown University
+L3355-0082 and L2991-8891
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Thu, 21 Oct 2021 15:02:10 -0500 - miyan: Sent code
+Thu, 21 Oct 2021 09:48:38 -0500 - miyan: Sent code
+Wed, 20 Oct 2021 16:32:28 -0500 - miyan: Sent code
+Tue, 19 Oct 2021 16:55:33 -0500 - miyan: User thanked me for my response
+Tue, 19 Oct 2021 15:31:47 -0500 - miyan: Sent solution in notebook
+Fri, 15 Oct 2021 13:16:57 -0500 - miyan: Sent notebook. Thanks to Luke.
+Thu, 14 Oct 2021 05:33:06 -0500 - tsreception: Script ran by harryc
+Premier support found under: L2991-8891, original license field: 3355-0082
+","Brown University","40e35190-ba13-2673-810d-4edfe71633c7","38955682-2585-11e9-8878-001a4a160206","Mi Yan","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","10/13/2021 07:03 pm","11/06/2021 09:34 am","1","1","0","support@wolfram.com","","10/21/2021 03:00 pm","","","Customer","","","","Find singularities in NDSolve","","","L2991-8891","","","Mathematica","10/14/2021 10:26 am","11/05/2021 10:00 pm","11/05/2021 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","1.00000000","0","","","US","TS","","vladimir_dobrushkin@brown.edu","","","","","","","","","3","","","","","","Email","Premier","Default","1","1","1","","0 dd, 15 h, 23 m","22 dd, 11 h, 33 m","0 dd, 2 h, 25 m","","","","","","ab7a0ee0-9ba9-11ea-97ee-001a4a160206","-99","","","","","","","","","","","","Vladimir","Dobrushkin","Dobrushkin","","","","","","","","",""
+"722625","cbefd49e-bb42-89f6-5c8d-534d4baee6a3","NDSolve","	Akuro Big-Alabo: 	
+Question
+Can I be connected to support service in UK as my license (L4729-4973) is in this area. 
+	Allison: 	
+Hello. Thank you for contacting Wolfram Research Customer Service. 
+	Akuro Big-Alabo: 	
+Hello Allison 
+	Allison: 	
+I can get you in contact with the Technical support staff here in the US. Unfortunately, I don't have access the support staff in the UK. 
+	Akuro Big-Alabo: 	
+I asked because the last time I chatted live, I was connect to Wolfram Europe 
+	Akuro Big-Alabo: 	
+But if technical support US can assist then I do not mind 
+	Allison: 	
+Can I please tell them what this is in regards to? 
+	Akuro Big-Alabo: 	
+Okay. I want to find out how I can get the maximum value of the output function of the NDSolve function over a given interval of the independent variable 
+	Allison: 	
+Thank you. Would you mind holding a moment while I get you in contact with them? 
+	Akuro Big-Alabo: 	
+okay ","Closed","TechnicalServices","Unknown","transferred to tS","","University of Glasgow","cc7bc660-0ae9-01ae-c5c1-4ee0019462af","28297735-afdc-8454-75c8-4e43d1beeac0","Allison Fry","Global","1","1","04/15/2014 10:10 am","04/15/2014 10:13 am","28297735-afdc-8454-75c8-4e43d1beeac0","28297735-afdc-8454-75c8-4e43d1beeac0","0","info@wolfram.com","","11/29/-0001 06:09 pm","","","Customer","0","less1hr","","","","","47294973","9","0","Mathematica","11/29/-0001 06:09 pm","04/15/2014 10:13 am","04/15/2014 10:13 am","","","","","TransferredTS","","","","","","$0.00","","","","","","0","","","","CS WRI","","a.big-alabo.1@research.gla.ac.uk","","","","","","","","","","","","","","","Chat","","Never Send","0","0","0","00","","0 dd, 04 h, 59 m","","","","","","","c482de12-a10b-f69f-dd98-4ee3e4de2628","","","","","","","","","","","","","Akuro","Big-Alabo","Big-Alabo","","","","","","","","",""
+"3880853","ceb90ea4-278c-11e7-8ce7-001a4a160206","NDsolve","Hello,
+
+I was following an example in the book “ A Physicist Guide to Mathematica”. However, I was not able to obtain the results as described in the book. Actually, I got an error message. I would be most grateful if you could advise me how to correct the problem. The file is attached. The Mathematica I have is the latest version ( downloaded two days ago)
+
+Best regards,
+
+Kenneth Wong","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Mon, 24 Apr 2017 12:29:29 -0500 - tuseetab: not cleared definition
+Mon, 24 Apr 2017 11:32:54 -0500 - christineo: WolfID- kenccwong340@me.com
+","Wong, Kenneth","a3cab5bc-1f3c-1d60-3176-55a6cbd47eb3","17f5f0aa-96dc-2a6e-0559-568d69e1af65","Tuseeta Banerjee","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","04/22/2017 01:52 pm","01/11/2018 07:30 pm","1","17f5f0aa-96dc-2a6e-0559-568d69e1af65","0","support@wolfram.com","","04/24/2017 12:29 pm","mac","","Customer","0","less1hr","","Old definition of variables causing problem","","","3737-3658","11.1.0","0","Mathematica","04/24/2017 11:38 am","05/09/2017 10:00 pm","05/09/2017 10:00 pm","","","","","Incomplete","Home","","","","Clear","$0.00","","","","","","0","","","US","TS","","kenccwong418@hotmail.com","","","","","","","","","1","","215-460-9260","","","","Email","Personal","Never Send","0","0","0","","1 dd, 21 h, 46 m","15 dd, 10 h, 22 m","0 dd, 0 h, 40 m","","","","","","91eac5c0-4260-cf0f-da86-565f610f7ddf","","","","","","","","","","","","","Kenneth C","Wong","Wong","","","","","","","","",""
+"570990","d5b8df4e-90cd-48b1-574c-52c8f58215e5","NDSolve Result that won't display as Point under Graphics","My license number is: L3055-6824
+
+ 
+
+I have attached the Mathematica file that shows the problem.
+
+ 
+
+Thank you.
+
+ 
+
+James H. Choi
+
+","Closed","Unknown","P3","","Fri, 10 Jan 2014 09:40:52 -0600 - jhernandez: send exAmple
+","","","6c2811ec-bb62-4104-4ce4-50c617f71cae","Jesus Hernandez","Global","1","1","01/05/2014 12:00 am","01/13/2014 08:11 am","1","6c2811ec-bb62-4104-4ce4-50c617f71cae","0","support@wolfram.com","","01/10/2014 01:32 pm","","","Customer","0","less1hr","","using results from ndsolve","","","L3055-6824","","0","","01/06/2014 01:48 pm","01/13/2014 08:11 am","01/13/2014 08:11 am","","","","","ConfirmedResolved","Standard","","","","Evaluate, ReplaceAll, Manipulate","$0.00","","","","","","","","","","TS","","james.choi@SabioAcademy.com","","","","","","","","","2","","","","","","Email","Unknown","Never Send","0","0","0","","1 dd, 13 h, 48 m","6 dd, 18 h, 23 m","0 dd, 0 h, 5 m","","","","","","1d58b1f5-9077-d4c8-0c63-4ee3286d33d1","","","","","","","","","","","","","James","Choi","Choi","","","","","","","","",""
+"3481166","dafd06f7-cb82-89b7-b6e0-565f85d09b53","NDSolve thinks these points are outside the region, but they're not . . .","Dear Friends,
+
+I'm using a Mac, OS 10.10.5
+My license number is L2953-8453
+
+
+In the attached notebook I'm solving for the thermal stresses in a pipe.
+
+At the top level the basic procedure is as follows:
+
+1 - Solve Laplace's equation for the temperature distribution in an irregularly-shaped region
+
+2 - Substitute this thermal solution into the structural equations (with a slight radial displacement on the inner boundary as a boundary condition) for the radial and angular displacements throughout the region.
+
+3 - Then solve these resulting equations using NDSolve and the (automatically-invoked FEM). It's here that NDSolve is giving me an error . . .
+
+
+I'm getting error messages of the form
+
+ ""Input value {-0.9703,-8.52282} lies outside the range of data in the interpolating function.""
+
+But a quick plot shows that the points in question do in fact lie inside the region. So why am I getting this error message? How an I ""convince"" Mathematica that these points are not outside the region?
+
+
+Thanks,
+
+Chris Reed
+The Aerospace Corporation
+
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Thu, 10 Dec 2015 18:11:19 -0600 - brucem: Sending Ruebenkoenig's nb and comments. 
+Tue, 08 Dec 2015 18:46:29 -0600 - brucem: Sent status/stall. 
+Tue, 08 Dec 2015 18:40:23 -0600 - brucem: re-sent email to iliang. 
+Mon, 07 Dec 2015 16:58:59 -0600 - brucem: Asked IlianG.  Late in day. 
+Sun, 06 Dec 2015 20:14:01 -0600 - brucem: WW d-ts. Is this normal?  Included a request to not try to debug the big notebook. 
+Fri, 04 Dec 2015 22:28:37 -0600 - brucem: Irrepro.  One point was in all warnings and it was just outside the region. 
+Asked for nb with all outputs. (He sent one without outputs.)  Sent nb I made. 
+Thu, 03 Dec 2015 16:27:25 -0600 - brucem: nb to T:\3481166interpDomain\outsideregion*nb. 
+","Aerospace Corp","1ffed486-9a0b-926e-ebba-4ee00b25aa83","4fad217a-3d4d-8a9f-ae6a-4eea26c98cfd","Bruce Miller","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","12/02/2015 05:58 pm","01/31/2021 09:31 am","1","2488a848-2e7a-4290-87c0-4d2b6c6408e4","0","support@wolfram.com","","12/10/2015 06:19 pm","mac","","Customer","0","less1hr","","NDSolveValue goes outside interpolating function domain.  solving for the thermal stresses in a pipe","","","L2953-8453","10.3   OS 10.10.5","0","Mathematica","12/03/2015 01:22 pm","12/27/2015 10:00 pm","12/27/2015 10:00 pm","","","","","Incomplete","Standard","","","","NDSolve  InterpolatingFunction  Region","$0.00","Innovator Award Recipient (free TS)","","","","","0","","","US","TS","Kernel,Math","carl.c.reed@aero.org","","","","","","","","","3","","310-336-1792","","","","Email","Premier","Never Send","0","0","0","","0 dd, 19 h, 24 m","24 dd, 08 h, 38 m","0 dd, 1 h, 35 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"645443","dc805709-6703-0f3d-d6f5-531899cd9e7e","NDSolve Default Error","Dear Sir or Madam,
+I inquired about what the default error on NDSolve was at the Wolfram
+Mathematica info booth at the 2014 March American Physical Society
+meeting and Jason told me to email support at Wolfram.
+I am just wondering what the default error on NDSolve was.  I am
+currently using Mathematica 9 student edition to numerically solve
+some nonlinear differential equations and it gives great curves which
+agree well with my simulations.  However I do not know the numerical
+error of the curves that Mathematica gives me.  I would love to have a
+plot where I directly compare the Mathematica curves to simulation
+curves which include error bounds.  So I was wondering if it were
+possible to get the error of the curve as a function of the curve
+parameter.
+My Activation Key if needed is 3157-0382-H6668W.
+Sincerely,
+Ben Intoy
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Thu, 20 Mar 2014 16:38:25 -0500 - hkao: provided the information of precision in NDSolve
+Tue, 11 Mar 2014 18:23:19 -0500 - hkao: provided some feedbacks
+","Virginia Polytechnic Institute & State University","172077b1-4942-ae17-374b-4edffa98a75b","654d9ada-56db-2815-1b7e-51adf7ee7bbc","Hsien-Ching Kao","Global","1","1","03/06/2014 09:38 am","04/03/2014 10:06 am","1","1","0","support@wolfram.com","","03/20/2014 04:37 pm","","","Customer","0","less1hr","","Plot functionality?","","","3157-0382-H6668W","9.0.1","0","Mathematica","03/06/2014 09:13 pm","04/03/2014 10:06 am","04/03/2014 10:06 am","","","","","Incomplete","","","","","Plot, NDSolve","$0.00","","","","","","0","","","","TS","Visualization","intoybf@vt.edu","","","","","^Visualization^","","","","3","","","","","","Email","Basic","Never Send","0","0","0","","0 dd, 11 h, 35 m","27 dd, 11 h, 53 m","0 dd, 0 h, 50 m","","","","","","4a836392-f653-9b04-f866-4ee34ed0d71d","","","","","","","","","","","","","Ben Frederick","Intoy","Intoy","","","","","","","","",""
+"3562454","deedb394-41c4-d0ba-1524-56f3a7d7e011","NDSolve[ ]","Dear Sir,
+
+
+
+Thank you for your supports.
+
+
+Application : Mathematica10.4.0
+User License: L3243-0871 
+PC-OS :Mac OSX10.8 
+License Type: Single License
+User Name : Mr. Toru Yasuda 
+User E-mail : t-yasuda@ra2.so-net.ne.jp
+
+
+He'd like to solve a differential equation of attachment and make a graphic
+indicate.
+
+Is it impossible by this condition?
+(refer:test.nb)
+
+
+Best Regards,
+
+
+
+-----------------------------------------------------------------------
+Hulinks Inc.
+Product Division, Technical Department
+Akijirou Katsu
+5-14, Nihonbashi-Hakozakicho, Chuo,
+Tokyo, 103-0015,Japan
+TEL: 81-3-5642-8383
+FAX: 81-3-5642-8381
+-----------------------------------------------------------------------
+L3243-0871
+
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Fri, 25 Mar 2016 15:29:56 -0500 - hamida: answered...
+","Yasuda, Toru","765ac1cb-cf76-f7bb-ca5f-4ee039abb475","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","03/24/2016 03:38 am","04/10/2016 10:00 pm","1","1","0","support@wolfram.com","","","mac","","Reseller","0","less1hr","","","","","L3243-0871","10.4.0 OSX 10.8","0","Mathematica","03/25/2016 12:38 pm","04/10/2016 10:00 pm","04/10/2016 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","JP","TS","","katsu@hulinks.co.jp","","","","","","","","","1","","","","d1b603d7-e5b3-98b2-69af-4ee55d78905a","","Email","Reseller","Never Send","0","0","0","","1 dd, 09 h, 00 m","16 dd, 09 h, 22 m","0 dd, 0 h, 20 m","","","","","","4903a5b9-0c90-76ab-51e3-4ee33115568f","","","","","","","","","","","HULINKS Inc","","Akijiro","Katsu","Katsu","","","","","","","","",""
+"3534842","e24f2577-2d91-dd4f-ab2e-56c5f636264e","NDSolve and Finite Element Issue after migrating to Mathematica v10.3","Premier Service for Site License: L4796-7270
+
+I recently installed Mathematica v10.3 and checked a project I was running
+on few months ago under Mathematica v10.1.
+
+This project solve a PDE with NDSolve and Finite Element Method over an
+anulus region.
+
+Under v10.1 and v10.2 the solution appear like this: 
+
+  
+
+Under v10.3 the solution appear like this: 
+
+  
+
+ 
+
+The source code is exactly the same. The ElementMesh is generated by myself
+and has the same number of incidents and elements. I selected Pardiso as
+linear solve method in both cases. Under v10.3 the solution process is
+slightly faster even on slower pc and consume less memory.
+
+I searched on the documentation if there are news v10.3 but I didn't find
+anything that could explain this.
+
+At present I'm unable to send a minimal working code to reproduce this. Any
+chance to understand the reason of the changed behavior and eventually
+restore the old?
+
+ 
+
+What does changed on FEM between 10.2 and 10.3?
+
+ 
+
+Thanks
+
+Kindest Regards
+
+Andrea Cavalli
+
+","Closed","Functionality","P3","","Tue, 01 Mar 2016 18:10:25 -0600 - dannyf: Thanked customer for confirming that issue is resolved. 
+Fri, 26 Feb 2016 13:47:55 -0600 - dannyf: Filed bug. Thanked user. Informed user that I will contact him again if I find a workaround
+","Politecnico di Milano","86fe142c-7bf1-c3b8-007e-4ee000575e33","75e7ec60-4a4a-349e-952f-560ea27aa083","Danny Finn","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/18/2016 10:52 am","03/01/2016 06:10 pm","1","75e7ec60-4a4a-349e-952f-560ea27aa083","0","support@wolfram.com","","","unknown","","Customer","0","less1hr","","","3539123","","L4796-7270","10.3.1","0","Mathematica","02/19/2016 02:27 pm","03/01/2016 06:10 pm","03/01/2016 06:10 pm","","","","","ConfirmedResolved","Standard","","","","ContourPlot, NDSolve, Fragments, Artifacts, Method, Smooth, Contours","$0.00","","","","","","0","https://bugs.wolfram.com/show?number=309419
+https://bugs.wolfram.com/show?number=309179","","IT","TS","","wolfram.com@ridesoft.it","","","","","","","","","1","","","","","http://mathematica.stackexchange.com/questions/107668/finite-element-method-and-elementmeshinterpolation-issue-in-v10-3?newsletter=1&nlcode=132391%7Ca66e","Email","Premier","Never Send","0","0","0","","1 dd, 03 h, 35 m","11 dd, 03 h, 43 m","0 dd, 0 h, 40 m","","","","","","6d38289a-a945-ef30-a283-53c457388b77","","","","","","","","","","","","","Andrea","Cavalli","Cavalli","","","","","","","","",""
+"4181365","e321a9dc-e013-11e8-b5f8-001a4a160206","NDSolve","Dear support team,
+There seems to be a bug in NDSolve.
+The long input is a system of differential equations. The expressions for bund1[t] and bund2[t] depend on the event.
+ev1[t] and ev2[t] tell us which is the valid expression for given t.
+The first plot tells us that the 4 possibilities appear periodically.
+The second plot tells us that near t=9.85 the relevant case is 1. This means that [cid:image002.png@01D4741B.AB434AC0]  and, therefore
+[cid:image004.png@01D4741B.AB434AC0] = [cid:image006.png@01D4741B.AB434AC0]  .
+However, in the last plot we see that this is not fulfilled.
+What should I conclude?
+Best regards,
+Jorge Berger
+Licence L3271-9081
+","Closed","Bug","P3","Set resolution as Auto close, no confirmation that provided response resolved","Mon, 03 Dec 2018 13:05:42 -0600 - brucem: 2018-11-11 08:11 email: figured it out himself. 
+Mon, 03 Dec 2018 13:02:40 -0600 - brucem: 2018-11-09 00:16 email had simplified code. 
+Mon, 05 Nov 2018 19:21:22 -0600 - brucem: Asked for simpler code; mentioned that v10 is not supported. 
+Same behavior in 12.0 pr2. 
+Mon, 05 Nov 2018 19:10:16 -0600 - brucem: Code is not huge but hard to tell what is going on. 
+Mon, 05 Nov 2018 18:12:58 -0600 - brucem: Files into C:\Temp\4181365_ndsolve\. 
+Sun, 04 Nov 2018 23:09:41 -0600 - tsreception: Script ran by renzom
+Installation support found under: 3271-9081, original license field: 3271-9081
+","","","4fad217a-3d4d-8a9f-ae6a-4eea26c98cfd","Bruce Miller","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/04/2018 03:27 am","12/07/2018 06:11 am","1","1","0","support@wolfram.com","","11/05/2018 07:20 pm","windows","","Customer","0","0","","t= ~9.85, some constraint not met.","","","3271-9081","10.0","0","Mathematica","11/05/2018 04:40 am","12/06/2018 10:01 pm","12/06/2018 10:01 pm","","","","","Unconfirmed","Standard","","","","WhenEvent  NDSolve","$0.00","","","","","","0","","","","TS","Kernel","jorge.berger@braude.ac.il","","","","","","","","","1","","","","","","Email","Basic","Default","1","1","1","","1 dd, 01 h, 12 m","1 dd, 17 h, 21 m","0 dd, 0 h, 35 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"2931773","e3446786-2702-9f81-9ab9-5525b570c3a3","NDSolve","Hi,
+Mathematica 10.1 (license number : L2482 - 2694) is running on Macbook 
+Pro with MacOS X version 10.9.5.
+Please see the attached notebook.
+
+Ciao,
+Daniel
+","Closed","Functionality","P3","Auto close, no confirmation that provided response resolved issue","Fri, 10 Apr 2015 09:45:56 -0500 - hamida: Gave the answer....
+","University of California at Santa Barbara","c40dacc6-47c9-63e7-9f0f-4edffaf5fbdc","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","Global","1","1","04/08/2015 06:10 pm","04/26/2015 10:23 pm","1","1","0","support@wolfram.com","","04/10/2015 09:43 am","mac","","Customer","0","less1hr","","Complex PDE and NDSolve ","","","24822694","10.1","0","Mathematica","04/09/2015 02:02 pm","04/26/2015 10:00 pm","04/26/2015 10:00 pm","","","","","Incomplete","Standard","","","","Complex PDE and NDSolve ","$0.00","","","","","","0","","","US","TS","","daniel.lavallee@ucsb.edu","","","","","","","","","1","","","","","","Email","PremierEmail","Default","1","1","1","","0 dd, 19 h, 52 m","17 dd, 07 h, 58 m","0 dd, 0 h, 30 m","","","","","","a6d12b06-53cd-9bdb-bf3b-532080423d94","","","","","","","","","","","","","Daniel","Lavallee","Lavallee","","","","","","","","",""
+"4705697","e853b3d6-28ce-11eb-9593-001a4a160206","NDSolve cannot handle Sin[x]/x at x=0","Hello,
+
+NDSolve can't handle my very basic differential equation:
+
+NDSolve[{y'[x] + Sin[x]/x*y[x] == 0, y[0] == 0}, y[x], {x, 0, 10}]
+
+It outputs a list of error messages. It seems to take issue with Sin[x]/x, but this should be well behaved because as x->0, so does Sin[x] (see Plot[Sin[x]/x, {x, -1, 1}]). 
+
+Please report this to your developers. I need a workaround.
+
+Thank you.","Closed","Functionality","P3","","","","","4d8c3e3e-dcdb-11ea-a7f3-001a4a160206","Ali Bibak","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/17/2020 06:17 am","11/23/2020 10:09 am","38955682-2585-11e9-8878-001a4a160206","38955682-2585-11e9-8878-001a4a160206","0","support@wolfram.com","","","mac","","","","","","","","","L3725-4053","12.1.1","","Mathematica","","11/23/2020 10:09 am","11/23/2020 10:09 am","","","","","Training","Standard","","","","","$0.00","","","","","1.00000000","0","","","US","TS","","miyan@wolfram.com","","","","","","","","","","","","","","","Phone","Premier","Default","0","0","0","","","0 dd, 05 h, 59 m","","","","","","","","-99","","","","","","","","","","","","","","","","","","","","","","",""
+"3205751","eb12f6bb-faf1-2671-349e-55508675bf44","NDSolve","Hi
+ 
+Mathematica Premier Service License L4592-7937
+ 
+I have a set of differential equations where the expressions on the right hand side are very complex. It is not easy putting them in. I can simplify the algebra by defining a set of auxiliary or intermediate variables. How can I define auxiliary variables within NDSolve?
+ 
+As a simple example, I have a pair of differential equations:
+ 
+x'(t)=-y(t)-x^3(t)
+y'(t)=2x(t)-y^3(t)
+x(0)=y(0)=1
+ 
+I attach the Mathematica notebook which solves the differential equations. How can I create for example an auxiliary variable z(t)=-y(t)^3 and then use it on the right hand side for the expression for y'(t)?
+ 
+Many thanks
+ 
+Zaid 
+ 
+","Closed","Functionality","P3","Set resolution as Auto close, no confirmation that provided response resolved","Tue, 12 May 2015 08:02:16 -0500 - hamida: he seems happy...
+Mon, 11 May 2015 14:22:37 -0500 - hamida: another answer...
+Mon, 11 May 2015 13:33:50 -0500 - hamida: gave him the answer and examples/links
+","London School of Hygiene & Tropical Medicine","b9d20339-35da-18bb-0161-4ee009ce3d62","e7f56f12-91ef-e394-e93b-543d60d0b522","Hamid Ardeh","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","05/11/2015 05:38 am","05/15/2015 10:00 pm","1","1","0","support@wolfram.com","","11/29/-0001 06:09 pm","","","Customer","0","less1hr","","CL","","","L4592-7937","10.1","0","Mathematica","05/11/2015 09:53 am","05/15/2015 10:00 pm","05/15/2015 10:00 pm","","","","","Unconfirmed","Standard","","","","","$0.00","","","","","","0","","","GB","TS","","Zaid.Chalabi@lshtm.ac.uk","","","","","","","","","1","","442079272453","","","","Email","Premier","Never Send","0","0","0","","0 dd, 04 h, 15 m","4 dd, 12 h, 07 m","0 dd, 1 h, 15 m","","","","","","ad4173ea-8bdf-0cb4-a216-4ee2e281d9bd","","","","","","","","","","","","DR","Zaid","Chalabi","Chalabi","","","","","","","","",""
+"4357605","f4f5c6d6-081a-11ea-bf11-001a4a160206","NDSolve Bug?","See: https://community.wolfram.com/groups/-/m/t/1826044
+
+With a quick fix that does relatively well.
+
+Cheers — Brad","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Tue, 19 Nov 2019 08:59:49 -0600 - duncanp: Suggestion for ndsolve
+Mon, 18 Nov 2019 05:27:40 -0600 - tsreception: Script ran by harryc
+No valid license provided
+Installation support found under: 38901460, original license field: 
+","","","3fda24b6-c731-11e8-a1f8-001a4a160206","Duncan Pettengill","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","11/15/2019 08:44 pm","12/04/2019 11:07 pm","1","1","0","support@wolfram.com","","","","","Customer","","","","NDSolve behavior with singular equations","","","38901460","","","Mathematica","11/18/2019 08:37 am","12/04/2019 10:00 pm","12/04/2019 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","","TS","","bradklee@gmail.com","","","","","","","","","1","","","","","","Email","Installation","Default","1","1","1","","2 dd, 11 h, 53 m","16 dd, 13 h, 22 m","0 dd, 0 h, 15 m","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"4632235","f7b78e74-f7c8-11ea-9e79-001a4a160206","NDSolve","Hi,
+
+Mathematica 12. (license number : L3891-5586) is running on  Macbook Pro with MacOS X version 10.15.6.
+
+Please see the attached notebook.
+
+
+Daniel
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Wed, 16 Sep 2020 05:12:02 -0500 - tsreception: Script ran by harryc
+Personal support found under: 3891-5586, original license field: 3891-5586
+","Lavallee, Daniel","8e791fef-59f0-cc9a-ad3f-586694f58ae2","d436f16a-1993-e3ec-1392-53c04139daf4","Leila Fuladi","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","09/15/2020 10:01 pm","10/08/2020 09:58 pm","1","1","0","support@wolfram.com","","09/22/2020 10:50 am","","","Customer","","","","","","","3891-5586","","","Mathematica","09/16/2020 08:50 am","10/07/2020 10:00 pm","10/07/2020 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","397963","","CA","TS","","daniel.lavallee@mail.mcgill.ca","","","","","","","","","2","","","","","","Email","Personal","Default","1","1","1","","0 dd, 10 h, 48 m","21 dd, 13 h, 10 m","","","","","","","315d6ce4-01a8-95a0-1f48-586697d8199a","","","","","","","","","","","","","Daniel","Lavallee","Lavallee","","","","","","","","",""
+"4224934","ffae2d64-308b-11e9-8545-001a4a160206","NDSolve -- using ExplicitRungeKutta meth","Dear Sir or Madam:
+
+Trying to use NDSolve using the method = ExplicitRungeKutta.
+
+Attached is output of a run on a 5x5 system. It reports 
+a singularity at 0.07855314..
+
+I need to have this singularity point appear as output
+of my program, so that I can make use of it in further
+coding. Is there a way to recode the NDSolve command
+so that this singular point appears as output ??
+
+NOTE: My objective is actually to find a value of x &lt; 0.07855314..,
+together with the 5 values of y_i, so that I can code another
+system with an initial condition at the value of x &lt; 0.07855314..,
+which would then be able to be integrated through the singularity
+of the first 5x5 system (using an IC which depends on the outputs for
+y_i).
+
+(I know my 1st 5x5 system is not stiff.)
+
+Any help on how to proceed using NDSolve with ExplicitRungeKutta
+method will be appreciated.
+
+Sincerely,
+
+C. Fulton, fultoncharles@cfl.rr.com
+
+","Closed","Unknown","P3","Auto close, no confirmation that provided response resolved issue","Mon, 25 Feb 2019 15:14:54 -0600 - duncanp: Home edition in first 30 days. Dang! But fixed problem using undocumented feature of InterpolatingFunction
+Thu, 14 Feb 2019 16:41:48 -0600 - duncanp: No service, sent quick reference page.
+Thu, 14 Feb 2019 13:13:44 -0600 - tsreception: Script ran by renzom
+No valid license provided
+No active support found
+","Fulton, Charles T","cb6a6f7e-2ee0-11e9-9445-001a4a160206","3fda24b6-c731-11e8-a1f8-001a4a160206","Duncan Pettengill","TS, Global","593355dd-353c-ad82-acf3-505c6f099a25","39668e7e-a718-b9df-cb9c-5156631be59d","02/14/2019 01:08 pm","03/12/2019 10:05 pm","1","1","0","support@wolfram.com","","","","","Customer","","","","Question on finding singularity of NDSolve.","","","","","","Mathematica","02/14/2019 03:50 pm","03/12/2019 10:00 pm","03/12/2019 10:00 pm","","","","","Incomplete","Standard","","","","","$0.00","","","","","","0","","","","TS","","fultoncharles@cfl.rr.com","","","","","","","","","","","","","","","Email","Basic","Default","1","0","1","","0 dd, 02 h, 42 m","26 dd, 05 h, 09 m","0 dd, 0 h, 35 m","","","","","","35170cd6-2fac-11e9-b1de-001a4a160206","","","","","","","","","","","","","Charles T","Fulton","Fulton","","","","","","","","",""

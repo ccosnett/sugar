@@ -1,0 +1,51 @@
+my()
+{
+    #mysql --user='student' --password='1.2323951EsC' --database='sugar_yuting' -h '127.0.0.1' --local-infile=1 --execute="$1"
+    #mysql --user='root' --password='12323951EsC;' --database='sugar_yuting' -h '127.0.0.1' --local-infile=1 --execute="$1"
+    #mysql --user='sammy' --password='password' --database='sugar_yuting' -h '127.0.0.1' --local-infile=1 --execute="$1"
+    mysql --user='sammy' --password='password' --database='sugar_yuting' -h 'localhost' --local-infile=1 --execute="$1"
+    #mysql --user='admin' --password='s4erjd9edid9odb' --database='valdev_5' -h 'liqquid-r5-xlarge.cokbmcletl0d.eu-west-2.rds.amazonaws.com' --local-infile=1 --execute="$1"
+    #mysql --user='admin' --password='s4erjd9edid9odb' --database='valdev_6' -h 'r5-xlarge-1512.cokbmcletl0d.eu-west-2.rds.amazonaws.com' --local-infile=1 --execute="$1"
+}
+
+
+my "DROP TABLE IF EXISTS cases;"
+
+
+# CREATING TABLE valdev_2.liqquid_epc_certs_ALL
+my "CREATE TABLE \`cases\` (
+  \`Number\` varchar(45) NOT NULL,
+  \`ENVIRONMENT_IMPACT_CURRENT\` double DEFAULT NULL,
+  \`ENVIRONMENT_IMPACT_POTENTIAL\` double DEFAULT NULL,
+  \`POTENTIAL_ENERGY_EFFICIENCY\` double DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+"
+
+
+# uploading data from csv
+my "LOAD DATA LOCAL INFILE './data/Cases.csv' INTO TABLE cases
+FIELDS OPTIONALLY ENCLOSED BY '\"'
+TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+
+(Number, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy) ;"
+# Number,ID,Subject,Description,Status,Request Type,Priority,Resolution,Work Log History,Account Name,Account ID,Assigned User ID,Assigned User Name,Teams,Team ID,Team Set ID,Date Created,Date Modified,Created By ID,Modified By ID,Deleted,Case Queue,Submitted by Other,Last Interaction,Platform,Order Number,Requesting Org,Efficiency,Case Response Time,Subscription ID,Technical Summary,Related Cases,PO Number,License#/Activation Key,Version,Overall Experience,Product,Case Assigned Date,Case Closed Date,Last Status Change,Business Feedback Comments,Production System,Business Impact,Workaround,Close Reason,Edition,Escalate to,Reason for Escalation,Invoice Number,Keywords,Order Value,VIP Status,Category,Collection Attempt,Hold/Pending Reason,Base Rate,Business Feedback,Bug Number/JIRA Reference,CDF Player Descriptors,Country,Department,Descriptor,Email,gridMathematica Descriptors,Related To,Case Lead Link,Mathematica Add-On Descriptors,Mathematica Descriptors,MathematicaOnline Descriptors,MathLM Descriptors,Work Log,Number of Interactions (emails and calls logged),Ext,Phone,case_requesting_person_id_c,Related To,Resource Links,Source,Support Level,Survey Send Conditions,Survey Prepared for Sending,Survey Received,Survey Sent,Time Spent (mins; adds to total),Time to Assign,Time to Close,Total time spent,webMathematica Descriptors,Wolfram Finance Platform Descriptors,Wolfram Player Pro Descriptors,Wolfram SystemModeler Descriptors,Wolfram Workbench Descriptors,Related To,Currency ID,Invoice Information,Live Chat Thread ID,Account Executive (related User ID),Inside Sales (related User ID),Source,Primary Contact ID,Tags,Integration Sync ID,Parent Case,Requesting Reseller,rel_case_primary_contact_c_salutation,rel_case_primary_contact_c_first_name,rel_case_primary_contact_c_last_name,Primary Contact,rel_case_requesting_person_c_first_name,rel_case_requesting_person_c_last_name,Requesting Person,rel_sales_assistant_c_first_name,rel_sales_assistant_c_last_name,Inside Sales,rel_sales_executive_c_first_name,rel_sales_executive_c_last_name,Account Executive
+
+#(@dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy, @dummy)
+
+
+
+#lmk_key, address1, address2, address3, postcode, building_reference_number, current_energy_rating, potential_energy_rating, current_energy_efficiency, potential_energy_efficiency, property_type, built_form, inspection_date, local_authority, constituency, county, lodgement_date, transaction_type, environment_impact_current,    environment_impact_potential,    energy_consumption_current, energy_consumption_potential, co2_emissions_current, co2_emiss_curr_per_floor_area, co2_emissions_potential, lighting_cost_current, lighting_cost_potential, heating_cost_current, heating_cost_potential, hot_water_cost_current, hot_water_cost_potential, total_floor_area, energy_tariff, mains_gas_flag, floor_level, flat_top_storey, flat_storey_count, main_heating_controls, multi_glaze_proportion, glazed_type, glazed_area, extension_count, number_habitable_rooms, number_heated_rooms, low_energy_lighting, number_open_fireplaces, hotwater_description, hot_water_energy_eff, hot_water_env_eff, floor_description,  floor_energy_eff, floor_env_eff, windows_description, windows_energy_eff, windows_env_eff, walls_description, walls_energy_eff, walls_env_eff, secondheat_description, sheating_energy_eff, sheating_env_eff, roof_description, roof_energy_eff, roof_env_eff, mainheat_description, mainheat_energy_eff, mainheat_env_eff, mainheatcont_description, mainheatc_energy_eff, mainheatc_env_eff, lighting_description, lighting_energy_eff, lighting_env_eff, main_fuel, wind_turbine_count, heat_loss_corridoor, unheated_corridor_length, floor_height,  photo_supply,  solar_water_heating_flag, mechanical_ventilation, address, local_authority_label, constituency_label, posttown, construction_age_band, lodgement_datetime, tenure, fixed_lighting_outlets_count, low_energy_fixed_light_count
+
+
+echo '\n csv uploaded \n'
+
+#LMK_KEY, BUILDING_REFERENCE_NUMBER, CURRENT_ENERGY_RATING, CURRENT_ENERGY_EFFICIENCY, PROPERTY_TYPE, BUILT_FORM, INSPECTION_DATE, LODGEMENT_DATE, TRANSACTION_TYPE, TOTAL_FLOOR_AREA, NUMBER_HABITABLE_ROOMS, WINDOWS_DESCRIPTION, CONSTRUCTION_AGE_BAND, LODGEMENT_DATETIME,
+
+#LMK_KEY, BUILDING_REFERENCE_NUMBER, CURRENT_ENERGY_RATING, CURRENT_ENERGY_EFFICIENCY, PROPERTY_TYPE, BUILT_FORM, INSPECTION_DATE, LODGEMENT_DATE, TRANSACTION_TYPE, TOTAL_FLOOR_AREA, NUMBER_HABITABLE_ROOMS, WINDOWS_DESCRIPTION, CONSTRUCTION_AGE_BAND, LODGEMENT_DATETIME, aid, EPC_ownership
+
+
+
+
+#"Number","ID","Subject","Description","Status","Request Type","Priority","Resolution","Work Log History","Account Name","Account ID","Assigned User ID","Assigned User Name","Teams","Team ID","Team Set ID","Date Created","Date Modified","Created By ID","Modified By ID","Deleted","Case Queue","Submitted by Other","Last Interaction","Platform","Order Number","Requesting Org","Efficiency","Case Response Time","Subscription ID","Technical Summary","Related Cases","PO Number","License#/Activation Key","Version","Overall Experience","Product","Case Assigned Date","Case Closed Date","Last Status Change","Business Feedback Comments","Production System","Business Impact","Workaround","Close Reason","Edition","Escalate to","Reason for Escalation","Invoice Number","Keywords","Order Value","VIP Status","Category","Collection Attempt","Hold/Pending Reason","Base Rate","Business Feedback","Bug Number/JIRA Reference","CDF Player Descriptors","Country","Department","Descriptor","Email","gridMathematica Descriptors","Related To","Case Lead Link","Mathematica Add-On Descriptors","Mathematica Descriptors","MathematicaOnline Descriptors","MathLM Descriptors","Work Log","Number of Interactions (emails and calls logged)","Ext","Phone","case_requesting_person_id_c","Related To","Resource Links","Source","Support Level","Survey Send Conditions","Survey Prepared for Sending","Survey Received","Survey Sent","Time Spent (mins; adds to total)","Time to Assign","Time to Close","Total time spent","webMathematica Descriptors","Wolfram Finance Platform Descriptors","Wolfram Player Pro Descriptors","Wolfram SystemModeler Descriptors","Wolfram Workbench Descriptors","Related To","Currency ID","Invoice Information","Live Chat Thread ID","Account Executive (related User ID)","Inside Sales (related User ID)","Source","Primary Contact ID","Tags","Integration Sync ID","Parent Case","Requesting Reseller","rel_case_primary_contact_c_salutation","rel_case_primary_contact_c_first_name","rel_case_primary_contact_c_last_name","Primary Contact","rel_case_requesting_person_c_first_name","rel_case_requesting_person_c_last_name","Requesting Person","rel_sales_assistant_c_first_name","rel_sales_assistant_c_last_name","Inside Sales","rel_sales_executive_c_first_name","rel_sales_executive_c_last_name","Account Executive"

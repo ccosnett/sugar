@@ -1,0 +1,204 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10147,        196]
+NotebookOptionsPosition[      9660,        179]
+NotebookOutlinePosition[     10062,        195]
+CellTagsIndexPosition[     10019,        192]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"HEAD", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<Number\>\"", ",", "\"\<ID\>\"", ",", "\"\<Subject\>\"", ",", 
+     "\"\<Description\>\"", ",", "\"\<Status\>\"", ",", 
+     "\"\<Request Type\>\"", ",", "\"\<Priority\>\"", ",", 
+     "\"\<Resolution\>\"", ",", "\"\<Work Log History\>\"", ",", 
+     "\"\<Account Name\>\"", ",", "\"\<Account ID\>\"", ",", 
+     "\"\<Assigned User ID\>\"", ",", "\"\<Assigned User Name\>\"", ",", 
+     "\"\<Teams\>\"", ",", "\"\<Team ID\>\"", ",", "\"\<Team Set ID\>\"", 
+     ",", "\"\<Date Created\>\"", ",", "\"\<Date Modified\>\"", ",", 
+     "\"\<Created By ID\>\"", ",", "\"\<Modified By ID\>\"", ",", 
+     "\"\<Deleted\>\"", ",", "\"\<Case Queue\>\"", ",", 
+     "\"\<Submitted by Other\>\"", ",", "\"\<Last Interaction\>\"", ",", 
+     "\"\<Platform\>\"", ",", "\"\<Order Number\>\"", ",", 
+     "\"\<Requesting Org\>\"", ",", "\"\<Efficiency\>\"", ",", 
+     "\"\<Case Response Time\>\"", ",", "\"\<Subscription ID\>\"", ",", 
+     "\"\<Technical Summary\>\"", ",", "\"\<Related Cases\>\"", ",", 
+     "\"\<PO Number\>\"", ",", "\"\<License#/Activation Key\>\"", ",", 
+     "\"\<Version\>\"", ",", "\"\<Overall Experience\>\"", ",", 
+     "\"\<Product\>\"", ",", "\"\<Case Assigned Date\>\"", ",", 
+     "\"\<Case Closed Date\>\"", ",", "\"\<Last Status Change\>\"", ",", 
+     "\"\<Business Feedback Comments\>\"", ",", "\"\<Production System\>\"", 
+     ",", "\"\<Business Impact\>\"", ",", "\"\<Workaround\>\"", ",", 
+     "\"\<Close Reason\>\"", ",", "\"\<Edition\>\"", ",", 
+     "\"\<Escalate to\>\"", ",", "\"\<Reason for Escalation\>\"", ",", 
+     "\"\<Invoice Number\>\"", ",", "\"\<Keywords\>\"", ",", 
+     "\"\<Order Value\>\"", ",", "\"\<VIP Status\>\"", ",", 
+     "\"\<Category\>\"", ",", "\"\<Collection Attempt\>\"", ",", 
+     "\"\<Hold/Pending Reason\>\"", ",", "\"\<Base Rate\>\"", ",", 
+     "\"\<Business Feedback\>\"", ",", "\"\<Bug Number/JIRA Reference\>\"", 
+     ",", "\"\<CDF Player Descriptors\>\"", ",", "\"\<Country\>\"", ",", 
+     "\"\<Department\>\"", ",", "\"\<Descriptor\>\"", ",", "\"\<Email\>\"", 
+     ",", "\"\<gridMathematica Descriptors\>\"", ",", "\"\<Related To\>\"", 
+     ",", "\"\<Case Lead Link\>\"", ",", 
+     "\"\<Mathematica Add-On Descriptors\>\"", ",", 
+     "\"\<Mathematica Descriptors\>\"", ",", 
+     "\"\<MathematicaOnline Descriptors\>\"", ",", 
+     "\"\<MathLM Descriptors\>\"", ",", "\"\<Work Log\>\"", ",", 
+     "\"\<Number of Interactions (emails and calls logged)\>\"", ",", 
+     "\"\<Ext\>\"", ",", "\"\<Phone\>\"", ",", 
+     "\"\<case_requesting_person_id_c\>\"", ",", "\"\<Related To\>\"", ",", 
+     "\"\<Resource Links\>\"", ",", "\"\<Source\>\"", ",", 
+     "\"\<Support Level\>\"", ",", "\"\<Survey Send Conditions\>\"", ",", 
+     "\"\<Survey Prepared for Sending\>\"", ",", "\"\<Survey Received\>\"", 
+     ",", "\"\<Survey Sent\>\"", ",", 
+     "\"\<Time Spent (mins; adds to total)\>\"", ",", 
+     "\"\<Time to Assign\>\"", ",", "\"\<Time to Close\>\"", ",", 
+     "\"\<Total time spent\>\"", ",", "\"\<webMathematica Descriptors\>\"", 
+     ",", "\"\<Wolfram Finance Platform Descriptors\>\"", ",", 
+     "\"\<Wolfram Player Pro Descriptors\>\"", ",", 
+     "\"\<Wolfram SystemModeler Descriptors\>\"", ",", 
+     "\"\<Wolfram Workbench Descriptors\>\"", ",", "\"\<Related To\>\"", ",", 
+     "\"\<Currency ID\>\"", ",", "\"\<Invoice Information\>\"", ",", 
+     "\"\<Live Chat Thread ID\>\"", ",", 
+     "\"\<Account Executive (related User ID)\>\"", ",", 
+     "\"\<Inside Sales (related User ID)\>\"", ",", "\"\<Source\>\"", ",", 
+     "\"\<Primary Contact ID\>\"", ",", "\"\<Tags\>\"", ",", 
+     "\"\<Integration Sync ID\>\"", ",", "\"\<Parent Case\>\"", ",", 
+     "\"\<Requesting Reseller\>\"", ",", 
+     "\"\<rel_case_primary_contact_c_salutation\>\"", ",", 
+     "\"\<rel_case_primary_contact_c_first_name\>\"", ",", 
+     "\"\<rel_case_primary_contact_c_last_name\>\"", ",", 
+     "\"\<Primary Contact\>\"", ",", 
+     "\"\<rel_case_requesting_person_c_first_name\>\"", ",", 
+     "\"\<rel_case_requesting_person_c_last_name\>\"", ",", 
+     "\"\<Requesting Person\>\"", ",", 
+     "\"\<rel_sales_assistant_c_first_name\>\"", ",", 
+     "\"\<rel_sales_assistant_c_last_name\>\"", ",", "\"\<Inside Sales\>\"", 
+     ",", "\"\<rel_sales_executive_c_first_name\>\"", ",", 
+     "\"\<rel_sales_executive_c_last_name\>\"", ",", 
+     "\"\<Account Executive\>\""}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", "StringRiffle"}], "Input",
+ CellChangeTimes->{
+  3.767869704382765*^9, {3.8664409590432034`*^9, 
+   3.866440984882142*^9}},ExpressionUUID->"9e2e10f2-cd98-4012-b113-\
+871080129d59"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Number\"\>", ",", "\<\"ID\"\>", ",", "\<\"Subject\"\>", 
+   ",", "\<\"Description\"\>", ",", "\<\"Status\"\>", 
+   ",", "\<\"Request Type\"\>", ",", "\<\"Priority\"\>", 
+   ",", "\<\"Resolution\"\>", ",", "\<\"Work Log History\"\>", 
+   ",", "\<\"Account Name\"\>", ",", "\<\"Account ID\"\>", 
+   ",", "\<\"Assigned User ID\"\>", ",", "\<\"Assigned User Name\"\>", 
+   ",", "\<\"Teams\"\>", ",", "\<\"Team ID\"\>", ",", "\<\"Team Set ID\"\>", 
+   ",", "\<\"Date Created\"\>", ",", "\<\"Date Modified\"\>", 
+   ",", "\<\"Created By ID\"\>", ",", "\<\"Modified By ID\"\>", 
+   ",", "\<\"Deleted\"\>", ",", "\<\"Case Queue\"\>", 
+   ",", "\<\"Submitted by Other\"\>", ",", "\<\"Last Interaction\"\>", 
+   ",", "\<\"Platform\"\>", ",", "\<\"Order Number\"\>", 
+   ",", "\<\"Requesting Org\"\>", ",", "\<\"Efficiency\"\>", 
+   ",", "\<\"Case Response Time\"\>", ",", "\<\"Subscription ID\"\>", 
+   ",", "\<\"Technical Summary\"\>", ",", "\<\"Related Cases\"\>", 
+   ",", "\<\"PO Number\"\>", ",", "\<\"License#/Activation Key\"\>", 
+   ",", "\<\"Version\"\>", ",", "\<\"Overall Experience\"\>", 
+   ",", "\<\"Product\"\>", ",", "\<\"Case Assigned Date\"\>", 
+   ",", "\<\"Case Closed Date\"\>", ",", "\<\"Last Status Change\"\>", 
+   ",", "\<\"Business Feedback Comments\"\>", 
+   ",", "\<\"Production System\"\>", ",", "\<\"Business Impact\"\>", 
+   ",", "\<\"Workaround\"\>", ",", "\<\"Close Reason\"\>", 
+   ",", "\<\"Edition\"\>", ",", "\<\"Escalate to\"\>", 
+   ",", "\<\"Reason for Escalation\"\>", ",", "\<\"Invoice Number\"\>", 
+   ",", "\<\"Keywords\"\>", ",", "\<\"Order Value\"\>", 
+   ",", "\<\"VIP Status\"\>", ",", "\<\"Category\"\>", 
+   ",", "\<\"Collection Attempt\"\>", ",", "\<\"Hold/Pending Reason\"\>", 
+   ",", "\<\"Base Rate\"\>", ",", "\<\"Business Feedback\"\>", 
+   ",", "\<\"Bug Number/JIRA Reference\"\>", 
+   ",", "\<\"CDF Player Descriptors\"\>", ",", "\<\"Country\"\>", 
+   ",", "\<\"Department\"\>", ",", "\<\"Descriptor\"\>", ",", "\<\"Email\"\>",
+    ",", "\<\"gridMathematica Descriptors\"\>", ",", "\<\"Related To\"\>", 
+   ",", "\<\"Case Lead Link\"\>", 
+   ",", "\<\"Mathematica Add-On Descriptors\"\>", 
+   ",", "\<\"Mathematica Descriptors\"\>", 
+   ",", "\<\"MathematicaOnline Descriptors\"\>", 
+   ",", "\<\"MathLM Descriptors\"\>", ",", "\<\"Work Log\"\>", 
+   ",", "\<\"Number of Interactions (emails and calls logged)\"\>", 
+   ",", "\<\"Ext\"\>", ",", "\<\"Phone\"\>", 
+   ",", "\<\"case_requesting_person_id_c\"\>", ",", "\<\"Related To\"\>", 
+   ",", "\<\"Resource Links\"\>", ",", "\<\"Source\"\>", 
+   ",", "\<\"Support Level\"\>", ",", "\<\"Survey Send Conditions\"\>", 
+   ",", "\<\"Survey Prepared for Sending\"\>", ",", "\<\"Survey Received\"\>",
+    ",", "\<\"Survey Sent\"\>", 
+   ",", "\<\"Time Spent (mins; adds to total)\"\>", 
+   ",", "\<\"Time to Assign\"\>", ",", "\<\"Time to Close\"\>", 
+   ",", "\<\"Total time spent\"\>", ",", "\<\"webMathematica Descriptors\"\>",
+    ",", "\<\"Wolfram Finance Platform Descriptors\"\>", 
+   ",", "\<\"Wolfram Player Pro Descriptors\"\>", 
+   ",", "\<\"Wolfram SystemModeler Descriptors\"\>", 
+   ",", "\<\"Wolfram Workbench Descriptors\"\>", ",", "\<\"Related To\"\>", 
+   ",", "\<\"Currency ID\"\>", ",", "\<\"Invoice Information\"\>", 
+   ",", "\<\"Live Chat Thread ID\"\>", 
+   ",", "\<\"Account Executive (related User ID)\"\>", 
+   ",", "\<\"Inside Sales (related User ID)\"\>", ",", "\<\"Source\"\>", 
+   ",", "\<\"Primary Contact ID\"\>", ",", "\<\"Tags\"\>", 
+   ",", "\<\"Integration Sync ID\"\>", ",", "\<\"Parent Case\"\>", 
+   ",", "\<\"Requesting Reseller\"\>", 
+   ",", "\<\"rel_case_primary_contact_c_salutation\"\>", 
+   ",", "\<\"rel_case_primary_contact_c_first_name\"\>", 
+   ",", "\<\"rel_case_primary_contact_c_last_name\"\>", 
+   ",", "\<\"Primary Contact\"\>", 
+   ",", "\<\"rel_case_requesting_person_c_first_name\"\>", 
+   ",", "\<\"rel_case_requesting_person_c_last_name\"\>", 
+   ",", "\<\"Requesting Person\"\>", 
+   ",", "\<\"rel_sales_assistant_c_first_name\"\>", 
+   ",", "\<\"rel_sales_assistant_c_last_name\"\>", 
+   ",", "\<\"Inside Sales\"\>", 
+   ",", "\<\"rel_sales_executive_c_first_name\"\>", 
+   ",", "\<\"rel_sales_executive_c_last_name\"\>", 
+   ",", "\<\"Account Executive\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.8664409777240477`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"f2d9519d-4efd-4591-91ce-22ce4ab4f67a"]
+}, Open  ]]
+},
+WindowSize->{1720, 1412},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"13.1 for Mac OS X ARM (64-bit) (June 16, 2022)",
+StyleDefinitions->"DefaultModified2.nb",
+ExpressionUUID->"f9153b1d-eb55-42fb-a57c-76ba09661d36"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4658, 78, 1290, "Input",ExpressionUUID->"9e2e10f2-cd98-4012-b113-871080129d59"],
+Cell[5241, 102, 4403, 74, 1134, "Output",ExpressionUUID->"f2d9519d-4efd-4591-91ce-22ce4ab4f67a"]
+}, Open  ]]
+}
+]
+*)
+
